@@ -1,0 +1,1065 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Feb 15 22:04:10 2024
+# Process ID: 4842
+# Current directory: /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.runs/synth_1
+# Command line: vivado -log red_pitaya_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source red_pitaya_top.tcl
+# Log file: /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.runs/synth_1/red_pitaya_top.vds
+# Journal file: /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source red_pitaya_top.tcl -notrace
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'system.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+system_processing_system7_0
+system_proc_sys_reset_0
+
+Command: synth_design -top red_pitaya_top -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 4888
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:21 . Memory (MB): peak = 2077.922 ; gain = 0.000 ; free physical = 11330 ; free virtual = 14556
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'red_pitaya_top' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/prj/v0.94/rtl/red_pitaya_top.sv:47]
+	Parameter GITH bound to: 160'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter MNA bound to: 32'b00000000000000000000000000000010 
+	Parameter MNG bound to: 32'b00000000000000000000000000000010 
+INFO: [Synth 8-6157] synthesizing module 'OBUF' [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:46314]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'OBUF' (1#1) [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:46314]
+INFO: [Synth 8-6157] synthesizing module 'sys_bus_if' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/sys_bus_if.sv:7]
+	Parameter DW bound to: 32'b00000000000000000000000000100000 
+	Parameter AW bound to: 32'b00000000000000000000000000100000 
+	Parameter SW bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-6155] done synthesizing module 'sys_bus_if' (1#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/sys_bus_if.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'sys_bus_if' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/sys_bus_if.sv:7]
+	Parameter DW bound to: 32'b00000000000000000000000000100000 
+	Parameter AW bound to: 32'b00000000000000000000000000100000 
+	Parameter SW bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-6155] done synthesizing module 'sys_bus_if' (1#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/sys_bus_if.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'sys_bus_if' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/sys_bus_if.sv:7]
+	Parameter DW bound to: 32'b00000000000000000000000000100000 
+	Parameter AW bound to: 32'b00000000000000000000000000100000 
+	Parameter SW bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-6155] done synthesizing module 'sys_bus_if' (1#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/sys_bus_if.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'sys_bus_if' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/sys_bus_if.sv:7]
+	Parameter DW bound to: 32'b00000000000000000000000000100000 
+	Parameter AW bound to: 32'b00000000000000000000000000100000 
+	Parameter SW bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-6155] done synthesizing module 'sys_bus_if' (1#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/sys_bus_if.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'sys_bus_if' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/sys_bus_if.sv:7]
+	Parameter DW bound to: 32'b00000000000000000000000000100000 
+	Parameter AW bound to: 32'b00000000000000000000000000100000 
+	Parameter SW bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-6155] done synthesizing module 'sys_bus_if' (1#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/sys_bus_if.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'sys_bus_if' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/sys_bus_if.sv:7]
+	Parameter DW bound to: 32'b00000000000000000000000000100000 
+	Parameter AW bound to: 32'b00000000000000000000000000100000 
+	Parameter SW bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-6155] done synthesizing module 'sys_bus_if' (1#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/sys_bus_if.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'sys_bus_if' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/sys_bus_if.sv:7]
+	Parameter DW bound to: 32'b00000000000000000000000000100000 
+	Parameter AW bound to: 32'b00000000000000000000000000100000 
+	Parameter SW bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-6155] done synthesizing module 'sys_bus_if' (1#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/sys_bus_if.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'sys_bus_if' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/sys_bus_if.sv:7]
+	Parameter DW bound to: 32'b00000000000000000000000000100000 
+	Parameter AW bound to: 32'b00000000000000000000000000100000 
+	Parameter SW bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-6155] done synthesizing module 'sys_bus_if' (1#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/sys_bus_if.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'sys_bus_stub' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/sys_bus_stub.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'sys_bus_stub' (2#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/sys_bus_stub.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'sys_bus_if' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/sys_bus_if.sv:7]
+	Parameter DW bound to: 32'b00000000000000000000000000100000 
+	Parameter AW bound to: 32'b00000000000000000000000000100000 
+	Parameter SW bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-6155] done synthesizing module 'sys_bus_if' (2#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/sys_bus_if.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'gpio_if' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/gpio_if.sv:1]
+	Parameter DW bound to: 32'b00000000000000000000000000011000 
+INFO: [Synth 8-6155] done synthesizing module 'gpio_if' (2#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/gpio_if.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'BUFH' [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1319]
+INFO: [Synth 8-6155] done synthesizing module 'BUFH' (3#1) [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1319]
+INFO: [Synth 8-6157] synthesizing module 'extclkdetect' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/extclkdetect.sv:23]
+INFO: [Synth 8-155] case statement is not full and has no default [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/extclkdetect.sv:46]
+INFO: [Synth 8-6155] done synthesizing module 'extclkdetect' (4#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/extclkdetect.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'BUFGMUX' [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1183]
+	Parameter CLK_SEL_TYPE bound to: ASYNC - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'BUFGMUX' (5#1) [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1183]
+INFO: [Synth 8-6157] synthesizing module 'ODDR' [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:49784]
+	Parameter DDR_CLK_EDGE bound to: OPPOSITE_EDGE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'ODDR' (6#1) [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:49784]
+INFO: [Synth 8-6157] synthesizing module 'red_pitaya_pll_mod' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.runs/synth_1/.Xil/Vivado-4842-alexei-jeip/realtime/red_pitaya_pll_mod_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'red_pitaya_pll_mod' (7#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.runs/synth_1/.Xil/Vivado-4842-alexei-jeip/realtime/red_pitaya_pll_mod_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'red_pitaya_ps' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/prj/v0.94/rtl/red_pitaya_ps.sv:28]
+INFO: [Synth 8-6157] synthesizing module 'axi_master' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/classic/axi_master.v:13]
+	Parameter DW bound to: 64 - type: integer 
+	Parameter AW bound to: 32 - type: integer 
+	Parameter ID bound to: 0 - type: integer 
+	Parameter IW bound to: 6 - type: integer 
+	Parameter LW bound to: 4 - type: integer 
+	Parameter SW bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'axi_master' (8#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/classic/axi_master.v:13]
+INFO: [Synth 8-6157] synthesizing module 'axi4_if' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/axi4_if.sv:1]
+	Parameter AW bound to: 32'b00000000000000000000000000100000 
+	Parameter DW bound to: 32'b00000000000000000000000000100000 
+	Parameter SW bound to: 32'b00000000000000000000000000000100 
+	Parameter IW bound to: 32'b00000000000000000000000000001100 
+	Parameter LW bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-6155] done synthesizing module 'axi4_if' (8#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/interface/axi4_if.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'axi4_slave' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/axi4_slave.sv:49]
+	Parameter DW bound to: 32'b00000000000000000000000000100000 
+	Parameter AW bound to: 32'b00000000000000000000000000100000 
+	Parameter IW bound to: 32'b00000000000000000000000000001100 
+	Parameter SW bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-6155] done synthesizing module 'axi4_slave' (9#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/axi4_slave.sv:49]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (10#1) [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6157] synthesizing module 'system' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:13]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_protocol_converter_0_0' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.runs/synth_1/.Xil/Vivado-4842-alexei-jeip/realtime/system_axi_protocol_converter_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_protocol_converter_0_0' (11#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.runs/synth_1/.Xil/Vivado-4842-alexei-jeip/realtime/system_axi_protocol_converter_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'system_axi_protocol_converter_0_0' is unconnected for instance 'axi_protocol_converter_0' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:746]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'system_axi_protocol_converter_0_0' is unconnected for instance 'axi_protocol_converter_0' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:746]
+WARNING: [Synth 8-7023] instance 'axi_protocol_converter_0' of module 'system_axi_protocol_converter_0_0' has 59 connections declared, but only 57 given [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:746]
+INFO: [Synth 8-6157] synthesizing module 'system_proc_sys_reset_0' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.runs/synth_1/.Xil/Vivado-4842-alexei-jeip/realtime/system_proc_sys_reset_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_proc_sys_reset_0' (12#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.runs/synth_1/.Xil/Vivado-4842-alexei-jeip/realtime/system_proc_sys_reset_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'system_proc_sys_reset_0' is unconnected for instance 'proc_sys_reset' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:804]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'system_proc_sys_reset_0' is unconnected for instance 'proc_sys_reset' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:804]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'system_proc_sys_reset_0' is unconnected for instance 'proc_sys_reset' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:804]
+WARNING: [Synth 8-7023] instance 'proc_sys_reset' of module 'system_proc_sys_reset_0' has 10 connections declared, but only 7 given [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:804]
+INFO: [Synth 8-6157] synthesizing module 'system_processing_system7_0' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.runs/synth_1/.Xil/Vivado-4842-alexei-jeip/realtime/system_processing_system7_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_processing_system7_0' (13#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.runs/synth_1/.Xil/Vivado-4842-alexei-jeip/realtime/system_processing_system7_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'TTC0_WAVE0_OUT' of module 'system_processing_system7_0' is unconnected for instance 'processing_system7' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:812]
+WARNING: [Synth 8-7071] port 'TTC0_WAVE1_OUT' of module 'system_processing_system7_0' is unconnected for instance 'processing_system7' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:812]
+WARNING: [Synth 8-7071] port 'TTC0_WAVE2_OUT' of module 'system_processing_system7_0' is unconnected for instance 'processing_system7' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:812]
+WARNING: [Synth 8-7071] port 'USB0_PORT_INDCTL' of module 'system_processing_system7_0' is unconnected for instance 'processing_system7' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:812]
+WARNING: [Synth 8-7071] port 'USB0_VBUS_PWRSELECT' of module 'system_processing_system7_0' is unconnected for instance 'processing_system7' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:812]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_RCOUNT' of module 'system_processing_system7_0' is unconnected for instance 'processing_system7' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:812]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_WCOUNT' of module 'system_processing_system7_0' is unconnected for instance 'processing_system7' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:812]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_RACOUNT' of module 'system_processing_system7_0' is unconnected for instance 'processing_system7' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:812]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_WACOUNT' of module 'system_processing_system7_0' is unconnected for instance 'processing_system7' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:812]
+WARNING: [Synth 8-7071] port 'S_AXI_HP1_RCOUNT' of module 'system_processing_system7_0' is unconnected for instance 'processing_system7' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:812]
+WARNING: [Synth 8-7071] port 'S_AXI_HP1_WCOUNT' of module 'system_processing_system7_0' is unconnected for instance 'processing_system7' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:812]
+WARNING: [Synth 8-7071] port 'S_AXI_HP1_RACOUNT' of module 'system_processing_system7_0' is unconnected for instance 'processing_system7' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:812]
+WARNING: [Synth 8-7071] port 'S_AXI_HP1_WACOUNT' of module 'system_processing_system7_0' is unconnected for instance 'processing_system7' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:812]
+WARNING: [Synth 8-7023] instance 'processing_system7' of module 'system_processing_system7_0' has 221 connections declared, but only 208 given [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:812]
+INFO: [Synth 8-6157] synthesizing module 'system_xadc_0' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.runs/synth_1/.Xil/Vivado-4842-alexei-jeip/realtime/system_xadc_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'system_xadc_0' (14#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.runs/synth_1/.Xil/Vivado-4842-alexei-jeip/realtime/system_xadc_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'channel_out' of module 'system_xadc_0' is unconnected for instance 'xadc' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:1021]
+WARNING: [Synth 8-7071] port 'busy_out' of module 'system_xadc_0' is unconnected for instance 'xadc' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:1021]
+WARNING: [Synth 8-7071] port 'eoc_out' of module 'system_xadc_0' is unconnected for instance 'xadc' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:1021]
+WARNING: [Synth 8-7071] port 'eos_out' of module 'system_xadc_0' is unconnected for instance 'xadc' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:1021]
+WARNING: [Synth 8-7071] port 'ot_out' of module 'system_xadc_0' is unconnected for instance 'xadc' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:1021]
+WARNING: [Synth 8-7071] port 'vccddro_alarm_out' of module 'system_xadc_0' is unconnected for instance 'xadc' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:1021]
+WARNING: [Synth 8-7071] port 'vccpaux_alarm_out' of module 'system_xadc_0' is unconnected for instance 'xadc' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:1021]
+WARNING: [Synth 8-7071] port 'vccpint_alarm_out' of module 'system_xadc_0' is unconnected for instance 'xadc' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:1021]
+WARNING: [Synth 8-7071] port 'vccaux_alarm_out' of module 'system_xadc_0' is unconnected for instance 'xadc' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:1021]
+WARNING: [Synth 8-7071] port 'vccint_alarm_out' of module 'system_xadc_0' is unconnected for instance 'xadc' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:1021]
+WARNING: [Synth 8-7071] port 'user_temp_alarm_out' of module 'system_xadc_0' is unconnected for instance 'xadc' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:1021]
+WARNING: [Synth 8-7071] port 'alarm_out' of module 'system_xadc_0' is unconnected for instance 'xadc' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:1021]
+WARNING: [Synth 8-7023] instance 'xadc' of module 'system_xadc_0' has 42 connections declared, but only 30 given [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:1021]
+INFO: [Synth 8-6157] synthesizing module 'system_xlconstant_0' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_xlconstant_0/synth/system_xlconstant_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 1 - type: integer 
+	Parameter CONST_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant' (15#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'system_xlconstant_0' (16#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_xlconstant_0/synth/system_xlconstant_0.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'system' (17#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/synth/system.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'red_pitaya_ps' (18#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/prj/v0.94/rtl/red_pitaya_ps.sv:28]
+INFO: [Synth 8-6157] synthesizing module 'sys_bus_interconnect' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/sys_bus_interconnect.sv:7]
+	Parameter SN bound to: 32'b00000000000000000000000000001000 
+	Parameter SW bound to: 32'b00000000000000000000000000010100 
+	Parameter SL bound to: 32'b00000000000000000000000000000011 
+INFO: [Synth 8-6155] done synthesizing module 'sys_bus_interconnect' (19#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/rtl/sys_bus_interconnect.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'seqpid_instr' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/seqpid_instr.v:23]
+	Parameter act_Idle bound to: 2'b00 
+	Parameter act_Init bound to: 2'b01 
+	Parameter act_Stop bound to: 2'b10 
+	Parameter act_Run bound to: 2'b11 
+INFO: [Synth 8-6155] done synthesizing module 'seqpid_instr' (20#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/seqpid_instr.v:23]
+INFO: [Synth 8-6157] synthesizing module 'seqpid_ch' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/seqpid_ch.v:32]
+	Parameter pid_mute_freeze bound to: 2'b00 
+	Parameter pid_mute_bypass bound to: 2'b01 
+	Parameter pid_mute_scale bound to: 2'b10 
+INFO: [Synth 8-638] synthesizing module 'bram_18x4k_36x2k' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/bram_18x4k_36x2k/synth/bram_18x4k_36x2k.vhd:74]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
+	Parameter C_INIT_FILE bound to: bram_18x4k_36x2k.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 18 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 18 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 4096 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 4096 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 12 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 36 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 36 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 2048 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 2048 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 11 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 1 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 1 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 2 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 0 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     10.558001 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_4' declared at '/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/bram_20x49k_80x12k/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_4' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/bram_18x4k_36x2k/synth/bram_18x4k_36x2k.vhd:245]
+INFO: [Synth 8-256] done synthesizing module 'bram_18x4k_36x2k' (29#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/bram_18x4k_36x2k/synth/bram_18x4k_36x2k.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'bram_20x49k_80x12k' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/bram_20x49k_80x12k/synth/bram_20x49k_80x12k.vhd:74]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
+	Parameter C_INIT_FILE bound to: bram_20x49k_80x12k.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: NO_CHANGE - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 20 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 20 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 49152 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 49152 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 16 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: READ_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 80 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 80 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 12288 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 12288 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 14 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: NONE - type: string 
+	Parameter C_COMMON_CLK bound to: 1 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 27 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 0 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     18.824506 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_4' declared at '/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/bram_20x49k_80x12k/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_4' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/bram_20x49k_80x12k/synth/bram_20x49k_80x12k.vhd:245]
+INFO: [Synth 8-256] done synthesizing module 'bram_20x49k_80x12k' (32#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/bram_20x49k_80x12k/synth/bram_20x49k_80x12k.vhd:74]
+INFO: [Synth 8-6157] synthesizing module 'seqgen' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/seqgen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'satsigned' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/satsigned.v:25]
+	Parameter Ri bound to: 16 - type: integer 
+	Parameter Ro bound to: 14 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'satsigned' (33#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/satsigned.v:25]
+WARNING: [Synth 8-7071] port 'issat' of module 'satsigned' is unconnected for instance 'i_satsigned_out' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/seqgen.v:124]
+WARNING: [Synth 8-7023] instance 'i_satsigned_out' of module 'satsigned' has 3 connections declared, but only 2 given [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/seqgen.v:124]
+INFO: [Synth 8-6155] done synthesizing module 'seqgen' (34#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/seqgen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'satsigned__parameterized0' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/satsigned.v:25]
+	Parameter Ri bound to: 15 - type: integer 
+	Parameter Ro bound to: 14 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'satsigned__parameterized0' (34#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/satsigned.v:25]
+WARNING: [Synth 8-7071] port 'issat' of module 'satsigned' is unconnected for instance 'i_satsigned_err' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/seqpid_ch.v:165]
+WARNING: [Synth 8-7023] instance 'i_satsigned_err' of module 'satsigned' has 3 connections declared, but only 2 given [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/seqpid_ch.v:165]
+INFO: [Synth 8-6157] synthesizing module 'pidlim' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/pidlim.v:23]
+INFO: [Synth 8-6157] synthesizing module 'satsigned__parameterized1' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/satsigned.v:25]
+	Parameter Ri bound to: 26 - type: integer 
+	Parameter Ro bound to: 17 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'satsigned__parameterized1' (34#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/satsigned.v:25]
+WARNING: [Synth 8-7071] port 'issat' of module 'satsigned' is unconnected for instance 'p_satsigned_out' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/pidlim.v:62]
+WARNING: [Synth 8-7023] instance 'p_satsigned_out' of module 'satsigned' has 3 connections declared, but only 2 given [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/pidlim.v:62]
+INFO: [Synth 8-6157] synthesizing module 'LPFilterGain1' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/new/LPFilterGain1.v:25]
+	Parameter Rin bound to: 24 - type: integer 
+	Parameter Sfix bound to: 2 - type: integer 
+	Parameter WidTau bound to: 3 - type: integer 
+	Parameter MaxTau bound to: 7 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'satsigned__parameterized2' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/satsigned.v:25]
+	Parameter Ri bound to: 34 - type: integer 
+	Parameter Ro bound to: 33 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'satsigned__parameterized2' (34#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/satsigned.v:25]
+WARNING: [Synth 8-7071] port 'issat' of module 'satsigned' is unconnected for instance 'satsigned_mem' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/new/LPFilterGain1.v:45]
+WARNING: [Synth 8-7023] instance 'satsigned_mem' of module 'satsigned' has 3 connections declared, but only 2 given [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/new/LPFilterGain1.v:45]
+INFO: [Synth 8-6155] done synthesizing module 'LPFilterGain1' (35#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/new/LPFilterGain1.v:25]
+WARNING: [Synth 8-7071] port 'out' of module 'LPFilterGain1' is unconnected for instance 'i_LP_filter_Diff' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/pidlim.v:122]
+WARNING: [Synth 8-7023] instance 'i_LP_filter_Diff' of module 'LPFilterGain1' has 7 connections declared, but only 6 given [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/pidlim.v:122]
+INFO: [Synth 8-6157] synthesizing module 'satsigned__parameterized3' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/satsigned.v:25]
+	Parameter Ri bound to: 32 - type: integer 
+	Parameter Ro bound to: 17 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'satsigned__parameterized3' (35#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/satsigned.v:25]
+WARNING: [Synth 8-7071] port 'issat' of module 'satsigned' is unconnected for instance 'i_satsigned_d_out' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/pidlim.v:133]
+WARNING: [Synth 8-7023] instance 'i_satsigned_d_out' of module 'satsigned' has 3 connections declared, but only 2 given [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/pidlim.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'pidlim' (36#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/pidlim.v:23]
+INFO: [Synth 8-6157] synthesizing module 'scaler' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/scaler.v:26]
+INFO: [Synth 8-6157] synthesizing module 'div_gen_0' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.runs/synth_1/.Xil/Vivado-4842-alexei-jeip/realtime/div_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'div_gen_0' (37#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.runs/synth_1/.Xil/Vivado-4842-alexei-jeip/realtime/div_gen_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'm_axis_dout_tvalid' of module 'div_gen_0' is unconnected for instance 'i_divider' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/scaler.v:45]
+WARNING: [Synth 8-7023] instance 'i_divider' of module 'div_gen_0' has 7 connections declared, but only 6 given [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/scaler.v:45]
+INFO: [Synth 8-6157] synthesizing module 'satsigned__parameterized4' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/satsigned.v:25]
+	Parameter Ri bound to: 32 - type: integer 
+	Parameter Ro bound to: 14 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'satsigned__parameterized4' (37#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/satsigned.v:25]
+WARNING: [Synth 8-7071] port 'issat' of module 'satsigned' is unconnected for instance 'i_satsigned_out' [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/scaler.v:63]
+WARNING: [Synth 8-7023] instance 'i_satsigned_out' of module 'satsigned' has 3 connections declared, but only 2 given [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/scaler.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'scaler' (38#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/scaler.v:26]
+INFO: [Synth 8-155] case statement is not full and has no default [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/seqpid_ch.v:252]
+INFO: [Synth 8-6155] done synthesizing module 'seqpid_ch' (39#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/new/seqpid_ch.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'red_pitaya_top' (40#1) [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/imports/fpga/prj/v0.94/rtl/red_pitaya_top.sv:47]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:01:02 ; elapsed = 00:01:20 . Memory (MB): peak = 2247.914 ; gain = 169.992 ; free physical = 11297 ; free virtual = 14526
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:03 ; elapsed = 00:01:22 . Memory (MB): peak = 2247.914 ; gain = 169.992 ; free physical = 11311 ; free virtual = 14540
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:03 ; elapsed = 00:01:22 . Memory (MB): peak = 2247.914 ; gain = 169.992 ; free physical = 11311 ; free virtual = 14540
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.54 ; elapsed = 00:00:00.54 . Memory (MB): peak = 2247.914 ; gain = 0.000 ; free physical = 11295 ; free virtual = 14523
+INFO: [Netlist 29-17] Analyzing 80 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_axi_protocol_converter_0_0/system_axi_protocol_converter_0_0/system_axi_protocol_converter_0_0_in_context.xdc] for cell 'ps/system_i/axi_protocol_converter_0'
+Finished Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_axi_protocol_converter_0_0/system_axi_protocol_converter_0_0/system_axi_protocol_converter_0_0_in_context.xdc] for cell 'ps/system_i/axi_protocol_converter_0'
+Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_proc_sys_reset_0/system_proc_sys_reset_0/system_proc_sys_reset_0_in_context.xdc] for cell 'ps/system_i/proc_sys_reset'
+Finished Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_proc_sys_reset_0/system_proc_sys_reset_0/system_proc_sys_reset_0_in_context.xdc] for cell 'ps/system_i/proc_sys_reset'
+Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc] for cell 'ps/system_i/processing_system7'
+WARNING: [Vivado 12-584] No ports matched ''. [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc:2]
+WARNING: [Vivado 12-584] No ports matched ''. [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc:4]
+WARNING: [Vivado 12-584] No ports matched ''. [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc:6]
+WARNING: [Vivado 12-584] No ports matched ''. [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc:8]
+Finished Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc] for cell 'ps/system_i/processing_system7'
+Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_xadc_0/system_xadc_0/system_xadc_0_in_context.xdc] for cell 'ps/system_i/xadc'
+Finished Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_xadc_0/system_xadc_0/system_xadc_0_in_context.xdc] for cell 'ps/system_i/xadc'
+Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/div_gen_0/div_gen_0/div_gen_0_in_context.xdc] for cell 'i_seqpid_ch[1]/i_scaler/i_divider'
+Finished Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/div_gen_0/div_gen_0/div_gen_0_in_context.xdc] for cell 'i_seqpid_ch[1]/i_scaler/i_divider'
+Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/div_gen_0/div_gen_0/div_gen_0_in_context.xdc] for cell 'i_seqpid_ch[0]/i_scaler/i_divider'
+Finished Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/div_gen_0/div_gen_0/div_gen_0_in_context.xdc] for cell 'i_seqpid_ch[0]/i_scaler/i_divider'
+Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/red_pitaya_pll_mod/red_pitaya_pll_mod/red_pitaya_pll_mod_in_context.xdc] for cell 'pll'
+WARNING: [Vivado 12-584] No ports matched ''. [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/red_pitaya_pll_mod/red_pitaya_pll_mod/red_pitaya_pll_mod_in_context.xdc:1]
+WARNING: [Vivado 12-584] No ports matched ''. [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/red_pitaya_pll_mod/red_pitaya_pll_mod/red_pitaya_pll_mod_in_context.xdc:4]
+WARNING: [Vivado 12-584] No ports matched ''. [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/red_pitaya_pll_mod/red_pitaya_pll_mod/red_pitaya_pll_mod_in_context.xdc:6]
+WARNING: [Vivado 12-584] No ports matched ''. [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/red_pitaya_pll_mod/red_pitaya_pll_mod/red_pitaya_pll_mod_in_context.xdc:8]
+WARNING: [Vivado 12-584] No ports matched ''. [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/red_pitaya_pll_mod/red_pitaya_pll_mod/red_pitaya_pll_mod_in_context.xdc:10]
+Finished Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/red_pitaya_pll_mod/red_pitaya_pll_mod/red_pitaya_pll_mod_in_context.xdc] for cell 'pll'
+Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc]
+WARNING: [Vivado 12-508] No pins matched 'ps/system_i/processing_system7/inst/PS7_i/FCLKCLK[0]'. [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc:243]
+WARNING: [Vivado 12-508] No pins matched 'ps/system_i/processing_system7/inst/PS7_i/FCLKCLK[1]'. [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc:243]
+WARNING: [Vivado 12-508] No pins matched 'ps/system_i/processing_system7/inst/PS7_i/FCLKCLK[2]'. [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc:243]
+WARNING: [Vivado 12-508] No pins matched 'ps/system_i/processing_system7/inst/PS7_i/FCLKCLK[3]'. [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc:243]
+WARNING: [Vivado 12-508] No pins matched 'pll/inst/plle2_adv_inst/CLKOUT0'. [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc:261]
+WARNING: [Vivado 12-508] No pins matched 'pll/inst/plle2_adv_inst/CLKOUT0'. [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc:264]
+WARNING: [Vivado 12-646] clock 'clk_fpga_0' not found. [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc:276]
+WARNING: [Vivado 12-508] No pins matched 'pll/inst/plle2_adv_inst/CLKOUT0'. [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc:277]
+Finished Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/red_pitaya_top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/red_pitaya_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/red_pitaya_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2315.734 ; gain = 0.000 ; free physical = 11184 ; free virtual = 14428
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGMUX => BUFGCTRL (inverted pins: CE0): 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.14 . Memory (MB): peak = 2315.734 ; gain = 0.000 ; free physical = 11184 ; free virtual = 14428
+WARNING: [Timing 38-316] Clock period '1000.000' specified during out-of-context synthesis of instance 'i_seqpid_ch[0]/i_scaler/i_divider' at clock pin 'aclk' is different from the actual clock period '8.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '1000.000' specified during out-of-context synthesis of instance 'i_seqpid_ch[1]/i_scaler/i_divider' at clock pin 'aclk' is different from the actual clock period '8.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'ps/system_i/xadc' at clock pin 's_axi_aclk' is different from the actual clock period '5.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:21 ; elapsed = 00:01:43 . Memory (MB): peak = 2315.734 ; gain = 237.812 ; free physical = 11273 ; free virtual = 14517
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:21 ; elapsed = 00:01:43 . Memory (MB): peak = 2315.734 ; gain = 237.812 ; free physical = 11273 ; free virtual = 14517
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[0]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 9).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[0]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 10).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[10]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 11).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[10]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 12).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[11]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 13).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[11]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 14).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[12]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 15).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[12]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 16).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[13]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 17).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[13]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 18).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[14]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 19).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[14]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 20).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[1]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 21).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[1]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 22).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[2]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 23).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[2]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 24).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[3]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 25).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[3]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 26).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[4]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 27).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[4]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 28).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[5]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 29).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[5]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 30).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[6]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 31).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[6]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 32).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[7]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 33).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[7]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 34).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[8]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 35).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[8]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 36).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[9]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 37).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[9]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 38).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ba[0]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 39).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ba[0]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 40).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ba[1]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 41).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ba[1]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 42).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ba[2]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 43).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ba[2]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 44).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_cas_n. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 45).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_cas_n. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 46).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_cke. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 47).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_cke. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 48).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_cs_n. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 49).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_cs_n. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 50).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ck_p. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 51).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ck_p. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 52).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ck_n. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 53).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ck_n. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 54).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dm[0]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 55).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dm[0]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 56).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dm[1]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 57).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dm[1]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 58).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dm[2]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 59).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dm[2]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 60).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dm[3]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 61).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dm[3]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 62).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_p[0]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 63).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_p[0]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 64).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_p[1]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 65).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_p[1]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 66).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_p[2]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 67).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_p[2]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 68).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_p[3]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 69).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_p[3]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 70).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_n[0]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 71).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_n[0]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 72).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_n[1]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 73).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_n[1]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 74).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_n[2]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 75).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_n[2]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 76).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_n[3]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 77).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_n[3]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 78).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[0]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 79).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[0]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 80).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[10]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 81).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[10]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 82).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[11]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 83).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[11]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 84).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[12]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 85).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[12]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 86).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[13]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 87).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[13]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 88).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[14]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 89).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[14]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 90).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[15]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 91).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[15]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 92).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[16]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 93).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[16]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 94).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[17]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 95).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[17]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 96).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[18]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 97).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[18]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 98).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[19]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 99).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[19]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 100).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[1]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 101).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[1]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 102).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[20]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 103).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[20]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 104).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[21]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 105).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[21]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 106).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[22]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 107).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[22]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 108).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[23]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 109).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[23]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 110).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[24]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 111).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[24]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 112).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[25]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 113).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[25]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 114).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[26]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 115).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[26]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 116).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[27]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 117).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[27]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 118).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[28]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 119).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[28]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 120).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[29]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 121).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[29]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 122).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[2]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 123).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[2]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 124).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[30]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 125).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[30]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 126).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[31]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 127).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[31]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 128).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[3]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 129).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[3]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 130).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[4]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 131).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[4]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 132).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[5]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 133).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[5]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 134).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[6]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 135).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[6]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 136).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[7]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 137).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[7]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 138).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[8]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 139).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[8]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 140).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[9]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 141).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[9]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 142).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_reset_n. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 143).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_reset_n. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 144).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_odt. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 145).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_odt. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 146).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ras_n. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 147).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ras_n. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 148).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ddr_vrn. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 149).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ddr_vrn. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 150).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ddr_vrp. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 151).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ddr_vrp. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 152).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_we_n. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 153).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_we_n. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 154).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[0]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 155).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[0]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 156).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[10]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 157).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[10]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 158).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[11]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 159).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[11]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 160).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[12]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 161).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[12]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 162).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[13]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 163).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[13]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 164).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[14]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 165).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[14]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 166).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[15]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 167).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[15]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 168).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[16]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 169).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[16]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 170).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[17]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 171).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[17]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 172).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[18]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 173).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[18]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 174).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[19]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 175).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[19]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 176).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[1]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 177).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[1]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 178).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[20]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 179).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[20]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 180).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[21]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 181).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[21]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 182).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[22]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 183).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[22]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 184).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[23]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 185).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[23]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 186).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[24]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 187).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[24]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 188).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[25]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 189).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[25]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 190).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[26]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 191).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[26]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 192).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[27]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 193).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[27]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 194).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[28]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 195).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[28]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 196).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[29]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 197).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[29]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 198).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[2]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 199).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[2]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 200).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[30]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 201).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[30]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 202).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[31]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 203).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[31]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 204).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[32]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 205).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[32]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 206).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[33]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 207).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[33]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 208).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[34]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 209).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[34]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 210).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[35]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 211).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[35]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 212).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[36]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 213).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[36]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 214).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[37]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 215).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[37]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 216).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[38]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 217).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[38]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 218).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[39]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 219).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[39]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 220).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[3]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 221).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[3]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 222).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[40]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 223).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[40]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 224).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[41]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 225).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[41]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 226).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[42]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 227).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[42]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 228).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[43]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 229).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[43]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 230).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[44]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 231).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[44]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 232).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[45]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 233).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[45]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 234).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[46]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 235).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[46]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 236).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[47]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 237).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[47]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 238).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[48]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 239).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[48]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 240).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[49]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 241).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[49]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 242).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[4]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 243).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[4]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 244).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[50]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 245).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[50]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 246).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[51]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 247).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[51]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 248).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[52]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 249).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[52]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 250).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[53]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 251).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[53]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 252).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[5]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 253).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[5]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 254).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[6]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 255).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[6]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 256).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[7]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 257).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[7]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 258).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[8]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 259).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[8]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 260).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[9]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 261).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[9]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 262).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ps_clk. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 263).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ps_clk. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 264).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ps_porb. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 265).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ps_porb. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 266).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ps_srstb. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 267).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ps_srstb. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0/system_processing_system7_0/system_processing_system7_0_in_context.xdc, line 268).
+Applied set_property IO_BUFFER_TYPE = NONE for adc_clk_i[0]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/red_pitaya_pll_mod/red_pitaya_pll_mod/red_pitaya_pll_mod_in_context.xdc, line 11).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for adc_clk_i[0]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/red_pitaya_pll_mod/red_pitaya_pll_mod/red_pitaya_pll_mod_in_context.xdc, line 12).
+Applied set_property IO_BUFFER_TYPE = NONE for adc_clk_i[1]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/red_pitaya_pll_mod/red_pitaya_pll_mod/red_pitaya_pll_mod_in_context.xdc, line 13).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for adc_clk_i[1]. (constraint file  /media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/sources_1/ip/red_pitaya_pll_mod/red_pitaya_pll_mod/red_pitaya_pll_mod_in_context.xdc, line 14).
+Applied set_property DONT_TOUCH = true for \i_seqpid_ch[1] /sliceRAM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for \i_seqpid_ch[0] /sliceRAM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for \i_seqpid_ch[1] /stepRAM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for \i_seqpid_ch[0] /stepRAM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ps/system_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ps/system_i/axi_protocol_converter_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ps/system_i/proc_sys_reset. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ps/system_i/processing_system7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ps/system_i/xadc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ps/system_i/xlconstant. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for \i_seqpid_ch[1] /i_scaler/i_divider. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for \i_seqpid_ch[0] /i_scaler/i_divider. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for pll. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:21 ; elapsed = 00:01:43 . Memory (MB): peak = 2315.734 ; gain = 237.812 ; free physical = 11269 ; free virtual = 14513
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:24 ; elapsed = 00:01:47 . Memory (MB): peak = 2315.734 ; gain = 237.812 ; free physical = 11266 ; free virtual = 14511
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   53 Bit       Adders := 2     
+	   2 Input   34 Bit       Adders := 2     
+	   3 Input   32 Bit       Adders := 4     
+	   2 Input   31 Bit       Adders := 2     
+	   2 Input   21 Bit       Adders := 2     
+	   3 Input   19 Bit       Adders := 2     
+	   2 Input   18 Bit       Adders := 4     
+	   2 Input   16 Bit       Adders := 4     
+	   2 Input   15 Bit       Adders := 2     
+	   3 Input   15 Bit       Adders := 2     
+	   2 Input   14 Bit       Adders := 2     
+	   2 Input   11 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 2     
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 20    
++---Registers : 
+	               64 Bit    Registers := 4     
+	               53 Bit    Registers := 2     
+	               46 Bit    Registers := 2     
+	               34 Bit    Registers := 2     
+	               32 Bit    Registers := 13    
+	               31 Bit    Registers := 4     
+	               21 Bit    Registers := 4     
+	               19 Bit    Registers := 2     
+	               18 Bit    Registers := 6     
+	               17 Bit    Registers := 2     
+	               16 Bit    Registers := 4     
+	               15 Bit    Registers := 6     
+	               14 Bit    Registers := 28    
+	               12 Bit    Registers := 2     
+	               11 Bit    Registers := 16    
+	                8 Bit    Registers := 4     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 30    
+	                3 Bit    Registers := 11    
+	                2 Bit    Registers := 16    
+	                1 Bit    Registers := 68    
++---Multipliers : 
+	              15x31  Multipliers := 2     
++---Muxes : 
+	   2 Input   42 Bit        Muxes := 4     
+	   2 Input   33 Bit        Muxes := 4     
+	   2 Input   32 Bit        Muxes := 1     
+	   4 Input   32 Bit        Muxes := 2     
+	   2 Input   31 Bit        Muxes := 14    
+	   2 Input   21 Bit        Muxes := 2     
+	   2 Input   18 Bit        Muxes := 6     
+	   2 Input   17 Bit        Muxes := 8     
+	   2 Input   16 Bit        Muxes := 4     
+	   2 Input   14 Bit        Muxes := 26    
+	   4 Input    6 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 4     
+	   2 Input    4 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 9     
+	   3 Input    1 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 131   
+	   8 Input    1 Bit        Muxes := 2     
+	   4 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP p_mult_reg, operation Mode is: (A*B2)'.
+DSP Report: register kp_reg_reg is absorbed into DSP p_mult_reg.
+DSP Report: register p_mult_reg is absorbed into DSP p_mult_reg.
+DSP Report: operator p_mult0 is absorbed into DSP p_mult_reg.
+DSP Report: Generating DSP d_mult_reg, operation Mode is: (A*B2)'.
+DSP Report: register kd_reg_reg is absorbed into DSP d_mult_reg.
+DSP Report: register d_mult_reg is absorbed into DSP d_mult_reg.
+DSP Report: operator d_mult0 is absorbed into DSP d_mult_reg.
+DSP Report: Generating DSP i_mult_reg, operation Mode is: (A*B2)'.
+DSP Report: register ki_reg_reg is absorbed into DSP i_mult_reg.
+DSP Report: register i_mult_reg is absorbed into DSP i_mult_reg.
+DSP Report: operator i_mult0 is absorbed into DSP i_mult_reg.
+DSP Report: Generating DSP prod_mem0, operation Mode is: (D+A)*B2.
+DSP Report: register prod_mem0 is absorbed into DSP prod_mem0.
+DSP Report: register seqgen_offs_reg is absorbed into DSP prod_mem0.
+DSP Report: operator prod_mem0 is absorbed into DSP prod_mem0.
+DSP Report: operator prod_mem0 is absorbed into DSP prod_mem0.
+DSP Report: operator seqgen_offs0 is absorbed into DSP prod_mem0.
+DSP Report: Generating DSP prod_mem_reg, operation Mode is: (PCIN>>17)+(D+A)*B.
+DSP Report: register prod_mem_reg is absorbed into DSP prod_mem_reg.
+DSP Report: register seqgen_offs_reg is absorbed into DSP prod_mem_reg.
+DSP Report: operator prod_mem0 is absorbed into DSP prod_mem_reg.
+DSP Report: operator prod_mem0 is absorbed into DSP prod_mem_reg.
+DSP Report: operator seqgen_offs0 is absorbed into DSP prod_mem_reg.
+DSP Report: Generating DSP p_mult_reg, operation Mode is: (A*B2)'.
+DSP Report: register kp_reg_reg is absorbed into DSP p_mult_reg.
+DSP Report: register p_mult_reg is absorbed into DSP p_mult_reg.
+DSP Report: operator p_mult0 is absorbed into DSP p_mult_reg.
+DSP Report: Generating DSP d_mult_reg, operation Mode is: (A*B2)'.
+DSP Report: register kd_reg_reg is absorbed into DSP d_mult_reg.
+DSP Report: register d_mult_reg is absorbed into DSP d_mult_reg.
+DSP Report: operator d_mult0 is absorbed into DSP d_mult_reg.
+DSP Report: Generating DSP i_mult_reg, operation Mode is: (A*B2)'.
+DSP Report: register ki_reg_reg is absorbed into DSP i_mult_reg.
+DSP Report: register i_mult_reg is absorbed into DSP i_mult_reg.
+DSP Report: operator i_mult0 is absorbed into DSP i_mult_reg.
+DSP Report: Generating DSP prod_mem0, operation Mode is: (D+A)*B2.
+DSP Report: register prod_mem0 is absorbed into DSP prod_mem0.
+DSP Report: register seqgen_offs_reg is absorbed into DSP prod_mem0.
+DSP Report: operator prod_mem0 is absorbed into DSP prod_mem0.
+DSP Report: operator prod_mem0 is absorbed into DSP prod_mem0.
+DSP Report: operator seqgen_offs0 is absorbed into DSP prod_mem0.
+DSP Report: Generating DSP prod_mem_reg, operation Mode is: (PCIN>>17)+(D+A)*B.
+DSP Report: register prod_mem_reg is absorbed into DSP prod_mem_reg.
+DSP Report: register seqgen_offs_reg is absorbed into DSP prod_mem_reg.
+DSP Report: operator prod_mem0 is absorbed into DSP prod_mem_reg.
+DSP Report: operator prod_mem0 is absorbed into DSP prod_mem_reg.
+DSP Report: operator seqgen_offs0 is absorbed into DSP prod_mem_reg.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:42 ; elapsed = 00:02:06 . Memory (MB): peak = 2331.742 ; gain = 253.820 ; free physical = 11243 ; free virtual = 14489
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping	Report (see note below)
++------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping        | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|pidlim      | (A*B2)'            | 14     | 11     | -      | -      | 25     | 0    | 1    | -    | -    | -     | 1    | 0    | 
+|pidlim      | (A*B2)'            | 14     | 11     | -      | -      | 25     | 0    | 1    | -    | -    | -     | 1    | 0    | 
+|pidlim      | (A*B2)'            | 14     | 11     | -      | -      | 25     | 0    | 1    | -    | -    | -     | 1    | 0    | 
+|scaler      | (D+A)*B2           | 14     | 18     | -      | 14     | 48     | 0    | 1    | -    | 0    | 1     | 0    | 0    | 
+|scaler      | (PCIN>>17)+(D+A)*B | 14     | 14     | -      | 14     | 48     | 0    | 0    | -    | 0    | 1     | 0    | 1    | 
+|pidlim      | (A*B2)'            | 14     | 11     | -      | -      | 25     | 0    | 1    | -    | -    | -     | 1    | 0    | 
+|pidlim      | (A*B2)'            | 14     | 11     | -      | -      | 25     | 0    | 1    | -    | -    | -     | 1    | 0    | 
+|pidlim      | (A*B2)'            | 14     | 11     | -      | -      | 25     | 0    | 1    | -    | -    | -     | 1    | 0    | 
+|scaler      | (D+A)*B2           | 14     | 18     | -      | 14     | 48     | 0    | 1    | -    | 0    | 1     | 0    | 0    | 
+|scaler      | (PCIN>>17)+(D+A)*B | 14     | 14     | -      | 14     | 48     | 0    | 0    | -    | 0    | 1     | 0    | 1    | 
++------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:00 ; elapsed = 00:02:25 . Memory (MB): peak = 2331.742 ; gain = 253.820 ; free physical = 11083 ; free virtual = 14336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:08 ; elapsed = 00:02:33 . Memory (MB): peak = 2331.742 ; gain = 253.820 ; free physical = 11053 ; free virtual = 14306
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:13 ; elapsed = 00:02:39 . Memory (MB): peak = 2331.742 ; gain = 253.820 ; free physical = 11046 ; free virtual = 14299
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:21 ; elapsed = 00:02:47 . Memory (MB): peak = 2331.742 ; gain = 253.820 ; free physical = 11044 ; free virtual = 14297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:21 ; elapsed = 00:02:47 . Memory (MB): peak = 2331.742 ; gain = 253.820 ; free physical = 11044 ; free virtual = 14297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:23 ; elapsed = 00:02:49 . Memory (MB): peak = 2331.742 ; gain = 253.820 ; free physical = 11043 ; free virtual = 14297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:23 ; elapsed = 00:02:49 . Memory (MB): peak = 2331.742 ; gain = 253.820 ; free physical = 11043 ; free virtual = 14297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:24 ; elapsed = 00:02:49 . Memory (MB): peak = 2331.742 ; gain = 253.820 ; free physical = 11043 ; free virtual = 14297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:24 ; elapsed = 00:02:50 . Memory (MB): peak = 2331.742 ; gain = 253.820 ; free physical = 11043 ; free virtual = 14297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------------------------+----------+
+|      |BlackBox name                     |Instances |
++------+----------------------------------+----------+
+|1     |red_pitaya_pll_mod                |         1|
+|2     |div_gen_0                         |         2|
+|3     |system_axi_protocol_converter_0_0 |         1|
+|4     |system_proc_sys_reset_0           |         1|
+|5     |system_processing_system7_0       |         1|
+|6     |system_xadc_0                     |         1|
++------+----------------------------------+----------+
+
+Report Cell Usage: 
++------+--------------------------------+------+
+|      |Cell                            |Count |
++------+--------------------------------+------+
+|1     |div_gen                         |     1|
+|2     |div_gen_0_                      |     1|
+|3     |red_pitaya_pll_mod              |     1|
+|4     |system_axi_protocol_converter_0 |     1|
+|5     |system_proc_sys_reset           |     1|
+|6     |system_processing_system7       |     1|
+|7     |system_xadc                     |     1|
+|8     |BUFG                            |     4|
+|9     |BUFGMUX                         |     1|
+|10    |BUFH                            |     2|
+|11    |CARRY4                          |   196|
+|12    |DSP48E1                         |    10|
+|15    |LUT1                            |   202|
+|16    |LUT2                            |   132|
+|17    |LUT3                            |   455|
+|18    |LUT4                            |   448|
+|19    |LUT5                            |   725|
+|20    |LUT6                            |  1237|
+|21    |ODDR                            |    21|
+|22    |RAMB36E1                        |    58|
+|26    |FDCE                            |    11|
+|27    |FDRE                            |  1441|
+|28    |FDSE                            |    83|
+|29    |IBUF                            |    30|
+|30    |OBUF                            |    28|
++------+--------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:24 ; elapsed = 00:02:50 . Memory (MB): peak = 2331.742 ; gain = 253.820 ; free physical = 11043 ; free virtual = 14297
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:13 ; elapsed = 00:02:38 . Memory (MB): peak = 2331.742 ; gain = 186.000 ; free physical = 11103 ; free virtual = 14357
+Synthesis Optimization Complete : Time (s): cpu = 00:02:24 ; elapsed = 00:02:50 . Memory (MB): peak = 2331.750 ; gain = 253.820 ; free physical = 11104 ; free virtual = 14357
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.42 ; elapsed = 00:00:00.41 . Memory (MB): peak = 2331.750 ; gain = 0.000 ; free physical = 11171 ; free virtual = 14427
+INFO: [Netlist 29-17] Analyzing 286 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2331.750 ; gain = 0.000 ; free physical = 11112 ; free virtual = 14368
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGMUX => BUFGCTRL (inverted pins: CE0): 1 instance 
+
+INFO: [Common 17-83] Releasing license: Synthesis
+113 Infos, 72 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:40 ; elapsed = 00:03:05 . Memory (MB): peak = 2331.750 ; gain = 253.914 ; free physical = 11288 ; free virtual = 14544
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.runs/synth_1/red_pitaya_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file red_pitaya_top_utilization_synth.rpt -pb red_pitaya_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 15 22:07:31 2024...

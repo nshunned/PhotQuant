@@ -1,0 +1,1493 @@
+
+*** Running vivado
+    with args -log user_35t_axi_emc_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source user_35t_axi_emc_0_0.tcl
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source user_35t_axi_emc_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ciprian/Documents/Github/Cmod-A7/hw/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2020.1/data/ip'.
+Command: synth_design -top user_35t_axi_emc_0_0 -part xc7a35tcpg236-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 423785
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2109.742 ; gain = 0.000 ; free physical = 815 ; free virtual = 4095
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'user_35t_axi_emc_0_0' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ip/user_35t_axi_emc_0_0/synth/user_35t_axi_emc_0_0.vhd:119]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_INSTANCE bound to: axi_emc_inst - type: string 
+	Parameter C_AXI_CLK_PERIOD_PS bound to: 10000 - type: integer 
+	Parameter C_LFLASH_PERIOD_PS bound to: 10000 - type: integer 
+	Parameter C_LINEAR_FLASH_SYNC_BURST bound to: 0 - type: integer 
+	Parameter C_USE_STARTUP bound to: 0 - type: integer 
+	Parameter C_PORT_DIFF bound to: 0 - type: integer 
+	Parameter C_S_AXI_REG_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_REG_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_EN_REG bound to: 0 - type: integer 
+	Parameter C_S_AXI_MEM_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_MEM_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_MEM_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_MEM0_BASEADDR bound to: 32'b01100000000000000000000000000000 
+	Parameter C_S_AXI_MEM0_HIGHADDR bound to: 32'b01100000000001111111111111111111 
+	Parameter C_S_AXI_MEM1_BASEADDR bound to: 32'b10110000000000000000000000000000 
+	Parameter C_S_AXI_MEM1_HIGHADDR bound to: 32'b10111111111111111111111111111111 
+	Parameter C_S_AXI_MEM2_BASEADDR bound to: 32'b11000000000000000000000000000000 
+	Parameter C_S_AXI_MEM2_HIGHADDR bound to: 32'b11001111111111111111111111111111 
+	Parameter C_S_AXI_MEM3_BASEADDR bound to: 32'b11010000000000000000000000000000 
+	Parameter C_S_AXI_MEM3_HIGHADDR bound to: 32'b11011111111111111111111111111111 
+	Parameter C_INCLUDE_NEGEDGE_IOREGS bound to: 0 - type: integer 
+	Parameter C_NUM_BANKS_MEM bound to: 1 - type: integer 
+	Parameter C_MEM0_TYPE bound to: 1 - type: integer 
+	Parameter C_MEM1_TYPE bound to: 0 - type: integer 
+	Parameter C_MEM2_TYPE bound to: 0 - type: integer 
+	Parameter C_MEM3_TYPE bound to: 0 - type: integer 
+	Parameter C_MEM0_WIDTH bound to: 8 - type: integer 
+	Parameter C_MEM1_WIDTH bound to: 16 - type: integer 
+	Parameter C_MEM2_WIDTH bound to: 16 - type: integer 
+	Parameter C_MEM3_WIDTH bound to: 16 - type: integer 
+	Parameter C_MAX_MEM_WIDTH bound to: 8 - type: integer 
+	Parameter C_PAGE_SIZE bound to: 16 - type: integer 
+	Parameter C_MEM_A_MSB bound to: 31 - type: integer 
+	Parameter C_MEM_A_LSB bound to: 0 - type: integer 
+	Parameter C_PARITY_TYPE_MEM_0 bound to: 0 - type: integer 
+	Parameter C_PARITY_TYPE_MEM_1 bound to: 0 - type: integer 
+	Parameter C_PARITY_TYPE_MEM_2 bound to: 0 - type: integer 
+	Parameter C_PARITY_TYPE_MEM_3 bound to: 0 - type: integer 
+	Parameter C_INCLUDE_DATAWIDTH_MATCHING_0 bound to: 1 - type: integer 
+	Parameter C_INCLUDE_DATAWIDTH_MATCHING_1 bound to: 1 - type: integer 
+	Parameter C_INCLUDE_DATAWIDTH_MATCHING_2 bound to: 1 - type: integer 
+	Parameter C_INCLUDE_DATAWIDTH_MATCHING_3 bound to: 1 - type: integer 
+	Parameter C_SYNCH_PIPEDELAY_0 bound to: 1 - type: integer 
+	Parameter C_TCEDV_PS_MEM_0 bound to: 8000 - type: integer 
+	Parameter C_TAVDV_PS_MEM_0 bound to: 8000 - type: integer 
+	Parameter C_TPACC_PS_FLASH_0 bound to: 25000 - type: integer 
+	Parameter C_THZCE_PS_MEM_0 bound to: 8000 - type: integer 
+	Parameter C_THZOE_PS_MEM_0 bound to: 8000 - type: integer 
+	Parameter C_TWC_PS_MEM_0 bound to: 8000 - type: integer 
+	Parameter C_TWP_PS_MEM_0 bound to: 8000 - type: integer 
+	Parameter C_TWPH_PS_MEM_0 bound to: 12000 - type: integer 
+	Parameter C_TLZWE_PS_MEM_0 bound to: 3000 - type: integer 
+	Parameter C_WR_REC_TIME_MEM_0 bound to: 27000 - type: integer 
+	Parameter C_SYNCH_PIPEDELAY_1 bound to: 1 - type: integer 
+	Parameter C_TCEDV_PS_MEM_1 bound to: 15000 - type: integer 
+	Parameter C_TAVDV_PS_MEM_1 bound to: 15000 - type: integer 
+	Parameter C_TPACC_PS_FLASH_1 bound to: 25000 - type: integer 
+	Parameter C_THZCE_PS_MEM_1 bound to: 7000 - type: integer 
+	Parameter C_THZOE_PS_MEM_1 bound to: 7000 - type: integer 
+	Parameter C_TWC_PS_MEM_1 bound to: 15000 - type: integer 
+	Parameter C_TWP_PS_MEM_1 bound to: 12000 - type: integer 
+	Parameter C_TWPH_PS_MEM_1 bound to: 12000 - type: integer 
+	Parameter C_TLZWE_PS_MEM_1 bound to: 0 - type: integer 
+	Parameter C_WR_REC_TIME_MEM_1 bound to: 27000 - type: integer 
+	Parameter C_SYNCH_PIPEDELAY_2 bound to: 1 - type: integer 
+	Parameter C_TCEDV_PS_MEM_2 bound to: 15000 - type: integer 
+	Parameter C_TAVDV_PS_MEM_2 bound to: 15000 - type: integer 
+	Parameter C_TPACC_PS_FLASH_2 bound to: 25000 - type: integer 
+	Parameter C_THZCE_PS_MEM_2 bound to: 7000 - type: integer 
+	Parameter C_THZOE_PS_MEM_2 bound to: 7000 - type: integer 
+	Parameter C_TWC_PS_MEM_2 bound to: 15000 - type: integer 
+	Parameter C_TWP_PS_MEM_2 bound to: 12000 - type: integer 
+	Parameter C_TWPH_PS_MEM_2 bound to: 12000 - type: integer 
+	Parameter C_TLZWE_PS_MEM_2 bound to: 0 - type: integer 
+	Parameter C_WR_REC_TIME_MEM_2 bound to: 27000 - type: integer 
+	Parameter C_SYNCH_PIPEDELAY_3 bound to: 1 - type: integer 
+	Parameter C_TCEDV_PS_MEM_3 bound to: 15000 - type: integer 
+	Parameter C_TAVDV_PS_MEM_3 bound to: 15000 - type: integer 
+	Parameter C_TPACC_PS_FLASH_3 bound to: 25000 - type: integer 
+	Parameter C_THZCE_PS_MEM_3 bound to: 7000 - type: integer 
+	Parameter C_THZOE_PS_MEM_3 bound to: 7000 - type: integer 
+	Parameter C_TWC_PS_MEM_3 bound to: 15000 - type: integer 
+	Parameter C_TWP_PS_MEM_3 bound to: 12000 - type: integer 
+	Parameter C_TWPH_PS_MEM_3 bound to: 12000 - type: integer 
+	Parameter C_TLZWE_PS_MEM_3 bound to: 0 - type: integer 
+	Parameter C_WR_REC_TIME_MEM_3 bound to: 27000 - type: integer 
+INFO: [Synth 8-3491] module 'axi_emc' declared at '/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/1151/hdl/axi_emc_v3_0_vh_rfs.vhd:3428' bound to instance 'U0' of component 'axi_emc' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ip/user_35t_axi_emc_0_0/synth/user_35t_axi_emc_0_0.vhd:373]
+INFO: [Synth 8-638] synthesizing module 'axi_emc' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/1151/hdl/axi_emc_v3_0_vh_rfs.vhd:3738]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_INSTANCE bound to: axi_emc_inst - type: string 
+	Parameter C_AXI_CLK_PERIOD_PS bound to: 10000 - type: integer 
+	Parameter C_LFLASH_PERIOD_PS bound to: 10000 - type: integer 
+	Parameter C_LINEAR_FLASH_SYNC_BURST bound to: 0 - type: integer 
+	Parameter C_USE_STARTUP bound to: 0 - type: integer 
+	Parameter C_PORT_DIFF bound to: 0 - type: integer 
+	Parameter C_S_AXI_REG_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_REG_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_EN_REG bound to: 0 - type: integer 
+	Parameter C_S_AXI_MEM_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_MEM_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_MEM_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_MEM0_BASEADDR bound to: 1610612736 - type: integer 
+	Parameter C_S_AXI_MEM0_HIGHADDR bound to: 1611137023 - type: integer 
+	Parameter C_S_AXI_MEM1_BASEADDR bound to: -1342177280 - type: integer 
+	Parameter C_S_AXI_MEM1_HIGHADDR bound to: -1073741825 - type: integer 
+	Parameter C_S_AXI_MEM2_BASEADDR bound to: -1073741824 - type: integer 
+	Parameter C_S_AXI_MEM2_HIGHADDR bound to: -805306369 - type: integer 
+	Parameter C_S_AXI_MEM3_BASEADDR bound to: -805306368 - type: integer 
+	Parameter C_S_AXI_MEM3_HIGHADDR bound to: -536870913 - type: integer 
+	Parameter C_INCLUDE_NEGEDGE_IOREGS bound to: 0 - type: integer 
+	Parameter C_NUM_BANKS_MEM bound to: 1 - type: integer 
+	Parameter C_MEM0_TYPE bound to: 1 - type: integer 
+	Parameter C_MEM1_TYPE bound to: 0 - type: integer 
+	Parameter C_MEM2_TYPE bound to: 0 - type: integer 
+	Parameter C_MEM3_TYPE bound to: 0 - type: integer 
+	Parameter C_MEM0_WIDTH bound to: 8 - type: integer 
+	Parameter C_MEM1_WIDTH bound to: 16 - type: integer 
+	Parameter C_MEM2_WIDTH bound to: 16 - type: integer 
+	Parameter C_MEM3_WIDTH bound to: 16 - type: integer 
+	Parameter C_MAX_MEM_WIDTH bound to: 8 - type: integer 
+	Parameter C_PAGE_SIZE bound to: 16 - type: integer 
+	Parameter C_MEM_A_MSB bound to: 31 - type: integer 
+	Parameter C_MEM_A_LSB bound to: 0 - type: integer 
+	Parameter C_PARITY_TYPE_MEM_0 bound to: 0 - type: integer 
+	Parameter C_PARITY_TYPE_MEM_1 bound to: 0 - type: integer 
+	Parameter C_PARITY_TYPE_MEM_2 bound to: 0 - type: integer 
+	Parameter C_PARITY_TYPE_MEM_3 bound to: 0 - type: integer 
+	Parameter C_INCLUDE_DATAWIDTH_MATCHING_0 bound to: 1 - type: integer 
+	Parameter C_INCLUDE_DATAWIDTH_MATCHING_1 bound to: 1 - type: integer 
+	Parameter C_INCLUDE_DATAWIDTH_MATCHING_2 bound to: 1 - type: integer 
+	Parameter C_INCLUDE_DATAWIDTH_MATCHING_3 bound to: 1 - type: integer 
+	Parameter C_SYNCH_PIPEDELAY_0 bound to: 1 - type: integer 
+	Parameter C_TCEDV_PS_MEM_0 bound to: 8000 - type: integer 
+	Parameter C_TAVDV_PS_MEM_0 bound to: 8000 - type: integer 
+	Parameter C_TPACC_PS_FLASH_0 bound to: 25000 - type: integer 
+	Parameter C_THZCE_PS_MEM_0 bound to: 8000 - type: integer 
+	Parameter C_THZOE_PS_MEM_0 bound to: 8000 - type: integer 
+	Parameter C_TWC_PS_MEM_0 bound to: 8000 - type: integer 
+	Parameter C_TWP_PS_MEM_0 bound to: 8000 - type: integer 
+	Parameter C_TWPH_PS_MEM_0 bound to: 12000 - type: integer 
+	Parameter C_TLZWE_PS_MEM_0 bound to: 3000 - type: integer 
+	Parameter C_WR_REC_TIME_MEM_0 bound to: 27000 - type: integer 
+	Parameter C_SYNCH_PIPEDELAY_1 bound to: 1 - type: integer 
+	Parameter C_TCEDV_PS_MEM_1 bound to: 15000 - type: integer 
+	Parameter C_TAVDV_PS_MEM_1 bound to: 15000 - type: integer 
+	Parameter C_TPACC_PS_FLASH_1 bound to: 25000 - type: integer 
+	Parameter C_THZCE_PS_MEM_1 bound to: 7000 - type: integer 
+	Parameter C_THZOE_PS_MEM_1 bound to: 7000 - type: integer 
+	Parameter C_TWC_PS_MEM_1 bound to: 15000 - type: integer 
+	Parameter C_TWP_PS_MEM_1 bound to: 12000 - type: integer 
+	Parameter C_TWPH_PS_MEM_1 bound to: 12000 - type: integer 
+	Parameter C_TLZWE_PS_MEM_1 bound to: 0 - type: integer 
+	Parameter C_WR_REC_TIME_MEM_1 bound to: 27000 - type: integer 
+	Parameter C_SYNCH_PIPEDELAY_2 bound to: 1 - type: integer 
+	Parameter C_TCEDV_PS_MEM_2 bound to: 15000 - type: integer 
+	Parameter C_TAVDV_PS_MEM_2 bound to: 15000 - type: integer 
+	Parameter C_TPACC_PS_FLASH_2 bound to: 25000 - type: integer 
+	Parameter C_THZCE_PS_MEM_2 bound to: 7000 - type: integer 
+	Parameter C_THZOE_PS_MEM_2 bound to: 7000 - type: integer 
+	Parameter C_TWC_PS_MEM_2 bound to: 15000 - type: integer 
+	Parameter C_TWP_PS_MEM_2 bound to: 12000 - type: integer 
+	Parameter C_TWPH_PS_MEM_2 bound to: 12000 - type: integer 
+	Parameter C_TLZWE_PS_MEM_2 bound to: 0 - type: integer 
+	Parameter C_WR_REC_TIME_MEM_2 bound to: 27000 - type: integer 
+	Parameter C_SYNCH_PIPEDELAY_3 bound to: 1 - type: integer 
+	Parameter C_TCEDV_PS_MEM_3 bound to: 15000 - type: integer 
+	Parameter C_TAVDV_PS_MEM_3 bound to: 15000 - type: integer 
+	Parameter C_TPACC_PS_FLASH_3 bound to: 25000 - type: integer 
+	Parameter C_THZCE_PS_MEM_3 bound to: 7000 - type: integer 
+	Parameter C_THZOE_PS_MEM_3 bound to: 7000 - type: integer 
+	Parameter C_TWC_PS_MEM_3 bound to: 15000 - type: integer 
+	Parameter C_TWP_PS_MEM_3 bound to: 12000 - type: integer 
+	Parameter C_TWPH_PS_MEM_3 bound to: 12000 - type: integer 
+	Parameter C_TLZWE_PS_MEM_3 bound to: 0 - type: integer 
+	Parameter C_WR_REC_TIME_MEM_3 bound to: 27000 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'axi_emc_native_interface' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/1151/hdl/axi_emc_v3_0_vh_rfs.vhd:1827]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_S_AXI_MEM_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_MEM_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_MEM_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_MEM0_BASEADDR bound to: 1610612736 - type: integer 
+	Parameter C_S_AXI_MEM0_HIGHADDR bound to: 1611137023 - type: integer 
+	Parameter C_S_AXI_MEM1_BASEADDR bound to: -1342177280 - type: integer 
+	Parameter C_S_AXI_MEM1_HIGHADDR bound to: -1073741825 - type: integer 
+	Parameter C_S_AXI_MEM2_BASEADDR bound to: -1073741824 - type: integer 
+	Parameter C_S_AXI_MEM2_HIGHADDR bound to: -805306369 - type: integer 
+	Parameter C_S_AXI_MEM3_BASEADDR bound to: -805306368 - type: integer 
+	Parameter C_S_AXI_MEM3_HIGHADDR bound to: -536870913 - type: integer 
+	Parameter AXI_ARD_ADDR_RANGE_ARRAY bound to: 128'b00000000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000001100000000001111111111111111111 
+	Parameter AXI_ARD_NUM_CE_ARRAY bound to: 32'b00000000000000000000000000000001 
+	Parameter C_NUM_BANKS_MEM bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'axi_emc_addr_gen' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/1151/hdl/axi_emc_v3_0_vh_rfs.vhd:614]
+	Parameter C_S_AXI_MEM_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_MEM_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'axi_emc_addr_gen' (1#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/1151/hdl/axi_emc_v3_0_vh_rfs.vhd:614]
+INFO: [Synth 8-638] synthesizing module 'axi_emc_address_decode' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/1151/hdl/axi_emc_v3_0_vh_rfs.vhd:1250]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_ADDR_DECODE_BITS bound to: 32 - type: integer 
+	Parameter C_ARD_ADDR_RANGE_ARRAY bound to: 128'b00000000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000001100000000001111111111111111111 
+	Parameter C_ARD_NUM_CE_ARRAY bound to: 32'b00000000000000000000000000000001 
+	Parameter C_FAMILY bound to: artix7 - type: string 
+INFO: [Synth 8-256] done synthesizing module 'axi_emc_address_decode' (2#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/1151/hdl/axi_emc_v3_0_vh_rfs.vhd:1250]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+	Parameter C_DWIDTH bound to: 33 - type: integer 
+	Parameter C_DEPTH bound to: 256 - type: integer 
+	Parameter C_FAMILY bound to: artix7 - type: string 
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+	Parameter C_SIZE bound to: 9 - type: integer 
+	Parameter C_FAMILY bound to: artix7 - type: string 
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f' (3#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+	Parameter C_DEPTH bound to: 256 - type: integer 
+	Parameter C_DWIDTH bound to: 33 - type: integer 
+	Parameter C_FAMILY bound to: artix7 - type: string 
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f' (4#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f' (5#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'counter_f' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/1151/hdl/axi_emc_v3_0_vh_rfs.vhd:241]
+	Parameter C_NUM_BITS bound to: 8 - type: integer 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'counter_f' (6#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/1151/hdl/axi_emc_v3_0_vh_rfs.vhd:241]
+INFO: [Synth 8-256] done synthesizing module 'axi_emc_native_interface' (7#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/1151/hdl/axi_emc_v3_0_vh_rfs.vhd:1827]
+INFO: [Synth 8-638] synthesizing module 'EMC' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:8233]
+	Parameter C_NUM_BANKS_MEM bound to: 1 - type: integer 
+	Parameter C_IPIF_DWIDTH bound to: 32 - type: integer 
+	Parameter C_IPIF_AWIDTH bound to: 32 - type: integer 
+	Parameter C_PAGE_SIZE bound to: 16 - type: integer 
+	Parameter C_MEM0_BASEADDR bound to: 1610612736 - type: integer 
+	Parameter C_MEM0_HIGHADDR bound to: 1611137023 - type: integer 
+	Parameter C_MEM1_BASEADDR bound to: -1342177280 - type: integer 
+	Parameter C_MEM1_HIGHADDR bound to: -1073741825 - type: integer 
+	Parameter C_MEM2_BASEADDR bound to: -1073741824 - type: integer 
+	Parameter C_MEM2_HIGHADDR bound to: -805306369 - type: integer 
+	Parameter C_MEM3_BASEADDR bound to: -805306368 - type: integer 
+	Parameter C_MEM3_HIGHADDR bound to: -536870913 - type: integer 
+	Parameter C_INCLUDE_NEGEDGE_IOREGS bound to: 0 - type: integer 
+	Parameter C_PAGEMODE_FLASH_0 bound to: 0 - type: integer 
+	Parameter C_PAGEMODE_FLASH_1 bound to: 0 - type: integer 
+	Parameter C_PAGEMODE_FLASH_2 bound to: 0 - type: integer 
+	Parameter C_PAGEMODE_FLASH_3 bound to: 0 - type: integer 
+	Parameter C_MEM0_WIDTH bound to: 8 - type: integer 
+	Parameter C_MEM1_WIDTH bound to: 16 - type: integer 
+	Parameter C_MEM2_WIDTH bound to: 16 - type: integer 
+	Parameter C_MEM3_WIDTH bound to: 16 - type: integer 
+	Parameter C_MAX_MEM_WIDTH bound to: 8 - type: integer 
+	Parameter C_MEM0_TYPE bound to: 1 - type: integer 
+	Parameter C_MEM1_TYPE bound to: 0 - type: integer 
+	Parameter C_MEM2_TYPE bound to: 0 - type: integer 
+	Parameter C_MEM3_TYPE bound to: 0 - type: integer 
+	Parameter C_PARITY_TYPE_0 bound to: 0 - type: integer 
+	Parameter C_PARITY_TYPE_1 bound to: 0 - type: integer 
+	Parameter C_PARITY_TYPE_2 bound to: 0 - type: integer 
+	Parameter C_PARITY_TYPE_3 bound to: 0 - type: integer 
+	Parameter C_INCLUDE_DATAWIDTH_MATCHING_0 bound to: 1 - type: integer 
+	Parameter C_INCLUDE_DATAWIDTH_MATCHING_1 bound to: 1 - type: integer 
+	Parameter C_INCLUDE_DATAWIDTH_MATCHING_2 bound to: 1 - type: integer 
+	Parameter C_INCLUDE_DATAWIDTH_MATCHING_3 bound to: 1 - type: integer 
+	Parameter C_BUS_CLOCK_PERIOD_PS bound to: 10000 - type: integer 
+	Parameter C_SYNCH_MEM_0 bound to: 0 - type: integer 
+	Parameter C_SYNCH_PIPEDELAY_0 bound to: 1 - type: integer 
+	Parameter C_TCEDV_PS_MEM_0 bound to: 8000 - type: integer 
+	Parameter C_TAVDV_PS_MEM_0 bound to: 8000 - type: integer 
+	Parameter C_TPACC_PS_FLASH_0 bound to: 25000 - type: integer 
+	Parameter C_THZCE_PS_MEM_0 bound to: 8000 - type: integer 
+	Parameter C_THZOE_PS_MEM_0 bound to: 8000 - type: integer 
+	Parameter C_TWC_PS_MEM_0 bound to: 8000 - type: integer 
+	Parameter C_TWP_PS_MEM_0 bound to: 8000 - type: integer 
+	Parameter C_TWPH_PS_MEM_0 bound to: 12000 - type: integer 
+	Parameter C_TLZWE_PS_MEM_0 bound to: 3000 - type: integer 
+	Parameter C_WR_REC_TIME_MEM_0 bound to: 27000 - type: integer 
+	Parameter C_SYNCH_MEM_1 bound to: 1 - type: integer 
+	Parameter C_SYNCH_PIPEDELAY_1 bound to: 1 - type: integer 
+	Parameter C_TCEDV_PS_MEM_1 bound to: 15000 - type: integer 
+	Parameter C_TAVDV_PS_MEM_1 bound to: 15000 - type: integer 
+	Parameter C_TPACC_PS_FLASH_1 bound to: 25000 - type: integer 
+	Parameter C_THZCE_PS_MEM_1 bound to: 7000 - type: integer 
+	Parameter C_THZOE_PS_MEM_1 bound to: 7000 - type: integer 
+	Parameter C_TWC_PS_MEM_1 bound to: 15000 - type: integer 
+	Parameter C_TWP_PS_MEM_1 bound to: 12000 - type: integer 
+	Parameter C_TWPH_PS_MEM_1 bound to: 12000 - type: integer 
+	Parameter C_TLZWE_PS_MEM_1 bound to: 0 - type: integer 
+	Parameter C_WR_REC_TIME_MEM_1 bound to: 27000 - type: integer 
+	Parameter C_SYNCH_MEM_2 bound to: 1 - type: integer 
+	Parameter C_SYNCH_PIPEDELAY_2 bound to: 1 - type: integer 
+	Parameter C_TCEDV_PS_MEM_2 bound to: 15000 - type: integer 
+	Parameter C_TAVDV_PS_MEM_2 bound to: 15000 - type: integer 
+	Parameter C_TPACC_PS_FLASH_2 bound to: 25000 - type: integer 
+	Parameter C_THZCE_PS_MEM_2 bound to: 7000 - type: integer 
+	Parameter C_THZOE_PS_MEM_2 bound to: 7000 - type: integer 
+	Parameter C_TWC_PS_MEM_2 bound to: 15000 - type: integer 
+	Parameter C_TWP_PS_MEM_2 bound to: 12000 - type: integer 
+	Parameter C_TWPH_PS_MEM_2 bound to: 12000 - type: integer 
+	Parameter C_TLZWE_PS_MEM_2 bound to: 0 - type: integer 
+	Parameter C_WR_REC_TIME_MEM_2 bound to: 27000 - type: integer 
+	Parameter C_SYNCH_MEM_3 bound to: 1 - type: integer 
+	Parameter C_SYNCH_PIPEDELAY_3 bound to: 1 - type: integer 
+	Parameter C_TCEDV_PS_MEM_3 bound to: 15000 - type: integer 
+	Parameter C_TAVDV_PS_MEM_3 bound to: 15000 - type: integer 
+	Parameter C_TPACC_PS_FLASH_3 bound to: 25000 - type: integer 
+	Parameter C_THZCE_PS_MEM_3 bound to: 7000 - type: integer 
+	Parameter C_THZOE_PS_MEM_3 bound to: 7000 - type: integer 
+	Parameter C_TWC_PS_MEM_3 bound to: 15000 - type: integer 
+	Parameter C_TWP_PS_MEM_3 bound to: 12000 - type: integer 
+	Parameter C_TWPH_PS_MEM_3 bound to: 12000 - type: integer 
+	Parameter C_TLZWE_PS_MEM_3 bound to: 0 - type: integer 
+	Parameter C_WR_REC_TIME_MEM_3 bound to: 27000 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ipic_if' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:580]
+	Parameter C_NUM_BANKS_MEM bound to: 1 - type: integer 
+	Parameter C_IPIF_DWIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ld_arith_reg' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:161]
+	Parameter C_ADD_SUB_NOT bound to: 0 - type: bool 
+	Parameter C_REG_WIDTH bound to: 8 - type: integer 
+	Parameter C_RESET_VALUE bound to: 8'b00000000 
+	Parameter C_LD_WIDTH bound to: 8 - type: integer 
+	Parameter C_LD_OFFSET bound to: 0 - type: integer 
+	Parameter C_AD_WIDTH bound to: 1 - type: integer 
+	Parameter C_AD_OFFSET bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-6157] synthesizing module 'MULT_AND' [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921]
+INFO: [Synth 8-6155] done synthesizing module 'MULT_AND' (8#1) [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-6157] synthesizing module 'MUXCY' [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932]
+INFO: [Synth 8-6155] done synthesizing module 'MUXCY' (9#1) [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-6157] synthesizing module 'XORCY' [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397]
+INFO: [Synth 8-6155] done synthesizing module 'XORCY' (10#1) [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724' bound to instance 'FDRE_i1' of component 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (11#1) [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724' bound to instance 'FDRE_i1' of component 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724' bound to instance 'FDRE_i1' of component 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724' bound to instance 'FDRE_i1' of component 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724' bound to instance 'FDRE_i1' of component 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724' bound to instance 'FDRE_i1' of component 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724' bound to instance 'FDRE_i1' of component 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724' bound to instance 'FDRE_i1' of component 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-256] done synthesizing module 'ld_arith_reg' (12#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:161]
+INFO: [Synth 8-256] done synthesizing module 'ipic_if' (13#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:580]
+INFO: [Synth 8-638] synthesizing module 'mem_state_machine' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:2190]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'READ_COMPLETE_PIPE' to cell 'FDR' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:3114]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'READ_COMPLETE_PIPE' to cell 'FDR' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:3114]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'READ_COMPLETE_PIPE' to cell 'FDR' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:3114]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'READ_COMPLETE_PIPE' to cell 'FDR' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:3114]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'READ_COMPLETE_PIPE' to cell 'FDR' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:3114]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'READ_COMPLETE_PIPE' to cell 'FDR' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:3114]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'READ_COMPLETE_PIPE' to cell 'FDR' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:3114]
+INFO: [Synth 8-256] done synthesizing module 'mem_state_machine' (14#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:2190]
+INFO: [Synth 8-638] synthesizing module 'addr_counter_mux' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4461]
+	Parameter C_ADDR_CNTR_WIDTH bound to: 2 - type: integer 
+	Parameter C_IPIF_AWIDTH bound to: 32 - type: integer 
+	Parameter C_IPIF_DWIDTH bound to: 32 - type: integer 
+	Parameter C_ADDR_OFFSET bound to: 2 - type: integer 
+	Parameter PARITY_TYPE_MEMORY bound to: 0 - type: integer 
+	Parameter C_GLOBAL_DATAWIDTH_MATCH bound to: 1 - type: integer 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ADDRESS_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4556]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'BEN_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4573]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'BEN_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4573]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'BEN_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4573]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'BEN_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4573]
+INFO: [Synth 8-638] synthesizing module 'ld_arith_reg__parameterized0' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:161]
+	Parameter C_ADD_SUB_NOT bound to: 0 - type: bool 
+	Parameter C_REG_WIDTH bound to: 2 - type: integer 
+	Parameter C_RESET_VALUE bound to: 2'b00 
+	Parameter C_LD_WIDTH bound to: 2 - type: integer 
+	Parameter C_LD_OFFSET bound to: 0 - type: integer 
+	Parameter C_AD_WIDTH bound to: 1 - type: integer 
+	Parameter C_AD_OFFSET bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724' bound to instance 'FDRE_i1' of component 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724' bound to instance 'FDRE_i1' of component 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-256] done synthesizing module 'ld_arith_reg__parameterized0' (14#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:161]
+INFO: [Synth 8-256] done synthesizing module 'addr_counter_mux' (15#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:4461]
+INFO: [Synth 8-638] synthesizing module 'counters' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:1669]
+INFO: [Synth 8-638] synthesizing module 'ld_arith_reg__parameterized1' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:161]
+	Parameter C_ADD_SUB_NOT bound to: 0 - type: bool 
+	Parameter C_REG_WIDTH bound to: 5 - type: integer 
+	Parameter C_RESET_VALUE bound to: 5'b11111 
+	Parameter C_LD_WIDTH bound to: 5 - type: integer 
+	Parameter C_LD_OFFSET bound to: 0 - type: integer 
+	Parameter C_AD_WIDTH bound to: 1 - type: integer 
+	Parameter C_AD_OFFSET bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDSE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13860' bound to instance 'FDSE_i1' of component 'FDSE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:328]
+INFO: [Synth 8-6157] synthesizing module 'FDSE' [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13860]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_S_INVERTED bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'FDSE' (16#1) [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13860]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDSE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13860' bound to instance 'FDSE_i1' of component 'FDSE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:328]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDSE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13860' bound to instance 'FDSE_i1' of component 'FDSE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:328]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDSE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13860' bound to instance 'FDSE_i1' of component 'FDSE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:328]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDSE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13860' bound to instance 'FDSE_i1' of component 'FDSE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:328]
+INFO: [Synth 8-256] done synthesizing module 'ld_arith_reg__parameterized1' (16#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:161]
+INFO: [Synth 8-638] synthesizing module 'ld_arith_reg__parameterized2' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:161]
+	Parameter C_ADD_SUB_NOT bound to: 0 - type: bool 
+	Parameter C_REG_WIDTH bound to: 5 - type: integer 
+	Parameter C_RESET_VALUE bound to: 5'b00000 
+	Parameter C_LD_WIDTH bound to: 5 - type: integer 
+	Parameter C_LD_OFFSET bound to: 0 - type: integer 
+	Parameter C_AD_WIDTH bound to: 1 - type: integer 
+	Parameter C_AD_OFFSET bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724' bound to instance 'FDRE_i1' of component 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724' bound to instance 'FDRE_i1' of component 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724' bound to instance 'FDRE_i1' of component 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724' bound to instance 'FDRE_i1' of component 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724' bound to instance 'FDRE_i1' of component 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-256] done synthesizing module 'ld_arith_reg__parameterized2' (16#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:161]
+INFO: [Synth 8-638] synthesizing module 'ld_arith_reg__parameterized3' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:161]
+	Parameter C_ADD_SUB_NOT bound to: 0 - type: bool 
+	Parameter C_REG_WIDTH bound to: 16 - type: integer 
+	Parameter C_RESET_VALUE bound to: 16'b1111111111111111 
+	Parameter C_LD_WIDTH bound to: 16 - type: integer 
+	Parameter C_LD_OFFSET bound to: 0 - type: integer 
+	Parameter C_AD_WIDTH bound to: 1 - type: integer 
+	Parameter C_AD_OFFSET bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDSE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13860' bound to instance 'FDSE_i1' of component 'FDSE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:328]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDSE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13860' bound to instance 'FDSE_i1' of component 'FDSE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:328]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDSE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13860' bound to instance 'FDSE_i1' of component 'FDSE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:328]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDSE' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13860' bound to instance 'FDSE_i1' of component 'FDSE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:328]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42921' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:42932' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:82397' bound to instance 'XORCY_i1' of component 'XORCY' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:302]
+INFO: [Common 17-14] Message 'Synth 8-3491' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'ld_arith_reg__parameterized3' (16#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:161]
+INFO: [Synth 8-256] done synthesizing module 'counters' (17#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:1669]
+INFO: [Synth 8-638] synthesizing module 'select_param' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:3633]
+	Parameter C_NUM_BANKS_MEM bound to: 1 - type: integer 
+	Parameter C_PAGE_SIZE bound to: 16 - type: integer 
+	Parameter C_GLOBAL_SYNC_MEM bound to: 0 - type: integer 
+	Parameter C_SYNCH_MEM_0 bound to: 0 - type: integer 
+	Parameter C_SYNCH_MEM_1 bound to: 1 - type: integer 
+	Parameter C_SYNCH_MEM_2 bound to: 1 - type: integer 
+	Parameter C_SYNCH_MEM_3 bound to: 1 - type: integer 
+	Parameter C_MEM0_WIDTH bound to: 8 - type: integer 
+	Parameter C_MEM1_WIDTH bound to: 16 - type: integer 
+	Parameter C_MEM2_WIDTH bound to: 16 - type: integer 
+	Parameter C_MEM3_WIDTH bound to: 16 - type: integer 
+	Parameter C_PAGEMODE_FLASH bound to: 0 - type: integer 
+	Parameter C_PAGEMODE_FLASH_0 bound to: 0 - type: integer 
+	Parameter C_PAGEMODE_FLASH_1 bound to: 0 - type: integer 
+	Parameter C_PAGEMODE_FLASH_2 bound to: 0 - type: integer 
+	Parameter C_PAGEMODE_FLASH_3 bound to: 0 - type: integer 
+	Parameter PARITY_TYPE_MEMORY bound to: 0 - type: integer 
+	Parameter C_PARITY_TYPE_0 bound to: 0 - type: integer 
+	Parameter C_PARITY_TYPE_1 bound to: 0 - type: integer 
+	Parameter C_PARITY_TYPE_2 bound to: 0 - type: integer 
+	Parameter C_PARITY_TYPE_3 bound to: 0 - type: integer 
+	Parameter C_IPIF_AWIDTH bound to: 32 - type: integer 
+	Parameter C_IPIF_DWIDTH bound to: 32 - type: integer 
+	Parameter C_SYNCH_PIPEDELAY_0 bound to: 1 - type: integer 
+	Parameter C_SYNCH_PIPEDELAY_1 bound to: 1 - type: integer 
+	Parameter C_SYNCH_PIPEDELAY_2 bound to: 1 - type: integer 
+	Parameter C_SYNCH_PIPEDELAY_3 bound to: 1 - type: integer 
+	Parameter C_GLOBAL_DATAWIDTH_MATCH bound to: 1 - type: integer 
+	Parameter C_INCLUDE_DATAWIDTH_MATCHING_0 bound to: 1 - type: integer 
+	Parameter C_INCLUDE_DATAWIDTH_MATCHING_1 bound to: 1 - type: integer 
+	Parameter C_INCLUDE_DATAWIDTH_MATCHING_2 bound to: 1 - type: integer 
+	Parameter C_INCLUDE_DATAWIDTH_MATCHING_3 bound to: 1 - type: integer 
+	Parameter TRDCNT_0 bound to: 5'b00001 
+	Parameter TRDCNT_1 bound to: 5'b00010 
+	Parameter TRDCNT_2 bound to: 5'b00010 
+	Parameter TRDCNT_3 bound to: 5'b00010 
+	Parameter THZCNT_0 bound to: 5'b00001 
+	Parameter THZCNT_1 bound to: 5'b00001 
+	Parameter THZCNT_2 bound to: 5'b00001 
+	Parameter THZCNT_3 bound to: 5'b00001 
+	Parameter TWRCNT_0 bound to: 5'b00000 
+	Parameter TWRCNT_1 bound to: 5'b00001 
+	Parameter TWRCNT_2 bound to: 5'b00001 
+	Parameter TWRCNT_3 bound to: 5'b00001 
+	Parameter TWPHCNT_0 bound to: 5'b00010 
+	Parameter TWPHCNT_1 bound to: 5'b00010 
+	Parameter TWPHCNT_2 bound to: 5'b00010 
+	Parameter TWPHCNT_3 bound to: 5'b00010 
+	Parameter TPACC_0 bound to: 5'b00011 
+	Parameter TPACC_1 bound to: 5'b00011 
+	Parameter TPACC_2 bound to: 5'b00011 
+	Parameter TPACC_3 bound to: 5'b00011 
+	Parameter TLZCNT_0 bound to: 5'b00001 
+	Parameter TLZCNT_1 bound to: 5'b00001 
+	Parameter TLZCNT_2 bound to: 5'b00001 
+	Parameter TLZCNT_3 bound to: 5'b00001 
+	Parameter TP_WR_REC_CNT_0 bound to: 16'b0000000000000011 
+	Parameter TP_WR_REC_CNT_1 bound to: 16'b0000000000000011 
+	Parameter TP_WR_REC_CNT_2 bound to: 16'b0000000000000011 
+	Parameter TP_WR_REC_CNT_3 bound to: 16'b0000000000000011 
+INFO: [Synth 8-256] done synthesizing module 'select_param' (18#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:3633]
+INFO: [Synth 8-638] synthesizing module 'mem_steer' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:5345]
+	Parameter C_NUM_BANKS_MEM bound to: 1 - type: integer 
+	Parameter C_MAX_MEM_WIDTH bound to: 8 - type: integer 
+	Parameter C_MIN_MEM_WIDTH bound to: 8 - type: integer 
+	Parameter C_IPIF_DWIDTH bound to: 32 - type: integer 
+	Parameter C_IPIF_AWIDTH bound to: 32 - type: integer 
+	Parameter C_PARITY_TYPE_MEMORY bound to: 0 - type: integer 
+	Parameter C_ADDR_CNTR_WIDTH bound to: 2 - type: integer 
+	Parameter C_GLOBAL_DATAWIDTH_MATCH bound to: 1 - type: integer 
+	Parameter C_GLOBAL_SYNC_MEM bound to: 0 - type: integer 
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDACK_PIPE_ASYNC' to cell 'FDR' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6024]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDACK_PIPE_ASYNC' to cell 'FDR' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6024]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'AALIGN_PIPE' to cell 'FDR' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6087]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'AALIGN_PIPE' to cell 'FDR' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6087]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'WRDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:6111]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RDDATA_REG' to cell 'FDRE' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:7120]
+INFO: [Common 17-14] Message 'Synth 8-113' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'mem_steer' (19#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:5345]
+INFO: [Synth 8-638] synthesizing module 'io_registers' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:1226]
+	Parameter C_INCLUDE_NEGEDGE_IOREGS bound to: 0 - type: integer 
+	Parameter C_IPIF_AWIDTH bound to: 32 - type: integer 
+	Parameter C_MAX_MEM_WIDTH bound to: 8 - type: integer 
+	Parameter C_NUM_BANKS_MEM bound to: 1 - type: integer 
+	Parameter C_FAMILY bound to: virtex6 - type: string 
+INFO: [Synth 8-256] done synthesizing module 'io_registers' (20#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:1226]
+INFO: [Synth 8-256] done synthesizing module 'EMC' (21#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd:8233]
+INFO: [Synth 8-256] done synthesizing module 'axi_emc' (22#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/1151/hdl/axi_emc_v3_0_vh_rfs.vhd:3738]
+INFO: [Synth 8-256] done synthesizing module 'user_35t_axi_emc_0_0' (23#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ip/user_35t_axi_emc_0_0/synth/user_35t_axi_emc_0_0.vhd:119]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 2177.578 ; gain = 67.836 ; free physical = 1124 ; free virtual = 4500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 2192.422 ; gain = 82.680 ; free physical = 1247 ; free virtual = 4624
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 2192.422 ; gain = 82.680 ; free physical = 1246 ; free virtual = 4623
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.09 . Memory (MB): peak = 2196.391 ; gain = 0.000 ; free physical = 1217 ; free virtual = 4597
+INFO: [Netlist 29-17] Analyzing 207 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ip/user_35t_axi_emc_0_0/user_35t_axi_emc_0_0_ooc.xdc]
+Finished Parsing XDC File [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ip/user_35t_axi_emc_0_0/user_35t_axi_emc_0_0_ooc.xdc]
+Parsing XDC File [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ip/user_35t_axi_emc_0_0/user_35t_axi_emc_0_0_board.xdc]
+Finished Parsing XDC File [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ip/user_35t_axi_emc_0_0/user_35t_axi_emc_0_0_board.xdc]
+Parsing XDC File [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ip/user_35t_axi_emc_0_0/user_35t_axi_emc_0_0.xdc]
+Finished Parsing XDC File [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ip/user_35t_axi_emc_0_0/user_35t_axi_emc_0_0.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2355.203 ; gain = 0.000 ; free physical = 906 ; free virtual = 4304
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 79 instances were transformed.
+  FDR => FDRE: 15 instances
+  MULT_AND => LUT2: 64 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.24 ; elapsed = 00:00:00.15 . Memory (MB): peak = 2362.141 ; gain = 6.938 ; free physical = 867 ; free virtual = 4278
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 2362.141 ; gain = 252.398 ; free physical = 792 ; free virtual = 4228
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 2362.141 ; gain = 252.398 ; free physical = 791 ; free virtual = 4228
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IOB = TRUE for U0/EMC_CTRL_I/IO_REGISTERS_I/Mem_DQ_I_v_reg. (constraint file  /home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ip/user_35t_axi_emc_0_0/user_35t_axi_emc_0_0.xdc, line 48).
+Applied set_property IOB = TRUE for U0/EMC_CTRL_I/IO_REGISTERS_I/mem_dq_o_reg_reg. (constraint file  /home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ip/user_35t_axi_emc_0_0/user_35t_axi_emc_0_0.xdc, line 49).
+Applied set_property IOB = TRUE for U0/EMC_CTRL_I/IO_REGISTERS_I/\mem_cen_reg_reg[0] . (constraint file  /home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ip/user_35t_axi_emc_0_0/user_35t_axi_emc_0_0.xdc, line 50).
+Applied set_property IOB = TRUE for U0/EMC_CTRL_I/IO_REGISTERS_I/mem_dq_t_reg_reg. (constraint file  /home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ip/user_35t_axi_emc_0_0/user_35t_axi_emc_0_0.xdc, line 52).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 2362.141 ; gain = 252.398 ; free physical = 771 ; free virtual = 4222
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'emc_addr_ps_reg' in module 'axi_emc_native_interface'
+INFO: [Synth 8-802] inferred FSM for state register 'crnt_state_reg' in module 'mem_state_machine'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                              000
+                 rd_last |                              001 |                              010
+                      rd |                              010 |                              001
+                      wr |                              011 |                              011
+                 wr_wait |                              100 |                              100
+                 wr_last |                              101 |                              110
+                    resp |                              110 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'emc_addr_ps_reg' using encoding 'sequential' in module 'axi_emc_native_interface'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                            00000 |                            00000
+             address_set |                            00001 |                            00010
+            deassert_cen |                            00010 |                            00011
+                   write |                            00011 |                            00001
+             dassert_wen |                            00100 |                            00110
+              write_wait |                            00101 |                            01000
+               wait_temp |                            00110 |                            01001
+              assert_cen |                            00111 |                            01011
+          wait_write_ack |                            01000 |                            00111
+           wr_rec_period |                            01001 |                            01010
+            address_rset |                            01010 |                            00100
+           deassert_rcen |                            01011 |                            00101
+    linear_flash_sync_rd |                            01100 |                            01101
+                    read |                            01101 |                            01100
+               page_read |                            01110 |                            01110
+            deassert_oen |                            01111 |                            01111
+         wait_rddata_ack |                            10000 |                            10000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'crnt_state_reg' using encoding 'sequential' in module 'mem_state_machine'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 2362.141 ; gain = 252.398 ; free physical = 648 ; free virtual = 4123
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input    9 Bit       Adders := 1     
+	   2 Input    9 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 3     
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
+	   3 Input    3 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 5     
++---XORs : 
+	   2 Input      8 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 65    
++---Registers : 
+	               32 Bit    Registers := 3     
+	               20 Bit    Registers := 1     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 8     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 10    
+	                1 Bit    Registers := 59    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 4     
+	   3 Input    9 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 9     
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 3     
+	   2 Input    5 Bit        Muxes := 24    
+	  17 Input    5 Bit        Muxes := 3     
+	  58 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 11    
+	   3 Input    4 Bit        Muxes := 6     
+	   7 Input    4 Bit        Muxes := 4     
+	   5 Input    4 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 16    
+	   4 Input    3 Bit        Muxes := 2     
+	   3 Input    3 Bit        Muxes := 2     
+	   7 Input    3 Bit        Muxes := 2     
+	  14 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 17    
+	   3 Input    2 Bit        Muxes := 2     
+	   6 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 143   
+	   7 Input    1 Bit        Muxes := 12    
+	   5 Input    1 Bit        Muxes := 1     
+	  17 Input    1 Bit        Muxes := 35    
+	   6 Input    1 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 2362.141 ; gain = 252.398 ; free physical = 874 ; free virtual = 4386
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:35 . Memory (MB): peak = 2362.141 ; gain = 252.398 ; free physical = 2385 ; free virtual = 6090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 2362.141 ; gain = 252.398 ; free physical = 2955 ; free virtual = 6711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 2362.141 ; gain = 252.398 ; free physical = 2938 ; free virtual = 6711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4163] Replicating register \U0/EMC_CTRL_I/IO_REGISTERS_I/Mem_DQ_I_v_reg[7]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/EMC_CTRL_I/IO_REGISTERS_I/Mem_DQ_I_v_reg[6]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/EMC_CTRL_I/IO_REGISTERS_I/Mem_DQ_I_v_reg[5]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/EMC_CTRL_I/IO_REGISTERS_I/Mem_DQ_I_v_reg[4]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/EMC_CTRL_I/IO_REGISTERS_I/Mem_DQ_I_v_reg[3]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/EMC_CTRL_I/IO_REGISTERS_I/Mem_DQ_I_v_reg[2]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/EMC_CTRL_I/IO_REGISTERS_I/Mem_DQ_I_v_reg[1]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/EMC_CTRL_I/IO_REGISTERS_I/Mem_DQ_I_v_reg[0]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/EMC_CTRL_I/IO_REGISTERS_I/mem_wen_reg_reg  to handle IOB=TRUE attribute
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 2362.141 ; gain = 252.398 ; free physical = 3608 ; free virtual = 7425
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 2362.141 ; gain = 252.398 ; free physical = 3613 ; free virtual = 7430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 2362.141 ; gain = 252.398 ; free physical = 3607 ; free virtual = 7426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 2362.141 ; gain = 252.398 ; free physical = 3607 ; free virtual = 7426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 2362.141 ; gain = 252.398 ; free physical = 3607 ; free virtual = 7426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 2362.141 ; gain = 252.398 ; free physical = 3607 ; free virtual = 7426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Dynamic Shift Register Report:
++------------+----------------------------+--------+------------+--------+---------+--------+--------+--------+
+|Module Name | RTL Name                   | Length | Data Width | SRL16E | SRLC32E | Mux F7 | Mux F8 | Mux F9 | 
++------------+----------------------------+--------+------------+--------+---------+--------+--------+--------+
+|dsrl        | INFERRED_GEN.data_reg[255] | 33     | 33         | 0      | 264     | 132    | 66     | 0      | 
++------------+----------------------------+--------+------------+--------+---------+--------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |     3|
+|2     |LUT1     |     7|
+|3     |LUT2     |    75|
+|4     |LUT3     |   108|
+|5     |LUT4     |    51|
+|6     |LUT5     |    98|
+|7     |LUT6     |   194|
+|8     |MULT_AND |    44|
+|9     |MUXCY    |    47|
+|10    |MUXF7    |   132|
+|11    |MUXF8    |    66|
+|12    |SRLC32E  |   264|
+|13    |XORCY    |    56|
+|14    |FDR      |     6|
+|15    |FDRE     |   359|
+|16    |FDSE     |    62|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 2362.141 ; gain = 252.398 ; free physical = 3607 ; free virtual = 7426
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:39 . Memory (MB): peak = 2362.141 ; gain = 82.680 ; free physical = 3642 ; free virtual = 7470
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 2362.141 ; gain = 252.398 ; free physical = 3642 ; free virtual = 7470
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2362.141 ; gain = 0.000 ; free physical = 3492 ; free virtual = 7320
+INFO: [Netlist 29-17] Analyzing 354 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/Mem_DQ_I_v_reg[0] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/Mem_DQ_I_v_reg[1] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/Mem_DQ_I_v_reg[2] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/Mem_DQ_I_v_reg[3] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/Mem_DQ_I_v_reg[4] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/Mem_DQ_I_v_reg[5] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/Mem_DQ_I_v_reg[6] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/Mem_DQ_I_v_reg[7] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_ben_reg_reg[0] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_ce_reg_reg[0] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_cen_reg_reg[0] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_dq_o_reg_reg[0] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_dq_o_reg_reg[1] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_dq_o_reg_reg[2] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_dq_o_reg_reg[3] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_dq_o_reg_reg[4] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_dq_o_reg_reg[5] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_dq_o_reg_reg[6] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_dq_o_reg_reg[7] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_dq_t_reg_reg[0] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_dq_t_reg_reg[1] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_dq_t_reg_reg[2] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_dq_t_reg_reg[3] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_dq_t_reg_reg[4] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_dq_t_reg_reg[5] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_dq_t_reg_reg[6] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_dq_t_reg_reg[7] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_oen_reg_reg[0] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_qwen_reg_reg[0] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_rnw_reg_reg has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_rpn_reg_reg has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/EMC_CTRL_I/IO_REGISTERS_I/mem_wen_reg_reg has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[0] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[10] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[11] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[12] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[13] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[14] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[15] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[16] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[17] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[18] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[19] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[1] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[20] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[21] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[22] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[23] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[24] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[25] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[26] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[27] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[28] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[29] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[2] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[30] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[31] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[3] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[4] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[5] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[6] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[7] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[8] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance U0/mem_a_int_reg[9] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2381.086 ; gain = 0.000 ; free physical = 2796 ; free virtual = 6671
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 69 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 19 instances
+  FDR => FDRE: 6 instances
+  MULT_AND => LUT2: 44 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+288 Infos, 64 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 2381.086 ; gain = 271.477 ; free physical = 2961 ; free virtual = 6840
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.runs/user_35t_axi_emc_0_0_synth_1/user_35t_axi_emc_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP user_35t_axi_emc_0_0, cache-ID = 32b6ebf49fb7e0b0
+INFO: [Coretcl 2-1174] Renamed 23 cell refs.
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.runs/user_35t_axi_emc_0_0_synth_1/user_35t_axi_emc_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file user_35t_axi_emc_0_0_utilization_synth.rpt -pb user_35t_axi_emc_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  5 15:16:43 2020...

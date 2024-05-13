@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1710325361">
+  <File Type="PA-TCL" Name="CmodA735T_Demo.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="CmodA735T_Demo_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="CmodA735T_Demo_reports.tcl"/>
+  <File Type="RDS-RDS" Name="CmodA735T_Demo.vds"/>
+  <File Type="RDS-UTIL" Name="CmodA735T_Demo_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="CmodA735T_Demo_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="CmodA735T_Demo.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="CmodA735T_Demo_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="CmodA735T_Demo_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Src/CmodA735T_test.dcp">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Online_Examples/CmodA735tDemo/Src/CmodA735T_test.dcp"/>
+        <Attr Name="ImportTime" Val="1475482514"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Src/CmodA735T_Demo.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Online_Examples/CmodA735tDemo/Src/CmodA735T_Demo.vhd"/>
+        <Attr Name="ImportTime" Val="1475230396"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="CmodA735T_Demo"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Src/CmodA735tDemo.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Online_Examples/CmodA735tDemo/Src/CmodA735tDemo.xdc"/>
+        <Attr Name="ImportTime" Val="1475230000"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>

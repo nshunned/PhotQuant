@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Mar  1 18:29:53 2017
+# Process ID: 2256
+# Current directory: /home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.runs/impl_1
+# Command line: vivado -log red_pitaya_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source red_pitaya_top.tcl -notrace
+# Log file: /home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.runs/impl_1/red_pitaya_top.vdi
+# Journal file: /home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source red_pitaya_top.tcl -notrace

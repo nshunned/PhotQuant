@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1604582137">
+  <File Type="ROUTE-PWR" Name="user_35t_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="user_35t_wrapper.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="user_35t_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="user_35t_wrapper_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="user_35t_wrapper.msk"/>
+  <File Type="ROUTE-CLK" Name="user_35t_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="user_35t_wrapper.vdi"/>
+  <File Type="BG-BIT" Name="user_35t_wrapper.bit"/>
+  <File Type="BG-DRC" Name="user_35t_wrapper.drc"/>
+  <File Type="BG-BGN" Name="user_35t_wrapper.bgn"/>
+  <File Type="BG-BIN" Name="user_35t_wrapper.bin"/>
+  <File Type="BITSTR-RBT" Name="user_35t_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="user_35t_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="user_35t_wrapper_bd.bmm"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="user_35t_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="user_35t_wrapper.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="user_35t_wrapper_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="user_35t_wrapper.sysdef"/>
+  <File Type="ROUTE-DRC-RPX" Name="user_35t_wrapper_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="user_35t_wrapper.ltx"/>
+  <File Type="RCFI_FILE" Name="user_35t_wrapper.rcfi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="user_35t_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="user_35t_wrapper.hwdef"/>
+  <File Type="PLACE-IO" Name="user_35t_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="user_35t_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="user_35t_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="user_35t_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="user_35t_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="user_35t_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="user_35t_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="user_35t_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="user_35t_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="user_35t_wrapper_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="user_35t_wrapper_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="user_35t_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="user_35t_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="user_35t_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="user_35t_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="user_35t_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="user_35t_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="user_35t_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="user_35t_wrapper_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="user_35t_wrapper_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="user_35t_wrapper_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="user_35t_wrapper_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="user_35t_wrapper_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="user_35t_wrapper_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="user_35t_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="user_35t_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="user_35t_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="user_35t_wrapper.pdi"/>
+  <File Type="CFI_FILE" Name="user_35t_wrapper.cfi"/>
+  <File Type="RNPI_FILE" Name="user_35t_wrapper.rnpi"/>
+  <File Type="NPI_FILE" Name="user_35t_wrapper.npi"/>
+  <File Type="RBD_FILE" Name="user_35t_wrapper.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/user_35t/user_35t.bd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../proj/hw.srcs/sources_1/bd/user_35t/user_35t.bd"/>
+        <Attr Name="ImportTime" Val="1604582128"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/user_35t_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../proj/hw.srcs/sources_1/bd/user_35t/hdl/user_35t_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1604582129"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="user_35t_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design">
+      <Option Id="Directive">4</Option>
+    </Step>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design">
+      <Option Id="Directive">15</Option>
+    </Step>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design">
+      <Option Id="Directive">5</Option>
+    </Step>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_xbar_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_s01_data_fifo_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_axi_uartlite_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_lmb_bram_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_clk_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_axi_gpio_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_dlmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_mdm_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_axi_timer_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_microblaze_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_dlmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_s00_data_fifo_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_m00_data_fifo_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_s00_regslice_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_axi_intc_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_s01_regslice_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_ilmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_rst_clk_wiz_0_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_ilmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_axi_emc_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="user_35t_m00_regslice_0"/>
+</GenRun>

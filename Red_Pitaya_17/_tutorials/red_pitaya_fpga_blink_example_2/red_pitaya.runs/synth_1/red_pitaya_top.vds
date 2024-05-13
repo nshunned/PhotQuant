@@ -1,0 +1,1015 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Mar  1 18:40:02 2017
+# Process ID: 3916
+# Current directory: /home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.runs/synth_1
+# Command line: vivado -log red_pitaya_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source red_pitaya_top.tcl
+# Log file: /home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.runs/synth_1/red_pitaya_top.vds
+# Journal file: /home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source red_pitaya_top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.4/data/ip'.
+Command: synth_design -top red_pitaya_top -part xc7z010clg400-1 -flatten_hierarchy none -bufg 16 -keep_equivalent_registers
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3921 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1074.090 ; gain = 145.082 ; free physical = 1130 ; free virtual = 3789
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'red_pitaya_top' [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:20]
+INFO: [Synth 8-638] synthesizing module 'IOBUF' [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:17333]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IOBUF' (1#1) [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:17333]
+INFO: [Synth 8-638] synthesizing module 'red_pitaya_ps' [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_ps.v:47]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (2#1) [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-638] synthesizing module 'system_wrapper' [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/bd/system/hdl/system_wrapper.v:12]
+INFO: [Synth 8-638] synthesizing module 'system' [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/bd/system/hdl/system.v:13]
+INFO: [Synth 8-638] synthesizing module 'system_processing_system7_0_0' [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.v:60]
+INFO: [Synth 8-638] synthesizing module 'processing_system7_v5_5_processing_system7' [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:162]
+	Parameter C_USE_DEFAULT_ACP_USER_VAL bound to: 0 - type: integer 
+	Parameter C_S_AXI_ACP_ARUSER_VAL bound to: 31 - type: integer 
+	Parameter C_S_AXI_ACP_AWUSER_VAL bound to: 31 - type: integer 
+	Parameter C_M_AXI_GP0_THREAD_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_M_AXI_GP1_THREAD_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_M_AXI_GP0_ENABLE_STATIC_REMAP bound to: 0 - type: integer 
+	Parameter C_M_AXI_GP1_ENABLE_STATIC_REMAP bound to: 0 - type: integer 
+	Parameter C_M_AXI_GP0_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_M_AXI_GP1_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_S_AXI_GP0_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_GP1_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_HP0_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_HP1_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_HP2_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_HP3_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_ACP_ID_WIDTH bound to: 3 - type: integer 
+	Parameter C_S_AXI_HP0_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_S_AXI_HP1_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_S_AXI_HP2_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_S_AXI_HP3_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_INCLUDE_ACP_TRANS_CHECK bound to: 0 - type: integer 
+	Parameter C_NUM_F2P_INTR_INPUTS bound to: 1 - type: integer 
+	Parameter C_FCLK_CLK0_BUF bound to: TRUE - type: string 
+	Parameter C_FCLK_CLK1_BUF bound to: TRUE - type: string 
+	Parameter C_FCLK_CLK2_BUF bound to: TRUE - type: string 
+	Parameter C_FCLK_CLK3_BUF bound to: TRUE - type: string 
+	Parameter C_EMIO_GPIO_WIDTH bound to: 64 - type: integer 
+	Parameter C_INCLUDE_TRACE_BUFFER bound to: 0 - type: integer 
+	Parameter C_TRACE_BUFFER_FIFO_SIZE bound to: 128 - type: integer 
+	Parameter C_TRACE_BUFFER_CLOCK_DELAY bound to: 12 - type: integer 
+	Parameter USE_TRACE_DATA_EDGE_DETECTOR bound to: 0 - type: integer 
+	Parameter C_TRACE_PIPELINE_WIDTH bound to: 8 - type: integer 
+	Parameter C_PS7_SI_REV bound to: PRODUCTION - type: string 
+	Parameter C_EN_EMIO_ENET0 bound to: 0 - type: integer 
+	Parameter C_EN_EMIO_ENET1 bound to: 0 - type: integer 
+	Parameter C_EN_EMIO_TRACE bound to: 0 - type: integer 
+	Parameter C_DQ_WIDTH bound to: 32 - type: integer 
+	Parameter C_DQS_WIDTH bound to: 4 - type: integer 
+	Parameter C_DM_WIDTH bound to: 4 - type: integer 
+	Parameter C_MIO_PRIMITIVE bound to: 54 - type: integer 
+	Parameter C_PACKAGE_NAME bound to: clg400 - type: string 
+	Parameter C_IRQ_F2P_MODE bound to: DIRECT - type: string 
+	Parameter C_TRACE_INTERNAL_WIDTH bound to: 32 - type: integer 
+	Parameter C_EN_EMIO_PJTAG bound to: 0 - type: integer 
+	Parameter C_USE_AXI_NONSECURE bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_HP0 bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_HP1 bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_HP2 bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_HP3 bound to: 0 - type: integer 
+	Parameter C_USE_M_AXI_GP0 bound to: 1 - type: integer 
+	Parameter C_USE_M_AXI_GP1 bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_GP0 bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_GP1 bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_ACP bound to: 0 - type: integer 
+	Parameter C_GP0_EN_MODIFIABLE_TXN bound to: 0 - type: integer 
+	Parameter C_GP1_EN_MODIFIABLE_TXN bound to: 0 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1348]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1349]
+INFO: [Synth 8-638] synthesizing module 'BIBUF' [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:268]
+INFO: [Synth 8-256] done synthesizing module 'BIBUF' (3#1) [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:268]
+INFO: [Synth 8-638] synthesizing module 'PS7' [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:33182]
+INFO: [Synth 8-256] done synthesizing module 'PS7' (4#1) [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:33182]
+INFO: [Synth 8-256] done synthesizing module 'processing_system7_v5_5_processing_system7' (5#1) [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:162]
+WARNING: [Synth 8-350] instance 'inst' of module 'processing_system7_v5_5_processing_system7' requires 685 connections, but only 672 given [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.v:411]
+INFO: [Synth 8-256] done synthesizing module 'system_processing_system7_0_0' (6#1) [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.v:60]
+WARNING: [Synth 8-350] instance 'processing_system7_0' of module 'system_processing_system7_0_0' requires 98 connections, but only 83 given [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/bd/system/hdl/system.v:319]
+INFO: [Synth 8-256] done synthesizing module 'system' (7#1) [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/bd/system/hdl/system.v:13]
+INFO: [Synth 8-256] done synthesizing module 'system_wrapper' (8#1) [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/bd/system/hdl/system_wrapper.v:12]
+INFO: [Synth 8-638] synthesizing module 'axi_slave' [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/axi_slave.v:52]
+	Parameter AXI_DW bound to: 32 - type: integer 
+	Parameter AXI_AW bound to: 32 - type: integer 
+	Parameter AXI_IW bound to: 12 - type: integer 
+	Parameter AXI_SW bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'axi_slave' (9#1) [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/axi_slave.v:52]
+INFO: [Synth 8-256] done synthesizing module 'red_pitaya_ps' (10#1) [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_ps.v:47]
+INFO: [Synth 8-638] synthesizing module 'red_pitaya_analog' [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_analog.v:64]
+	Parameter PWM_FULL bound to: 8'b10011100 
+INFO: [Synth 8-638] synthesizing module 'IBUFDS' [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:14161]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUFDS' (11#1) [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:14161]
+INFO: [Synth 8-638] synthesizing module 'PLLE2_ADV' [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:32674]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT bound to: 8 - type: integer 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKIN1_PERIOD bound to: 8.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE bound to: 8 - type: integer 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_DIVIDE bound to: 4 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_DIVIDE bound to: 4 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: -45.000000 - type: float 
+	Parameter CLKOUT3_DIVIDE bound to: 4 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'PLLE2_ADV' (12#1) [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:32674]
+INFO: [Synth 8-638] synthesizing module 'ODDR' [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:25305]
+	Parameter DDR_CLK_EDGE bound to: OPPOSITE_EDGE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-256] done synthesizing module 'ODDR' (13#1) [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:25305]
+INFO: [Synth 8-638] synthesizing module 'XADC' [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:45150]
+	Parameter INIT_40 bound to: 16'b0000000000000000 
+	Parameter INIT_41 bound to: 16'b0010111100001111 
+	Parameter INIT_42 bound to: 16'b0000010000000000 
+	Parameter INIT_43 bound to: 16'b0000000000000000 
+	Parameter INIT_44 bound to: 16'b0000000000000000 
+	Parameter INIT_45 bound to: 16'b0000000000000000 
+	Parameter INIT_46 bound to: 16'b0000000000000000 
+	Parameter INIT_47 bound to: 16'b0000000000000000 
+	Parameter INIT_48 bound to: 16'b0100111111100000 
+	Parameter INIT_49 bound to: 16'b0000001100000011 
+	Parameter INIT_4A bound to: 16'b0100011111100000 
+	Parameter INIT_4B bound to: 16'b0000000000000000 
+	Parameter INIT_4C bound to: 16'b0000100000000000 
+	Parameter INIT_4D bound to: 16'b0000001100000011 
+	Parameter INIT_4E bound to: 16'b0000000000000000 
+	Parameter INIT_4F bound to: 16'b0000000000000000 
+	Parameter INIT_50 bound to: 16'b1011010111101101 
+	Parameter INIT_51 bound to: 16'b0101011111100100 
+	Parameter INIT_52 bound to: 16'b1010000101000111 
+	Parameter INIT_53 bound to: 16'b1100101000110011 
+	Parameter INIT_54 bound to: 16'b1010100100111010 
+	Parameter INIT_55 bound to: 16'b0101001011000110 
+	Parameter INIT_56 bound to: 16'b1001010101010101 
+	Parameter INIT_57 bound to: 16'b1010111001001110 
+	Parameter INIT_58 bound to: 16'b0101100110011001 
+	Parameter INIT_59 bound to: 16'b0101010101010101 
+	Parameter INIT_5A bound to: 16'b1001100110011001 
+	Parameter INIT_5B bound to: 16'b0110101010101010 
+	Parameter INIT_5C bound to: 16'b0101000100010001 
+	Parameter INIT_5D bound to: 16'b0101000100010001 
+	Parameter INIT_5E bound to: 16'b1001000111101011 
+	Parameter INIT_5F bound to: 16'b0110011001100110 
+	Parameter IS_CONVSTCLK_INVERTED bound to: 1'b0 
+	Parameter IS_DCLK_INVERTED bound to: 1'b0 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+	Parameter SIM_MONITOR_FILE bound to: ../sim_1/xadc_sim_values.txt - type: string 
+INFO: [Synth 8-256] done synthesizing module 'XADC' (14#1) [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:45150]
+INFO: [Synth 8-256] done synthesizing module 'red_pitaya_analog' (15#1) [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_analog.v:64]
+INFO: [Synth 8-638] synthesizing module 'red_pitaya_hk' [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_hk.v:35]
+INFO: [Synth 8-638] synthesizing module 'DNA_PORT' [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3032]
+	Parameter SIM_DNA_VALUE bound to: 57'b010000010001101000101011001111000100110101011110011011110 
+INFO: [Synth 8-256] done synthesizing module 'DNA_PORT' (16#1) [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3032]
+INFO: [Synth 8-256] done synthesizing module 'red_pitaya_hk' (17#1) [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_hk.v:35]
+INFO: [Synth 8-638] synthesizing module 'red_pitaya_daisy' [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_daisy.v:58]
+INFO: [Synth 8-638] synthesizing module 'OBUFDS' [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:21941]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: DIFF_SSTL18_I - type: string 
+	Parameter SLEW bound to: FAST - type: string 
+INFO: [Synth 8-256] done synthesizing module 'OBUFDS' (18#1) [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:21941]
+INFO: [Synth 8-638] synthesizing module 'IBUFGDS' [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:14584]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DIFF_SSTL18_I - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUFGDS' (19#1) [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:14584]
+INFO: [Synth 8-638] synthesizing module 'IBUFDS__parameterized0' [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:14161]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DIFF_SSTL18_I - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUFDS__parameterized0' (19#1) [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:14161]
+INFO: [Synth 8-256] done synthesizing module 'red_pitaya_daisy' (20#1) [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_daisy.v:58]
+WARNING: [Synth 8-3848] Net dac_a in module/entity red_pitaya_top does not have driver. [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:185]
+WARNING: [Synth 8-3848] Net dac_b in module/entity red_pitaya_top does not have driver. [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:186]
+WARNING: [Synth 8-3848] Net dac_pwm_a in module/entity red_pitaya_top does not have driver. [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:187]
+WARNING: [Synth 8-3848] Net dac_pwm_b in module/entity red_pitaya_top does not have driver. [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:188]
+WARNING: [Synth 8-3848] Net dac_pwm_c in module/entity red_pitaya_top does not have driver. [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:189]
+WARNING: [Synth 8-3848] Net dac_pwm_d in module/entity red_pitaya_top does not have driver. [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:190]
+INFO: [Synth 8-256] done synthesizing module 'red_pitaya_top' (21#1) [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:20]
+WARNING: [Synth 8-3917] design red_pitaya_top has port adc_clk_o[1] driven by constant 1
+WARNING: [Synth 8-3917] design red_pitaya_top has port adc_clk_o[0] driven by constant 0
+WARNING: [Synth 8-3917] design red_pitaya_top has port adc_cdcs_o driven by constant 1
+WARNING: [Synth 8-3331] design red_pitaya_daisy has unconnected port ser_clk_i
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_addr_i[31]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_addr_i[30]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_addr_i[29]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_addr_i[28]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_addr_i[27]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_addr_i[26]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_addr_i[25]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_addr_i[24]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_addr_i[23]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_addr_i[22]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_addr_i[21]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_addr_i[20]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[31]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[30]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[29]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[28]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[27]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[26]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[25]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[24]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[23]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[22]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[21]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[20]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[19]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[18]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[17]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[16]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[15]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[14]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[13]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[12]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[11]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[10]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[9]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_wdata_i[8]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_sel_i[3]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_sel_i[2]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_sel_i[1]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_sel_i[0]
+WARNING: [Synth 8-3331] design red_pitaya_hk has unconnected port sys_ren_i
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_awburst_i[1]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_awburst_i[0]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_awlock_i[1]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_awlock_i[0]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_awcache_i[3]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_awcache_i[2]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_awcache_i[1]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_awcache_i[0]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_awprot_i[2]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_awprot_i[1]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_awprot_i[0]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_wid_i[11]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_wid_i[10]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_wid_i[9]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_wid_i[8]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_wid_i[7]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_wid_i[6]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_wid_i[5]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_wid_i[4]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_wid_i[3]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_wid_i[2]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_wid_i[1]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_wid_i[0]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_wstrb_i[3]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_wstrb_i[2]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_wstrb_i[1]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_wstrb_i[0]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_wlast_i
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_arburst_i[1]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_arburst_i[0]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_arlock_i[1]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_arlock_i[0]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_arcache_i[3]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_arcache_i[2]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_arcache_i[1]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_arcache_i[0]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_arprot_i[2]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_arprot_i[1]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port axi_arprot_i[0]
+WARNING: [Synth 8-3331] design axi_slave has unconnected port sys_err_i
+WARNING: [Synth 8-3331] design processing_system7_v5_5_processing_system7 has unconnected port ENET0_GMII_COL
+WARNING: [Synth 8-3331] design processing_system7_v5_5_processing_system7 has unconnected port ENET0_GMII_CRS
+WARNING: [Synth 8-3331] design processing_system7_v5_5_processing_system7 has unconnected port ENET0_GMII_RX_DV
+WARNING: [Synth 8-3331] design processing_system7_v5_5_processing_system7 has unconnected port ENET0_GMII_RX_ER
+WARNING: [Synth 8-3331] design processing_system7_v5_5_processing_system7 has unconnected port ENET0_GMII_RXD[7]
+WARNING: [Synth 8-3331] design processing_system7_v5_5_processing_system7 has unconnected port ENET0_GMII_RXD[6]
+WARNING: [Synth 8-3331] design processing_system7_v5_5_processing_system7 has unconnected port ENET0_GMII_RXD[5]
+WARNING: [Synth 8-3331] design processing_system7_v5_5_processing_system7 has unconnected port ENET0_GMII_RXD[4]
+WARNING: [Synth 8-3331] design processing_system7_v5_5_processing_system7 has unconnected port ENET0_GMII_RXD[3]
+WARNING: [Synth 8-3331] design processing_system7_v5_5_processing_system7 has unconnected port ENET0_GMII_RXD[2]
+WARNING: [Synth 8-3331] design processing_system7_v5_5_processing_system7 has unconnected port ENET0_GMII_RXD[1]
+WARNING: [Synth 8-3331] design processing_system7_v5_5_processing_system7 has unconnected port ENET0_GMII_RXD[0]
+WARNING: [Synth 8-3331] design processing_system7_v5_5_processing_system7 has unconnected port ENET1_GMII_COL
+WARNING: [Synth 8-3331] design processing_system7_v5_5_processing_system7 has unconnected port ENET1_GMII_CRS
+WARNING: [Synth 8-3331] design processing_system7_v5_5_processing_system7 has unconnected port ENET1_GMII_RX_DV
+WARNING: [Synth 8-3331] design processing_system7_v5_5_processing_system7 has unconnected port ENET1_GMII_RX_ER
+WARNING: [Synth 8-3331] design processing_system7_v5_5_processing_system7 has unconnected port ENET1_GMII_RXD[7]
+WARNING: [Synth 8-3331] design processing_system7_v5_5_processing_system7 has unconnected port ENET1_GMII_RXD[6]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1115.566 ; gain = 186.559 ; free physical = 1087 ; free virtual = 3746
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_a_i[13] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_a_i[12] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_a_i[11] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_a_i[10] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_a_i[9] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_a_i[8] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_a_i[7] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_a_i[6] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_a_i[5] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_a_i[4] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_a_i[3] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_a_i[2] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_a_i[1] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_a_i[0] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_b_i[13] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_b_i[12] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_b_i[11] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_b_i[10] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_b_i[9] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_b_i[8] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_b_i[7] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_b_i[6] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_b_i[5] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_b_i[4] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_b_i[3] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_b_i[2] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_b_i[1] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_dat_b_i[0] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[23] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[22] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[21] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[20] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[19] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[18] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[17] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[16] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[15] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[14] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[13] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[12] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[11] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[10] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[9] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[8] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[7] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[6] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[5] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[4] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[3] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[2] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[1] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_a_i[0] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[23] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[22] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[21] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[20] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[19] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[18] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[17] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[16] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[15] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[14] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[13] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[12] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[11] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[10] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[9] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[8] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[7] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[6] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[5] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[4] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[3] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[2] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[1] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_b_i[0] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[23] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[22] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[21] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[20] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[19] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[18] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[17] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[16] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[15] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[14] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[13] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[12] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[11] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[10] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[9] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[8] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[7] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[6] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[5] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[4] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[3] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[2] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[1] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+WARNING: [Synth 8-3295] tying undriven pin i_analog:dac_pwm_c_i[0] to constant 0 [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/red_pitaya_top.v:204]
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1115.566 ; gain = 186.559 ; free physical = 1087 ; free virtual = 3746
+---------------------------------------------------------------------------------
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'i_analog/XADC_inst' of type 'XADC' is '7SERIES'; it is being changed to match the current FPGA architecture, 'ZYNQ'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist. 
+INFO: [Netlist 29-17] Analyzing 41 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc] for cell 'i_ps/system_i/system_i/processing_system7_0/inst'
+Finished Parsing XDC File [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc] for cell 'i_ps/system_i/system_i/processing_system7_0/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/red_pitaya_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/red_pitaya_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/constrs_1/red_pitaya.xdc]
+INFO: [Timing 38-2] Deriving generated clocks [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/constrs_1/red_pitaya.xdc:239]
+Finished Parsing XDC File [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/constrs_1/red_pitaya.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/constrs_1/red_pitaya.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/red_pitaya_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/red_pitaya_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/constrs_1/red_pitaya_top.xdc]
+Finished Parsing XDC File [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/constrs_1/red_pitaya_top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.srcs/constrs_1/red_pitaya_top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/red_pitaya_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/red_pitaya_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/red_pitaya_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/red_pitaya_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 19 instances were transformed.
+  IBUFGDS => IBUFDS: 1 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 16 instances
+  OBUFDS => OBUFDS_DUAL_BUF (OBUFDS, OBUFDS, INV): 2 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1416.562 ; gain = 0.000 ; free physical = 897 ; free virtual = 3557
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1416.562 ; gain = 487.555 ; free physical = 905 ; free virtual = 3564
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1416.562 ; gain = 487.555 ; free physical = 905 ; free virtual = 3564
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for i_ps/system_i/system_i/processing_system7_0/inst. (constraint file  /home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.runs/synth_1/dont_touch.xdc, line 15).
+Applied set_property DONT_TOUCH = true for i_ps/system_i/system_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for i_ps/system_i/system_i/processing_system7_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1416.562 ; gain = 487.555 ; free physical = 904 ; free virtual = 3564
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "dac_pwm_bcnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "dac_pwm_va0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "adc_temp_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_pint_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_paux_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_bram_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_int_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_aux_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_ddr_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_v_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_b_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_c_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_a_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_d_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "led_reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_p_dat_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_p_dir_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_n_dat_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_n_dir_o" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1416.562 ; gain = 487.555 ; free physical = 891 ; free virtual = 3551
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 5     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               57 Bit    Registers := 1     
+	               32 Bit    Registers := 4     
+	               16 Bit    Registers := 4     
+	               14 Bit    Registers := 4     
+	               12 Bit    Registers := 14    
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 15    
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 15    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 22    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module red_pitaya_top 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module axi_slave 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               12 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module red_pitaya_analog 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 5     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 4     
+	               14 Bit    Registers := 4     
+	               12 Bit    Registers := 12    
+	                8 Bit    Registers := 10    
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 15    
+Module red_pitaya_hk 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	               57 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 5     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "dac_pwm_bcnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_a_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_b_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_c_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_d_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_v_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_temp_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_pint_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_paux_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_bram_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_int_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_aux_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adc_ddr_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "led_reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_p_dat_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_p_dir_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_n_dat_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_n_dir_o" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3917] design red_pitaya_top has port adc_clk_o[1] driven by constant 1
+WARNING: [Synth 8-3917] design red_pitaya_top has port adc_clk_o[0] driven by constant 0
+WARNING: [Synth 8-3917] design red_pitaya_top has port adc_cdcs_o driven by constant 1
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_ba_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_bb_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_bc_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_bd_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_va_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_va_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_va_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_va_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_va_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_va_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_va_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_va_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vb_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vb_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vb_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vb_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vb_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vc_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vc_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vc_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vc_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vc_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vc_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vc_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vc_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vd_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vd_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vd_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vd_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vd_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vd_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vd_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vd_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_ps/i_gp0_slave/\axi_rresp_o_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_ps/i_gp0_slave/\axi_bresp_o_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_a_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_b_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_a_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_b_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_a_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_b_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_a_reg[3] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_b_reg[3] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_a_reg[4] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_b_reg[4] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_a_reg[5] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_b_reg[5] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_a_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_b_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_a_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_b_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_a_reg[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_b_reg[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_a_reg[9] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_b_reg[9] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_a_reg[10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_b_reg[10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_a_reg[11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_b_reg[11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_a_reg[12] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_analog/\dac_dat_b_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_dat_a_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_dat_b_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_ba_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_bb_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_bc_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_bd_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_va_r_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vb_r_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vc_r_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vd_r_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_va_r_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_va_r_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_va_r_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_va_r_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_va_r_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_va_r_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vb_r_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vb_r_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vb_r_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vb_r_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vb_r_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vb_r_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vc_r_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vc_r_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vc_r_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vc_r_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vc_r_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vc_r_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vd_r_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vd_r_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vd_r_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vd_r_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vd_r_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_vd_r_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_ba_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_analog/\dac_pwm_bb_reg[13] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (axi_bresp_o_reg[0]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (axi_rresp_o_reg[0]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_awaddr_reg[31]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_awaddr_reg[30]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_awaddr_reg[29]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_awaddr_reg[28]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_awaddr_reg[27]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_awaddr_reg[26]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_awaddr_reg[25]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_awaddr_reg[24]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_awaddr_reg[23]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (rd_araddr_reg[31]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (rd_araddr_reg[30]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (rd_araddr_reg[29]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (rd_araddr_reg[28]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (rd_araddr_reg[27]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (rd_araddr_reg[26]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (rd_araddr_reg[25]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (rd_araddr_reg[24]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (rd_araddr_reg[23]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[31]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[30]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[29]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[28]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[27]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[26]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[25]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[24]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[23]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[22]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[21]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[20]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[19]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[18]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[17]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[16]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[15]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[14]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[13]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[12]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[11]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[10]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[9]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (wr_wdata_reg[8]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (sys_sel_o_reg[3]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (sys_sel_o_reg[2]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (sys_sel_o_reg[1]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (sys_sel_o_reg[0]) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (sys_ren_o_reg) is unused and will be removed from module axi_slave.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_bcnt_reg[3]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_bcnt_reg[2]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_bcnt_reg[1]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_bcnt_reg[0]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_ba_reg[15]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_ba_reg[14]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_ba_reg[13]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_ba_reg[12]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_ba_reg[11]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_ba_reg[10]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_ba_reg[9]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_ba_reg[8]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_ba_reg[7]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_ba_reg[6]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_ba_reg[5]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_ba_reg[4]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_ba_reg[3]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_ba_reg[2]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_ba_reg[1]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_ba_reg[0]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_va_reg[7]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_va_reg[6]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_va_reg[5]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_va_reg[4]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_va_reg[3]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_va_reg[2]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_va_reg[1]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_va_reg[0]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_va_r_reg[7]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_va_r_reg[6]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_va_r_reg[5]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_va_r_reg[4]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_va_r_reg[3]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_va_r_reg[2]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_va_r_reg[1]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_va_r_reg[0]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_bb_reg[15]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_bb_reg[14]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_bb_reg[13]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_bb_reg[12]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_bb_reg[11]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_bb_reg[10]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_bb_reg[9]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_bb_reg[8]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_bb_reg[7]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_bb_reg[6]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_bb_reg[5]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_bb_reg[4]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_bb_reg[3]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_bb_reg[2]) is unused and will be removed from module red_pitaya_analog.
+WARNING: [Synth 8-3332] Sequential element (dac_pwm_bb_reg[1]) is unused and will be removed from module red_pitaya_analog.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1416.566 ; gain = 487.559 ; free physical = 876 ; free virtual = 3536
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1572.559 ; gain = 643.551 ; free physical = 693 ; free virtual = 3352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1599.574 ; gain = 670.566 ; free physical = 665 ; free virtual = 3325
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1607.582 ; gain = 678.574 ; free physical = 657 ; free virtual = 3317
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1607.586 ; gain = 678.578 ; free physical = 657 ; free virtual = 3316
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1607.586 ; gain = 678.578 ; free physical = 657 ; free virtual = 3316
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1607.586 ; gain = 678.578 ; free physical = 657 ; free virtual = 3316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BIBUF     |   130|
+|2     |BUFG      |    14|
+|3     |CARRY4    |    11|
+|4     |DNA_PORT  |     1|
+|5     |LUT1      |   402|
+|6     |LUT2      |    25|
+|7     |LUT3      |    33|
+|8     |LUT4      |    55|
+|9     |LUT5      |    33|
+|10    |LUT6      |    90|
+|11    |ODDR      |    18|
+|12    |PLLE2_ADV |     1|
+|13    |PS7       |     1|
+|14    |XADC      |     1|
+|15    |FDRE      |   373|
+|16    |IBUF      |     8|
+|17    |IBUFDS    |     2|
+|18    |IBUFGDS   |     1|
+|19    |IOBUF     |    16|
+|20    |OBUF      |    33|
+|21    |OBUFDS    |     2|
++------+----------+------+
+
+Report Instance Areas: 
++------+-----------------------------+-------------------------------------------+------+
+|      |Instance                     |Module                                     |Cells |
++------+-----------------------------+-------------------------------------------+------+
+|1     |top                          |                                           |  1250|
+|2     |  i_ps                       |red_pitaya_ps                              |   651|
+|3     |    system_i                 |system_wrapper                             |   487|
+|4     |      system_i               |system                                     |   487|
+|5     |        processing_system7_0 |system_processing_system7_0_0              |   487|
+|6     |          inst               |processing_system7_v5_5_processing_system7 |   487|
+|7     |    i_gp0_slave              |axi_slave                                  |   160|
+|8     |  i_analog                   |red_pitaya_analog                          |   191|
+|9     |  i_hk                       |red_pitaya_hk                              |   297|
+|10    |  i_daisy                    |red_pitaya_daisy                           |     4|
++------+-----------------------------+-------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1607.586 ; gain = 678.578 ; free physical = 657 ; free virtual = 3316
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 460 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1607.586 ; gain = 297.496 ; free physical = 657 ; free virtual = 3316
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1607.590 ; gain = 678.582 ; free physical = 658 ; free virtual = 3318
+INFO: [Project 1-571] Translating synthesized netlist
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'i_analog/XADC_inst' of type 'XADC' is '7SERIES'; it is being changed to match the current FPGA architecture, 'ZYNQ'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist. 
+INFO: [Netlist 29-17] Analyzing 60 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 2 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 19 instances were transformed.
+  IBUFGDS => IBUFDS: 1 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 16 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+217 Infos, 316 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1607.590 ; gain = 611.078 ; free physical = 657 ; free virtual = 3316
+INFO: [Common 17-1381] The checkpoint '/home/nico/Physique/RedPitaya/blink_example/red_pitaya/red_pitaya.runs/synth_1/red_pitaya_top.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.07 . Memory (MB): peak = 1631.598 ; gain = 0.000 ; free physical = 655 ; free virtual = 3315
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  1 18:40:33 2017...

@@ -1,0 +1,26 @@
+======================================================================
+====   Data transfer report  2024-04-29 12:12:27 =====================
+======================================================================
+
+
+Current ADC speed:	5000000
+
+
+Lost data during transfer by UDP network:	0
+Lost data due to file write buffer overflow:	0
+Loss of data due to lack of memory:	0
+
+Total amount of data transferred:
+	-32768b 
+	-32kb 
+	-0Mb 
+
+The total amount of data transmitted on: Channel 1
+	-16384 Samples
+	-32768b 
+	-32kb 
+	-0Mb 
+	Lost data on: Channel 1
+	- FPGA:0 Samples
+	- INTERNAL_BUFFER:0 Samples
+

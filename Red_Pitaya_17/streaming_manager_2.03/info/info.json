@@ -1,0 +1,6 @@
+{
+    "name": "Data stream control",
+    "version": "2.00-30",
+    "revision": "73ff4bc8f",
+    "description": "Enable server for stream data from ADC to file or TCP/IP"
+}

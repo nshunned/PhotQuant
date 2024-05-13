@@ -1,0 +1,77 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Apr 13 23:24:59 2020
+# Process ID: 2645
+# Current directory: /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project
+# Command line: vivado redpitaya.xpr
+# Log file: /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/vivado.log
+# Journal file: /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project redpitaya.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'brd'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+[Mon Apr 13 23:27:44 2020] Launched system_axi_protocol_converter_0_0_synth_1, system_proc_sys_reset_0_synth_1, system_processing_system7_0_synth_1, system_xadc_0_synth_1, system_xlconstant_0_synth_1...
+Run output will be captured here:
+system_axi_protocol_converter_0_0_synth_1: /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/redpitaya.runs/system_axi_protocol_converter_0_0_synth_1/runme.log
+system_proc_sys_reset_0_synth_1: /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/redpitaya.runs/system_proc_sys_reset_0_synth_1/runme.log
+system_processing_system7_0_synth_1: /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/redpitaya.runs/system_processing_system7_0_synth_1/runme.log
+system_xadc_0_synth_1: /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/redpitaya.runs/system_xadc_0_synth_1/runme.log
+system_xlconstant_0_synth_1: /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/redpitaya.runs/system_xlconstant_0_synth_1/runme.log
+[Mon Apr 13 23:27:45 2020] Launched synth_1...
+Run output will be captured here: /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/redpitaya.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Mon Apr 13 23:29:45 2020] Launched impl_1...
+Run output will be captured here: /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/redpitaya.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Apr 13 23:31:45 2020] Launched impl_1...
+Run output will be captured here: /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/redpitaya.runs/impl_1/runme.log
+close_project
+open_project /media/sf_XilinxUbuntuVMShare/RedPitaya-master/fpga/prj/v0.94/project/redpitaya.xpr
+INFO: [Project 1-313] Project file moved from '/home/ise/XilinxISE_VM/RedPitaya-master/fpga/prj/v0.94/project' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'brd'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.2/data/ip'.
+update_compile_order -fileset sources_1
+reset_run system_axi_protocol_converter_0_0_synth_1
+reset_run system_proc_sys_reset_0_synth_1
+reset_run system_processing_system7_0_synth_1
+reset_run system_xadc_0_synth_1
+reset_run system_xlconstant_0_synth_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+[Mon Apr 13 23:49:58 2020] Launched system_axi_protocol_converter_0_0_synth_1, system_proc_sys_reset_0_synth_1, system_processing_system7_0_synth_1, system_xadc_0_synth_1, system_xlconstant_0_synth_1, synth_1...
+Run output will be captured here:
+system_axi_protocol_converter_0_0_synth_1: /media/sf_XilinxUbuntuVMShare/RedPitaya-master/fpga/prj/v0.94/project/redpitaya.runs/system_axi_protocol_converter_0_0_synth_1/runme.log
+system_proc_sys_reset_0_synth_1: /media/sf_XilinxUbuntuVMShare/RedPitaya-master/fpga/prj/v0.94/project/redpitaya.runs/system_proc_sys_reset_0_synth_1/runme.log
+system_processing_system7_0_synth_1: /media/sf_XilinxUbuntuVMShare/RedPitaya-master/fpga/prj/v0.94/project/redpitaya.runs/system_processing_system7_0_synth_1/runme.log
+system_xadc_0_synth_1: /media/sf_XilinxUbuntuVMShare/RedPitaya-master/fpga/prj/v0.94/project/redpitaya.runs/system_xadc_0_synth_1/runme.log
+system_xlconstant_0_synth_1: /media/sf_XilinxUbuntuVMShare/RedPitaya-master/fpga/prj/v0.94/project/redpitaya.runs/system_xlconstant_0_synth_1/runme.log
+synth_1: /media/sf_XilinxUbuntuVMShare/RedPitaya-master/fpga/prj/v0.94/project/redpitaya.runs/synth_1/runme.log
+[Mon Apr 13 23:49:59 2020] Launched impl_1...
+Run output will be captured here: /media/sf_XilinxUbuntuVMShare/RedPitaya-master/fpga/prj/v0.94/project/redpitaya.runs/impl_1/runme.log
+close_project
+open_project /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/redpitaya.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'brd'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.2/data/ip'.
+update_compile_order -fileset sources_1
+ERROR: [Vivado 12-106] *** Exception: java.lang.ClassCastException: sun.awt.image.BufImgSurfaceData cannot be cast to sun.java2d.xr.XRSurfaceData (See /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/vivado_pid2645.debug)
+ERROR: [Vivado 12-106] *** Exception: java.lang.ClassCastException: sun.awt.image.BufImgSurfaceData cannot be cast to sun.java2d.xr.XRSurfaceData (See /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/vivado_pid2645.debug)
+ERROR: [Vivado 12-106] *** Exception: java.lang.ClassCastException: sun.awt.image.BufImgSurfaceData cannot be cast to sun.java2d.xr.XRSurfaceData (See /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/vivado_pid2645.debug)
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 14 11:04:01 2020...

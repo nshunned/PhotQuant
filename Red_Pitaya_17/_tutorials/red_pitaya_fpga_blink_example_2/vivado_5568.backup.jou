@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2017.3.1 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2034413 on Fri Oct 20 15:56:25 MDT 2017
+# Start of session at: Wed Mar  7 09:29:50 2018
+# Process ID: 5568
+# Current directory: S:/Programmation/RedPitaya/blink_example/red_pitaya
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5548 S:\Programmation\RedPitaya\blink_example\red_pitaya\red_pitaya.xpr
+# Log file: S:/Programmation/RedPitaya/blink_example/red_pitaya/vivado.log
+# Journal file: S:/Programmation/RedPitaya/blink_example/red_pitaya\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project S:/Programmation/RedPitaya/blink_example/red_pitaya/red_pitaya.xpr

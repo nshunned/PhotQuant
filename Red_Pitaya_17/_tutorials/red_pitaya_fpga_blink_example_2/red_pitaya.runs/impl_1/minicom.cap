@@ -1,0 +1,1320 @@
+[Als
+proxy
+scgi
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck
+root@rp-f03e71:/tmp# imlsls
+proxy
+scgi
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck
+root@rp-f03e71:/tmp# ls
+proxy
+scgi
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck
+root@rp-f03e71:/tmp# ls
+-bash: $'\212ls': command not found
+root@rp-f03e71:/tmp# äls**00000000000000älsls
+proxy
+scgi
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck
+root@rp-f03e71:/tmp# ls
+proxy
+scgi
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck
+root@rp-f03e71:/tmp# root@rp-f03e71:/tmp# # Vivado(TM)
+root@rp-f03e71:/tmp# 
+root@rp-f03e71:/tmp# # htr.txt: a Vivado-generated description of how-to-repeat  the
+root@rp-f03e71:/tmp# 
+root@rp-f03e71:/tmp# #          the basic steps of a run.  Note that runme.bat/s h needs
+root@rp-f03e71:/tmp# 
+root@rp-f03e71:/tmp# #          to be invoked for Vivado to track run status.
+root@rp-f03e71:/tmp# 
+root@rp-f03e71:/tmp# # Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+root@rp-f03e71:/tmp# 
+root@rp-f03e71:/tmp# #
+root@rp-f03e71:/tmp# 
+root@rp-f03e71:/tmp# 
+root@rp-f03e71:/tmp# 
+root@rp-f03e71:/tmp# vivado -log red_pitaya_top.vdi -applog -m64 -product Vivado  -messageDb vivado.pb -mode batch -source red_pitaya_top.tcl -notrace
+-bash: vivado: command not found
+root@rp-f03e71:/tmp# 
+root@rp-f03e71:/tmp# #
+root@rp-f03e71:/tmp# # Vivado(TM)
+root@rp-f03e71:/tmp# # htr.txt: a Vivado-generated description of how-to-repeat  the
+root@rp-f03e71:/tmp# #          the basic steps of a run.  Note that runme.bat/s h needs
+root@rp-f03e71:/tmp# #          to be invoked for Vivado to track run status.
+root@rp-f03e71:/tmp# # Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+root@rp-f03e71:/tmp# #
+root@rp-f03e71:/tmp# 
+root@rp-f03e71:/tmp# vivado -log red_pitaya_top.vdi -applog -m64 -product Vivado  -messageDb vivado.pb -mode batch -source red_pitaya_top.tcl -notrace
+-bash: vivado: command not found
+root@rp-f03e71:/tmp# cat > etest
+#
+# Vivado(TM)
+# htr.txt: a Vivado-generated description of how-to-repeat the
+#          the basic steps of a run.  Note that runme.bat/sh needs
+#          to be invoked for Vivado to track run status.
+# Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+#
+
+vivado -log red_pitaya_top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source red_pitaya_top.tcl -notrace
+root@rp-f03e71:/tmp# cat test 
+#
+# Vivado(TM)
+# htr.txt: a Vivado-generated description of how-to-repeat the
+#          the basic steps of a run.  Note that runme.bat/sh needs
+#          to be invoked for Vivado to track run status.
+# Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+#
+
+vivado -log red_pitaya_top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source red_pitaya_top.tcl -notrace
+root@rp-f03e71:/tmp# mdcat test 
+#
+# Vivado(TM)
+# htr.txt: a Vivado-generated description of how-to-repeat the
+#          the basic steps of a run.  Note that runme.bat/sh needs
+#          to be invoked for Vivado to track run status.
+# Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+#
+
+vivado -log red_pitaya_top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source red_pitaya_top.tcl -notrace
+root@rp-f03e71:/tmp# md5sum test 
+edfac8437e9fe86951e305af26ebc976  test
+root@rp-f03e71:/tmp# md5sum test cat> test
+a^H^C
+root@rp-f03e71:/tmp# cat > test
+§`Âˇñ$B@!ïÔ∑^H˘ı∞ºó             ÙÎ–ãk-∂\^WË*ÈÄÓ–+ﬂ9í©6–…8,^TlîWé˘ó^RHt^_8!“|Å^GF≠’æÑ¢’0^P~ '^C•∞ÌÍπ1^R/â”»Û^LﬂÇñ^Oo8´ü}ø%Fª∆_X“?ÿV˚   »••Úï…¡2y´^LY*ıNÂl¯∂ÿl{œ^O“^WhûÑ•lé!^@≥ùDÎ°Ô©Ù<Ø≥w#^Hç∆C»t¢¢<ù5ù√æ…5Æ8^B¯&◊In^@™‡”^[^Y1˘ˇ.ÈB™Ûè—∞¿^]W ^EÚ¸Wæ›o∂¿”^ZD^\=1ºé^PﬂÍ“Ûm!K|É-(^PÏåâä”Áwi{–ä¬®ã"^B^V^E√˘ñ›p§æ^[Ÿ2b„≠Ä2EfZ≥’|∞ù´¥oi›¥í5^B∫¬«^OiﬂÈµ!€O±º5Ã˘~Ë^Y~r&hCÉ!:Å                                       ^Z^Z^H_‡Ÿ	C≥r^\WT^GÒÔÔ„úAﬁ¨…pE≈ÏçÆHœF ü˙˛˚“zy^G^@ÇºFÅU∆úMJÅÁâÌâ∞ÍNu˘ê|®Ux˘+xOı}=gÒŸ∏W^F7ÕÜ6B≥ÎÂ˛^Wn…®VØ1^P^PX◊€‡^Rıßp^B)d”æÌÊKFu=^\^N”ÓÈ?»)F"^_^P—l^[»ﬁE¶⁄m¢                         ^T¥@ûÙ/ ∫¶/Ω^YU^[ÃCa^T¬∆
+Û ÕÍÚkø0_vã»ÿ÷q]ü∑l^A“GGHF«q=^G±O#V^@€K£~æÔ
+å„IçÚÛ%Eá,6O—cTÇr	§M%¬a^Fé^X°m•È≤GÀpŒ¨G1‹{”≠¯ª◊ÿ§Ms^X*◊ê€‰Ñ¡)á+ëåi2Ω^X)ÙÉƒJ(©OÍ¯ck9^Aö^RC-”§^F§^@úÅö;k[nìcÙGì¶·›^]Ê^FEFÈ√i<0,vb‘B^^µ]•Ù™ãÚ>≤^H+g1 *Dá–¶–®É†®π¬Ω*&V                                               ZD;®»I¸€È^Rq=úZ®ﬂÄsmt
+öà⁄SL^GL•á5Lh^H°ÖˇJ^\Ö	à<¢%9^âÊQ´Î6ËŒ¸A"^Nü÷œ_^H©ÉA}^@^[¢æX◊≤^T—/]Q	6œj€∏@¢·uîÃ≤Zç ∏4ü^Héî’.v∆sX„^AbPÿsŸƒ^Vâæ˜ÚÀù!›ﬁ!µ˙^N⁄o|^EY^r‹:rÉ]¢Ôπ;lê^Xë¡]ªÈ¡ß©¨ó6Z„eA˛^Tx^Ró5^Z™¯£^@f+ô^F|Ùz~i:ô^T^\Úì
+:úoGxPÖÚ°≠·ùÎE÷…Õ†l˜·^Tœ^Y÷˜¢#Îî6‰>^≤r5 8‚ò∏Rÿ¢Üu^\p™~|Aìä^W∏˜ÑÍ˛˜£|ó^L3¡^A  ÷#ô‹G≤…·^Z˙©çhËøæNéÏŒâ%˘î«;'øI:cÔEEYµÁ«	Û≈u‡>
+ó#
+Y^@˛,)#ôaÈ^B#°9A^KNß	ˇ)—yÂzﬁy∑≈WêÄ^F^])å3ØÛF¯Ï‘Âë°Ê^Y?root@rp-f03e71:/tmp# ˜‡
+-bash: $'\367\340': command not found
+root@rp-f03e71:/tmp# >ó#
+root@rp-f03e71:/tmp# Y˛,)#ôa˛,)#ôÈa˛,)#ôÈ#°a˛,)#ôÈ#°9a˛,)#ôÈ#°9AaNßˇ)—yÂzﬁy∑≈WêÄå3ØÛF¯Ï‘Âë°aÊ?aa
+-bash: syntax error near unexpected token `)'
+root@rp-f03e71:/tmp# ls
+?#
+proxy
+scgi
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck
+test
+root@rp-f03e71:/tmp# cat test 
+root@rp-f03e71:/tmp# cat test lscat test lsY˛,)#ôÈ#°9ANßˇ)—yÂzﬁy∑≈WêÄå3ØÛF¯Ï‘Âë°aÊ?aa>ó#˜‡cat > testmd5sum test cat > test
+root@rp-f03e71:/tmp# cat > test
+adafpn
+root@rp-f03e71:/tmp# cat test 
+adafpn
+root@rp-f03e71:/tmp# cat test > test
+§`Âˇñ$B@!ïÔ∑^H˘ı∞ºó             ÙÎ–ãk-∂\^WË*ÈÄÓ–+ﬂ9í©6–…8,^TlîWé˘ó^RHt^_8!“|Å^GF≠’æÑ¢’0^P~ '^C•∞ÌÍπ1^R/â”»Û^LﬂÇñ^Oo8´ü}ø%Fª∆_X“?ÿV˚   »••Úï…¡2y´^LY*ıNÂl¯∂ÿl{œ^O“^WhûÑ•lé!^@≥ùDÎ°Ô©Ù<Ø≥w#^Hç∆C»t¢¢<ù5ù√æ…5Æ8^B¯&◊In^@™‡”^[^Y1˘ˇ.ÈB™Ûè—∞¿^ZD%›?*^\˜æ≈a^\=1ºé^PﬂÍ“Ûm!K|É-(^PÏåâä”Áwi{–ä¬®ã"^B^V^E√˘ñ›p§æ^[Ÿ2b„≠Ä2EfZ≥’|∞ù´¥oi›¥í5^B∫¬«^OiﬂÈµ!€O±º5Ã˘~Ë^Y~r&hCÉ!:Å                                       ^Z^H_‡Ÿ	C≥r(Z”≤åá!^\WT^GÒÔÔ„úAﬁ¨…pE≈ÏçÆHœF ü˙˛˚“zy^G^@ÇºFÅU∆úMJÅÁâÌâ∞ÍNu˘ê|®Ux˘+xOı}=gÒŸ∏W^F7ÕÜ6B≥ÎÂ˛^Wn…®VØ1^P^PX◊€‡^Rıßp^B^ZÅ	—n§^\^N”ÓÈ?»)F"^_^P—l^[»ﬁE¶⁄m¢                         ^T¥@ûÙ/ ∫¶/Ω^YU^[ÃCa^T¬∆
+Û ÕÍÚkø0_vã»ÿ÷q]ü∑l^A“GGHF«q=^G±O#V^@€K£~æÔå„Iç≤^R‘àô≤AqÙcTÇr	§M%¬a^Fé^X°m•È≤GÀpŒ¨G1‹{”≠¯ª◊ÿ§Ms^X*◊ê€‰Ñ¡)á+ëåi2Ω^X)ÙÉƒJ(©OÍ¯ck9^Aö^RC-”§^F§^@úÅö;k[nìcÙGì¶·›^]Ê^F
+EFÈ√i<0,vb‘B^^µ]•Ù™ãÚ>≤^H+g1 *Dá–¶–®É†®π¬Ω*&V                      BÑ		HEjBCó≈€È^Rq=úZ®ﬂÄsmt
+öà⁄SL^GL•á5Lh^H°ÖˇJ+Rg	^\Ö	à<¢%9^âÊQ´Î6ËŒ¸A"^Nü÷œ_^H©ÉA}^@^[¢æX◊≤^T—/]Q	6œj€∏@¢·uîÃ≤Zç ∏4ü^Héî’.v∆sX„^AbPÿsŸƒ^Vâæ˜ÚÀù!›ﬁ!µ˙^N⁄o|^EY^r‹:rÉ]¢Ôπ;lê^Xë¡]ªÈ¡ß©¨ó6Z„eA˛^Tx^Ró5VÙûn≈ÔË^G5ÂÅoZ(^TàyM9/^I∫∆)énï≤?^RùuË Ò§^]ﬁ^N?°0^TÑè^\Úì
+:úoGxPÖÚ°≠·ùÎE÷…Õ†l˜·^Tœ^Y÷˜¢#^\p™~|Aìä^W∏˜ÑÍ˛˜£|ó^L3¡^A  ÷#ô‹G≤…·/u^Z˙©çhËøæNéÏŒâ%˘î«;'øI:yq›‡>
+ó#
+Y^@˛,)#ôaÈ^B#°9A^KNß	ˇ)—yÂzﬁy∑≈WêÄ^F^])å3ØÛF¯Ï‘Âë°Ê^Y?root@rp-f03e71:/tmp# ˜‡
+-bash: $'\367\340': command not found
+root@rp-f03e71:/tmp# >ó#
+root@rp-f03e71:/tmp# Y˛,)#ôa˛,)#ôÈa˛,)#ôÈ#°a˛,)#ôÈ#°9a˛,)#ôÈ#°9AaNßˇ)—yÂzﬁy∑≈WêÄå3ØÛF¯Ï‘Âë°aÊ^C
+root@rp-f03e71:/tmp# ?ls
+-bash: ?ls: command not found
+root@rp-f03e71:/tmp# ls
+?#
+proxy
+scgi
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck
+test
+root@rp-f03e71:/tmp# cat test 
+root@rp-f03e71:/tmp# rm ?ls
+?#
+proxy
+scgi
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck
+test
+root@rp-f03e71:/tmp# rm "?
+ó#
+.font-unix/
+.ICE-unix/
+proxy/
+scgi/
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck/
+test
+.Test-unix/
+.X11-unix/
+.XIM-unix/
+root@rp-f03e71:/tmp# rm "
+ó#
+.font-unix/
+.ICE-unix/
+proxy/
+scgi/
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck/
+test
+.Test-unix/
+.X11-unix/
+.XIM-unix/
+root@rp-f03e71:/tmp# rm 
+ó#
+.font-unix/
+.ICE-unix/
+proxy/
+scgi/
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck/
+test
+.Test-unix/
+.X11-unix/
+.XIM-unix/
+root@rp-f03e71:/tmp# rm 
+ó#
+.font-unix/
+.ICE-unix/
+proxy/
+scgi/
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck/
+test
+.Test-unix/
+.X11-unix/
+.XIM-unix/
+root@rp-f03e71:/tmp# rm ls
+?#
+proxy
+scgi
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck
+test
+root@rp-f03e71:/tmp# ls
+?#
+proxy
+scgi
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck
+test
+root@rp-f03e71:/tmp# cat \\\?'
+ó#
+.font-unix/
+.ICE-unix/
+proxy/
+scgi/
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck/
+test
+.Test-unix/
+.X11-unix/
+.XIM-unix/
+root@rp-f03e71:/tmp# cat 'ls
+?#
+proxy
+scgi
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck
+test
+root@rp-f03e71:/tmp# ls -la
+total 40
+drwxrwxrwt 10 root root 4096 Feb 23 15:00 .
+drwxr-xr-x 21 root root 4096 Feb 23  2017 ..
+-rw-r--r--  1 root root    0 Feb 23 15:01 ?#
+drwxrwxrwt  2 root root 4096 Feb 23 14:41 .font-unix
+drwxrwxrwt  2 root root 4096 Feb 23 14:41 .ICE-unix
+drwx------  2 root root 4096 Feb 23 14:41 proxy
+drwx------  2 root root 4096 Feb 23 14:41 scgi
+srwxr-xr-x  1 root root    0 Feb 23 14:41 shell.sock
+drwx------  3 root root 4096 Feb 23 14:41 systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck
+-rw-r--r--  1 root root    0 Feb 23 15:01 test
+drwxrwxrwt  2 root root 4096 Feb 23 14:41 .Test-unix
+drwxrwxrwt  2 root root 4096 Feb 23 14:41 .X11-unix
+drwxrwxrwt  2 root root 4096 Feb 23 14:41 .XIM-unix
+root@rp-f03e71:/tmp# rm ?#
+rm: remove regular empty file ''$'\227''#'? yes
+root@rp-f03e71:/tmp# ls
+proxy
+scgi
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck
+test
+root@rp-f03e71:/tmp# [Alsrm ?#ls -lacat test ls?ls>ó#˜‡cat > test
+aaa
+root@rp-f03e71:/tmp# cat test 
+aaa
+root@rp-f03e71:/tmp# cat test > test
+
+root@rp-f03e71:/tmp# ls
+proxy
+scgi
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck
+test
+root@rp-f03e71:/tmp# cat test 
+root@rp-f03e71:/tmp# ls -lah
+total 12K
+drwx------ 2 root root 4.0K Feb 23 14:41 proxy
+drwx------ 2 root root 4.0K Feb 23 14:41 scgi
+srwxr-xr-x 1 root root    0 Feb 23 14:41 shell.sock
+drwx------ 3 root root 4.0K Feb 23 14:41 systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck
+-rw-r--r-- 1 root root    0 Feb 23 15:02 test
+root@rp-f03e71:/tmp# ls -lhcat test lscat > test
+root@rp-f03e71:/tmp# ls
+proxy
+scgi
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck
+test
+root@rp-f03e71:/tmp# cls -lah
+total 12K
+drwx------ 2 root root 4.0K Feb 23 14:41 proxy
+drwx------ 2 root root 4.0K Feb 23 14:41 scgi
+srwxr-xr-x 1 root root    0 Feb 23 14:41 shell.sock
+drwx------ 3 root root 4.0K Feb 23 14:41 systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck
+-rw-r--r-- 1 root root    0 Feb 23 15:03 test
+root@rp-f03e71:/tmp# at cat > test
+§`Âˇñ$B@!ïÔ∑^H˘ı∞ºó             ÙÎ–ãk-∂\^WË*ÈÄÓ–+ﬂ9í©6–…8,^TlîWé˘ó^RHt^_8!“|Å^GF≠’æÑ¢’0^P~ '^C•∞ÌÍπ1^R/â”»Û^LﬂÇñ^Oo8´ü}ø%Fª∆_X“?ÿV˚   »••Úï…¡2y´^LY*ıNÂl¯∂ÿl{œ^O“^WhûÑ•lé!^@≥ùDÎ°Ô©Ù<Ø≥w#^Hç∆C»t¢¢<ù5ù√æ…5Æ8^B¯&◊In^@™‡”^[^Y1˘ˇ.ÈB™Ûè—∞¿^ZD%›?*åÄ^\˜æ^\=1ºé^PﬂÍ“Ûm!K|É-(^PÏåâä”Áwi{–ä¬®ã"^B^V^E√˘ñ›p§æ^[Ÿ2b„≠Ä2EfZ≥’|∞ù´¥oi›¥í5^B∫¬«^OiﬂÈµ!€O±º5Ã˘~Ë^Y~r&hCÉ!:Å                                      ^ZÕ∞tüúµsë◊G<N^\WT^GÒÔÔ„úAﬁ¨…pE≈ÏçÆHœF ü˙˛˚“zy^G^@ÇºFÅU∆úMJÅÁâÌâ∞ÍNu˘ê|®Ux˘+xOı}=gÒŸ∏W^F7ÕÜ6B≥ÎÂ˛^Wn…®VØ1^P^PX◊€‡^Rıßp^B)d”æÌÊ^ZÅ	—n^\^N”ÓÈ?»)F"^_^P—l^[»ﬁE¶⁄m¢                         ^T¥@ûÙ/ ∫¶/Ω^YU^[ÃCa^T¬∆
+Û ÕÍÚkø0_vã»ÿ÷q]ü∑l^A“GGHF«q=^G±O#V^@€K£~æÔå„Iç≤^R‘àô„≤AqÙ„Q	ì%"kUy9ÛaÖkïK≤GÀpŒ¨G1‹{”≠¯ª◊ÿ§Ms^X*◊ê€‰Ñ
+¡)á+ëåi2Ω^X)ÙÉƒJ(©OÍ¯ck9^Aö^RC-”§^F§^@úÅö;k[nìcÙGì¶·›^]Ê^FEFÈ√i<0,vb‘B^^µ]•Ù™ãÚ>≤^H+g1 *Dá–¶–®É†®π¬Ω*&V                        HEjBCó≈€È^Rq=úZ®ﬂÄsmt
+öà⁄SL^GL•á5Lh^H°ÖˇJ+Rg	^[í∏X^\Ö	à<¢%9^âÊQ´Î6ËŒ¸A"^Nü÷œ_^H©ÉA}^@^[¢æX◊root@rp-f03e71:/tmp# Öà<¢%9^âÊQ´Î6ËŒ¸A"ü÷œ_©ÉA}æX◊≤Öà<¢%9^âÊQ´Î6ËŒ¸A"ü÷_©ÉA}æ◊≤X—/]Q6œj€∏@¢·uîÃ≤Zç∏> Úì˜
+> ‡>ó#
+> Y˛,)#ôa˛,)#ôÈa˛,)#ôÈ#°a˛,)#ôÈ#°9a˛,)#ôÈ#°9AaNßˇ)—yÂzﬁy∑≈WêÄå3ØÛF¯Ï‘Âë°aÊ^C
+root@rp-f03e71:/tmp# ?cat cat test 
+root@rp-f03e71:/tmp# cat test „™¯£f+ôà|Ùz~i:<¢%9^âÊQ´Î6ËŒ¸A"ü÷_©ÉA}æ◊≤X—/]Q6œj€∏@¢·uîÃ≤Z∏4éî’..v∆sX
+Úì˜
+‡>ó#cat > test
+
+
+ls -lhcat > test„™¯£f+ôà|Ùz~i:<¢%9^âÊQ´Î6ËŒ¸A"ü÷_©ÉA}æ◊≤X—/]Q6œj€∏@¢·uîÃ≤Z∏4éî’..v∆sX
+Úì˜
+‡>ó#cat test 
+
+
+
+root@rp-f03e71:/tmp# cat test ls
+-bash: $'\212ls': command not found
+root@rp-f03e71:/tmp# ls
+proxy
+scgi
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck
+test
+root@rp-f03e71:/tmp# ls -l
+total 12
+drwx------ 2 root root 4096 Feb 23 14:41 proxy
+drwx------ 2 root root 4096 Feb 23 14:41 scgi
+srwxr-xr-x 1 root root    0 Feb 23 14:41 shell.sock
+drwx------ 3 root root 4096 Feb 23 14:41 systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck
+-rw-r--r-- 1 root root    0 Feb 23 15:05 test
+root@rp-f03e71:/tmp# cat test 
+root@rp-f03e71:/tmp# r
+ranlib        realpath      return        rnano         runcon
+raw           reboot        rev           ro            runlevel
+rbash         recv_image    rfddump       routef        run-mailcap
+rcp           remove-shell  rfdformat     routel        run-parts
+read          rename        rgrep         rpcgen        runuser
+readarray     rename.ul     rlogin        rsh           rview
+readelf       renice        rm            rtacct        rvim
+readlink      reset         rmdir         rtcwake       rw
+readonly      resize2fs     rmt           rtmon         
+readprofile   resizepart    rmt-tar       rtstat        
+root@rp-f03e71:/tmp# rz 
+.font-unix/
+.ICE-unix/
+proxy/
+scgi/
+shell.sock
+systemd-private-19223da58cff4a969546d933c19f80a7-systemd-timesyncd.service-Vzqyck/
+test
+.Test-unix/
+.X11-unix/
+.XIM-unix/
+root@rp-f03e71:/tmp# rz 
+-bash: rz: command not found
+root@rp-f03e71:/tmp# szapt-get  update
+0% [Working]0% [Connecting to ports.ubuntu.com] [Connecting to ppa.launchpad.net]0% [Connecting to ports.ubuntu.com] [Connecting to ppa.launchpad.net]0% [Connecting to ports.ubuntu.com] [Connecting to ppa.launchpad.net]0% [Connecting to ports.ubuntu.com] [Connecting to ppa.launchpad.net]0% [Connecting to ports.ubuntu.com] [Connecting to ppa.launchpad.net]0% [Connecting to ports.ubuntu.com] [Connecting to ppa.launchpad.net]0% [Connecting to ports.ubuntu.com] [Connecting to ppa.launchpad.net]0% [Connecting to ports.ubuntu.com] [Connecting to ppa.launchpad.net]^C
+root@rp-f03e71:/tmp# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:26:32:f0:3e:71 brd ff:ff:ff:ff:ff:ff
+    inet 169.254.130.164/16 brd 169.254.255.255 scope link eth0
+       valid_lft forever preferred_lft forever
+3: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default 
+    link/sit 0.0.0.0 brd 0.0.0.0
+root@rp-f03e71:/tmp# ip
+ip                 ipcmk              iptables-restore   ipython
+ip6tables          ipcrm              iptables-save      ipython3
+ip6tables-apply    ipcs               iptables-xml       
+ip6tables-restore  iptables           iptest             
+ip6tables-save     iptables-apply     iptest3            
+root@rp-f03e71:/tmp# ip link set a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc pfifo_fast state DOWN group default qlen 1000
+    link/ether 00:26:32:f0:3e:71 brd ff:ff:ff:ff:ff:ff
+3: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default 
+    link/sit 0.0.0.0 brd 0.0.0.0
+root@rp-f03e71:/tmp# ip link set teth0 adress b8:27:eb:84:3d:4f
+Error: either "dev" is duplicate, or "adress" is a garbage.
+root@rp-f03e71:/tmp# ip link set eth0 adress b8:27:eb:84:3d:4fd
+RTNETLINK answers: Device or resource busy
+root@rp-f03e71:/tmp# ip link eset teeth0 down
+root@rp-f03e71:/tmp# ip link set eth0 downaddress b8:27:eb:84:3d:4f
+root@rp-f03e71:/tmp# ip addr
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST> mtu 1500 qdisc pfifo_fast state DOWN group default qlen 1000
+    link/ether b8:27:eb:84:3d:4f brd ff:ff:ff:ff:ff:ff
+3: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default 
+    link/sit 0.0.0.0 brd 0.0.0.0
+root@rp-f03e71:/tmp# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST> mtu 1500 qdisc pfifo_fast state DOWN group default qlen 1000
+    link/ether b8:27:eb:84:3d:4f brd ff:ff:ff:ff:ff:ff
+3: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default 
+    link/sit 0.0.0.0 brd 0.0.0.0
+root@rp-f03e71:/tmp# dhc_ip link set ehtth0 up
+root@rp-f03e71:/tmp# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether b8:27:eb:84:3d:4f brd ff:ff:ff:ff:ff:ff
+3: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default 
+    link/sit 0.0.0.0 brd 0.0.0.0
+root@rp-f03e71:/tmp# reboot 
+[  OK  ] Stopped target Graphical Interface.
+[  OK  ] Stopped target MulÙ         Stopping LSB: Set the CPU Frequency Scaling governor to "ondemand"...
+         Stopping OpenBSD Secure Shell server...
+         Stopping Jupyter notebook server...
+         Stopping Customized Nginx web server for Red Pitaya applications...
+         Stopping D-Bus System Message Bus...
+[  OK  ] Stopped target Timers.
+         Stopping Login Service...
+[  OK  ] Stopped Daily Cleanup of Temporary Directories.
+[  OK  ] Stopped Login Service.
+[  OK  ] Stopped OpenBSD Secure Shell server.
+[  OK  ] Stopped Avahi mDNS/DNS-SD Stack.
+[  OK  ] Stopped Getty on tty1.
+[  OK  ] Stopped Serial Getty on ttyPS0.
+[  OK  ] Stopped Daily apt activities.
+[  OK  ] Stopped D-Bus System Message Bus.
+[  OK  ] Stopped Jupyter notebook server.
+[  OK  ] Stopped Customized Nginx web server for Red Pitaya applications.
+[  OK  ] Stopped LSB: Set the CPU Frequency Scaling governor to "ondemand".
+         Stopping sockproc enables Lua running shell scripts...
+[  OK  ] Stopped Daily apt activities.
+[  OK  ] Stopped target System Time Synchronized.
+[  OK  ] Removed slice system-serial\x2dgetty.slice.
+[  OK  ] Removed slice system-getty.slice.
+         Stopping Permit User Sessions...
+[  OK  ] Stopped /etc/rc.local Compatibility.
+[  OK  ] Stopped target Network is Online.
+         Stopping Network Name Resolution...
+[  OK  ] Stopped sockproc enables Lua running shell scripts.
+[  OK  ] Stopped Network Name Resolution.
+[  OK  ] Stopped Permit User Sessions.
+[  OK  ] Stopped target Remote File Systems.
+[  OK  ] Stopped target Remote File Systems (Pre).
+[  OK  ] Stopped target Network.
+         Stopping Network Service...
+[  OK  ] Stopped target Basic System.
+[  OK  ] Stopped target Sockets.
+[  OK  ] Closed D-Bus System Message Bus Socket.
+[  OK  ] Closed Avahi mDNS/DNS-SD Stack Activation Socket.
+[  OK  ] Stopped target Slices.
+[  OK  ] Removed slice User and Session Slice.
+[  OK  ] Stopped target Paths.
+[  OK  ] Stopped Forward Password Requests to Wall Directory Watch.
+[  OK  ] Stopped Dispatch Password Requests to Console Directory Watch.
+[  OK  ] Stopped target System Initialization.
+         Stopping Restore / save the current clock...
+[  OK  ] Stopped target Encrypted Volumes.
+[  OK  ] Stopped target Swap.
+         Stopping Network Time Synchronization...
+         Stopping Load/Save Random Seed...
+[  OK  ] Stopped Network Time Synchronization.
+[  OK  ] Stopped Network Service.
+[  OK  ] Stopped Restore / save the current clock.
+[  OK  ] Stopped Load/Save Random Seed.
+[  OK  ] Stopped target Network (Pre).
+[  OK  ] Stopped Apply Kernel Variables.
+[  OK  ] Stopped Load Kernel Modules.
+[  OK  ] Stopped Create Volatile Files and Directories.
+[  OK  ] Stopped target Local File Systems.
+         Unmounting /boot...
+         Unmounting /opt/redpitaya...
+[  OK  ] Unmounted /boot.
+[  OK  ] Unmounted /opt/redpitaya.
+[  OK  ] Stopped File System Check on /dev/mmcblk0p1.
+[  OK  ] Removed slice system-systemd\x2dfsck.slice.
+[  OK  ] Reached target Unmount All Filesystems.
+[  OK  ] Stopped target Local File Systems (Pre).
+[  OK  ] Stopped Create Static Device Nodes in /dev.
+[  OK  ] Stopped Remount Root and Kernel File Systems.
+[  OK  ] Reached target Shutdown.
+reboot: Restarting system˛
+
+U-Boot 2016.07 (Feb 23 2017 - 12:35:13 +0100), Build: jenkins-redpitaya-master-336
+
+Model: Red Pitaya Board
+Board: Xilinx Zynq
+I2C:   ready
+DRAM:  ECC disabled 480 MiB
+I2C:EEPROM selection failed
+MMC:   sdhci@e0100000: 0
+In:    serial@e0000000
+Out:   serial@e0000000
+Err:   serial@e0000000
+Model: Red Pitaya Board
+Board: Xilinx Zynq
+Net:   ZYNQ GEM: e000b000, phyaddr 1, interface rgmii-id
+eth0: ethernet@e000b000
+Hit any key to stop autoboot:  3  2  1  0 
+Running script from SD...
+Device: sdhci@e0100000
+Manufacturer ID: 27
+OEM: 5048
+Name: SD16G 
+Tran Speed: 50000000
+Rd Block Len: 512
+SD version 3.0
+High Capacity: Yes
+Capacity: 14.5 GiB
+Bus Width: 4-bit
+Erase Group Size: 512 Bytes
+reading u-boot.scr
+1203 bytes read in 16 ms (73.2 KiB/s)
+## Executing script at 02000000
+Set devicetree and ramdisk high loading address to 0x20000000
+Loading from SD card (FAT file system) to memory
+Device: sdhci@e0100000
+Manufacturer ID: 27
+OEM: 5048
+Name: SD16G 
+Tran Speed: 50000000
+Rd Block Len: 512
+SD version 3.0
+High Capacity: Yes
+Capacity: 14.5 GiB
+Bus Width: 4-bit
+Erase Group Size: 512 Bytes
+reading uImage
+4630192 bytes read in 263 ms (16.8 MiB/s)
+reading devicetree.dtb
+22562 bytes read in 17 ms (1.3 MiB/s)
+Booting Linux kernel with ramdisk and devicetree
+## Booting kernel from Legacy Image at 02004000 ...
+   Image Name:   Linux-4.4.0-xilinx
+   Image Type:   ARM Linux Kernel Image (uncompressed)
+   Data Size:    4630128 Bytes = 4.4 MiB
+   Load Address: 00008000
+   Entry Point:  00008000
+   Verifying Checksum ... OK
+## Flattened Device Tree blob at 04000000
+   Booting using the fdt blob at 0x4000000
+   Loading Kernel Image ... OK
+   Loading Device Tree to 1cb3a000, end 1cb42821 ... OK
+
+Starting kernel ...
+
+Booting Linux on physical CPU 0x0
+Linux version 4.4.0-xilinx (jenkins@dragon) (gcc version 5.2.1 20151005 (Linaro GCC 5.2-2015.11-2) ) #1 SMP PREEMPT Thu Feb 23 12:21:44 CET 2017
+CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=18c5387d
+CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Machine model: xlnx,zynq-7000
+Reserved memory: created CMA memory pool at 0x1d000000, size 16 MiB
+Reserved memory: initialized node linux,cma, compatible id shared-dma-pool
+Memory policy: Data cache writealloc
+PERCPU: Embedded 12 pages/cpu @dcc06000 s19328 r8192 d21632 u49152
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 121920
+Kernel command line: console=ttyPS0,115200 root=/dev/mmcblk0p2 ro rootfstype=ext4 earlyprintk rootwait uio_pdrv_genirq.of_id=generic-uio
+PID hash table entries: 2048 (order: 1, 8192 bytes)
+Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+Memory: 428392K/491520K available (6280K kernel code, 404K rwdata, 2240K rodata, 276K init, 257K bss, 46744K reserved, 16384K cma-reserved, 0K highmem)
+Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+    vmalloc : 0xde800000 - 0xff800000   ( 528 MB)
+    lowmem  : 0xc0000000 - 0xde000000   ( 480 MB)
+    pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+    modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+      .text : 0xc0008000 - 0xc085a584   (8522 kB)
+      .init : 0xc085b000 - 0xc08a0000   ( 276 kB)
+      .data : 0xc08a0000 - 0xc09050e8   ( 405 kB)
+       .bss : 0xc09050e8 - 0xc0945794   ( 258 kB)
+Preemptible hierarchical RCU implementation.
+	Build-time adjustment of leaf fanout to 32.
+	RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=2.
+RCU: Adjusting geometry for rcu_fanout_leaf=32, nr_cpu_ids=2
+NR_IRQS:16 nr_irqs:16 16
+slcr mapped to de800000
+L2C: platform modifies aux control register: 0x72360000 -> 0x72760000
+L2C: DT/platform modifies aux control register: 0x72360000 -> 0x72760000
+L2C-310 erratum 769419 enabled
+L2C-310 enabling early BRESP for Cortex-A9
+L2C-310 full line of zeros enabled for Cortex-A9
+L2C-310 ID prefetch enabled, offset 1 lines
+L2C-310 dynamic clock gating enabled, standby mode enabled
+L2C-310 cache controller enabled, 8 ways, 512 kB
+L2C-310: CACHE_ID 0x410000c8, AUX_CTRL 0x76760001
+zynq_clock_init: clkc starts at de800100
+Zynq clock init
+sched_clock: 64 bits at 333MHz, resolution 3ns, wraps every 4398046511103ns
+clocksource: arm_global_timer: mask: 0xffffffffffffffff max_cycles: 0x4ce07af025, max_idle_ns: 440795209040 ns
+clocksource: ttc_clocksource: mask: 0xffff max_cycles: 0xffff, max_idle_ns: 537538477 ns
+timer #0 at de808000, irq=17
+Console: colour dummy device 80x30
+Calibrating delay loop... 1332.01 BogoMIPS (lpj=6660096)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+CPU: Testing write buffer coherency: ok
+CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Setting up static identity map for 0x8280 - 0x82d8
+CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+Brought up 2 CPUs
+SMP: Total of 2 processors activated (2664.03 BogoMIPS).
+CPU: All CPU(s) started in SVC mode.
+devtmpfs: initialized
+VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
+clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+pinctrl core: initialized pinctrl subsystem
+NET: Registered protocol family 16
+DMA: preallocated 256 KiB pool for atomic coherent allocations
+cpuidle: using governor ladder
+cpuidle: using governor menu
+hw-breakpoint: found 5 (+1 reserved) breakpoint and 1 watchpoint registers.
+hw-breakpoint: maximum watchpoint size is 4 bytes.
+zynq-ocm f800c000.ocmc: ZYNQ OCM pool: 256 KiB @ 0xde880000
+zynq-pinctrl 700.pinctrl: zynq pinctrl initialized
+vgaarb: loaded
+SCSI subsystem initialized
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+media: Linux media interface: v0.10
+Linux video capture interface: v2.00
+pps_core: LinuxPPS API ver. 1 registered
+pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+PTP clock support registered
+EDAC MC: Ver: 3.0.0
+FPGA manager framework
+Advanced Linux Sound Architecture Driver Initialized.
+clocksource: Switched to clocksource arm_global_timer
+NET: Registered protocol family 2
+TCP established hash table entries: 4096 (order: 2, 16384 bytes)
+TCP bind hash table entries: 4096 (order: 3, 32768 bytes)
+TCP: Hash tables configured (established 4096 bind 4096)
+UDP hash table entries: 256 (order: 1, 8192 bytes)
+UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+NET: Registered protocol family 1
+RPC: Registered named UNIX socket transport module.
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+hw perfevents: enabled with armv7_cortex_a9 PMU driver, 7 counters available
+futex hash table entries: 512 (order: 3, 32768 bytes)
+jffs2: version 2.2. (NAND) (SUMMARY)  ¬© 2001-2006 Red Hat, Inc.
+fuse init (API version 7.23)
+io scheduler noop registered
+io scheduler deadline registered
+io scheduler cfq registered (default)
+dma-pl330 f8003000.dmac: Loaded driver for PL330 DMAC-241330
+dma-pl330 f8003000.dmac: 	DBUFF-128x8bytes Num_Chans-8 Num_Peri-4 Num_Events-16
+e0000000.serial: ttyPS0 at MMIO 0xe0000000 (irq = 144, base_baud = 6249999) is a xuartps
+console [ttyPS0] enabled
+e0001000.serial: ttyPS1 at MMIO 0xe0001000 (irq = 145, base_baud = 6249999) is a xuartps
+xdevcfg f8007000.devcfg: ioremap 0xf8007000 to de86e000
+[drm] Initialized drm 1.1.0 20060810
+brd: module loaded
+loop: module loaded
+spidev spi1.0: buggy DT: spidev listed directly in DT
+CAN device driver interface
+libphy: MACB_mii_bus: probed
+macb e000b000.ethernet eth0: Cadence GEM rev 0x00020118 at 0xe000b000 irq 148 (00:26:32:f0:3e:71)
+macb e000b000.ethernet eth0: attached PHY driver [Lantiq XWAY PHY11G (PEF 7071/PEF 7072) v1.4] (mii_bus:phy_addr=e000b000.etherne:01, irq=-1)
+e1000e: Intel(R) PRO/1000 Network Driver - 3.2.6-k
+e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+usbcore: registered new interface driver rt2800usb
+usbcore: registered new interface driver rtl8192cu
+uio_pdrv_genirq 40000000.api: device has more than 5 I/O memory resources.
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+ehci-pci: EHCI PCI platform driver
+usbcore: registered new interface driver cdc_acm
+cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+usbcore: registered new interface driver usbtmc
+usbcore: registered new interface driver usb-storage
+usbcore: registered new interface driver usbserial
+usbcore: registered new interface driver usbserial_generic
+usbserial: USB Serial support registered for generic
+usbcore: registered new interface driver ch341
+usbserial: USB Serial support registered for ch341-uart
+usbcore: registered new interface driver cp210x
+usbserial: USB Serial support registered for cp210x
+usbcore: registered new interface driver ftdi_sio
+usbserial: USB Serial support registered for FTDI USB Serial Device
+usbcore: registered new interface driver pl2303
+usbserial: USB Serial support registered for pl2303
+usbcore: registered new interface driver usb_serial_simple
+usbserial: USB Serial support registered for carelink
+usbserial: USB Serial support registered for zio
+usbserial: USB Serial support registered for funsoft
+usbserial: USB Serial support registered for flashloader
+usbserial: USB Serial support registered for google
+usbserial: USB Serial support registered for vivopay
+usbserial: USB Serial support registered for moto_modem
+usbserial: USB Serial support registered for novatel_gps
+usbserial: USB Serial support registered for hp4x
+usbserial: USB Serial support registered for suunto
+usbserial: USB Serial support registered for siemens_mpi
+e0002000.usb supply vbus not found, using dummy regulator
+ULPI transceiver vendor/product ID 0x0424/0x0007
+Found SMSC USB3320 ULPI transceiver.
+ULPI integrity check: passed.
+ci_hdrc ci_hdrc.0: EHCI Host Controller
+ci_hdrc ci_hdrc.0: new USB bus registered, assigned bus number 1
+ci_hdrc ci_hdrc.0: USB 2.0 started, EHCI 1.00
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 1 port detected
+mousedev: PS/2 mouse device common for all mice
+i2c /dev entries driver
+at24 0-0050: 8192 byte 24c64 EEPROM, writable, 32 bytes/write
+cdns-i2c e0004000.i2c: 400 kHz mmio e0004000 irq 141
+Driver for 1-wire Dallas network protocol.
+EDAC MC: ECC not enabled
+Xilinx Zynq CpuIdle Driver started
+sdhci: Secure Digital Host Controller Interface driver
+sdhci: Copyright(c) Pierre Ossman
+sdhci-pltfm: SDHCI platform and OF driver helper
+sdhci-arasan e0100000.sdhci: No vmmc regulator found
+sdhci-arasan e0100000.sdhci: No vqmmc regulator found
+mmc0: SDHCI controller on e0100000.sdhci [e0100000.sdhci] using ADMA
+ledtrig-cpu: registered to indicate activity on CPUs
+usbcore: registered new interface driver usbhid
+usbhid: USB HID core driver
+nf_conntrack version 0.5.0 (6949 buckets, 27796 max)
+ip_tables: (C) 2000-2006 Netfilter Core Team
+NET: Registered protocol family 10
+sit: IPv6 over IPv4 tunneling driver
+NET: Registered protocol family 17
+can: controller area network core (rev 20120528 abi 9)
+mmc0: new high speed SDHC card at address 0007
+NET: Registered protocol family 29
+mmcblk0: mmc0:0007 SD16G 14.4 GiB 
+ mmcblk0: p1 p2
+can: raw protocol (rev 20120528)
+can: broadcast manager protocol (rev 20120528 t)
+can: netlink gateway (rev 20130117) max_hops=1
+Registering SWP/SWPB emulation handler
+hctosys: unable to open rtc device (rtc0)
+of_cfs_init
+of_cfs_init: OK
+ALSA device list:
+  No soundcards found.
+EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+devtmpfs: mounted
+Freeing unused kernel memory: 276K (c085b000 - c08a0000)
+systemd[1]: System time before build time, advancing clock.°Æ^.]Y[≤´LWùêFailed to insert module 'autofs4': No such file or directory!ÆXã÷´KöÂÕ—ïµëÅ™…ÖπëΩµÅíïÖëÅ∫•—°Å™•—ÕÅzôÅ*π—…Ω¡ÂÅ
+ŸÖ•±Öâ±ï5systemd[1]: systemd 229 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ -LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN)°Æ^.]Y[≤´LWùêDetected architecture arm.
+Welcome to Ubuntu 16.04.2 LTS!
+
+systemd[1]: Set hostname to <rp-f03e71>.systemd[1]: Started Dispatch Password Requests to Console Directory Watch.[  OK  ] Started Dispatch Password Requests to Console Directory Watch.
+systemd[1]: Reached target Remote File Systems (Pre).[  OK  ] Reached target Remote File Systems (Pre).
+systemd[1]: Reached target Swap.ˇ[  OK  ] Reached target Swap.
+systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.[  OK  ] Listening on /dev/initctl Compatibility Named Pipe.
+systemd[1]: Listening on fsck to fsckd communication Socket.[  OK  ] Listening on fsck to fsckd communication Socket.
+systemd[1]: Reached target Encrypted Volumes.[  OK  ] Reached target Encrypted Volumes.
+systemd[1]: Listening on udev Kernel Socket.[  OK  ] Listening on udev Kernel Socket.
+systemd[1]: Created slice System Slice.[  OK  ] Created slice System Slice.
+systemd[1]: Created slice system-systemd\x2dfsck.slice.[  OK  ] Created slice system-systemd\x2dfsck.slice.
+systemd[1]: Created slice system-getty.slice.[  OK  ] Created slice system-getty.slice.
+systemd[1]: Created slice User and Session Slice.ˇ[  OK  ] Created slice User and Session Slice.
+systemd[1]: Reached target Slices.ˇ[  OK  ] Reached target Slices.
+systemd[1]: Started Forward Password Requests to Wall Directory Watch.[  OK  ] Started Forward Password Requests to Wall Directory Watch.
+systemd[1]: Reached target Paths.ˇ[  OK  ] Reached target Paths.
+systemd[1]: Reached target Remote File Systems.ˇ[  OK  ] Reached target Remote File Systems.
+systemd[1]: Created slice system-serial\x2dgetty.slice.ˇ[  OK  ] Created slice system-serial\x2dgetty.slice.
+systemd[1]: Listening on Journal Socket (/dev/log).ˇ[  OK  ] Listening on Journal Socket (/dev/log).
+systemd[1]: Listening on udev Control Socket.[  OK  ] Listening on udev Control Socket.
+systemd[1]: Listening on Network Service Netlink Socket.[  OK  ] Listening on Network Service Netlink Socket.
+systemd[1]: Listening on Journal Socket.[  OK  ] Listening on Journal Socket.
+systemd[1]: Starting File System Check on Root Device...         Starting File System Check on Root Device...
+systemd[1]: Starting Journal Service...         Starting Journal Service...
+systemd[1]: Starting Load Kernel Modules...         Starting Load Kernel Modules...
+systemd[1]: Starting Restore / save the current clock...         Starting Restore / save the current clock...
+systemd[1]: Mounting Debug File System...         Mounting Debug File System...
+systemd[1]: Starting Create Static Device Nodes in /dev...         Starting Create Static Device Nodes in /dev...
+systemd-journald[817]: /dev/kmsg buffer overrun, some messages lost.
+systemd[1]: Mounted Debug File System.[  OK  ] Mounted Debug File System.
+systemd[1]: Started File System Check on Root Device.[  OK  ] Started File System Check on Root Device.
+systemd[1]: Started Load Kernel Modules.[  OK  ] Started Load Kernel Modules.
+systemd[1]: Started Restore / save the current clock.[  OK  ] Started Restore / save the current clock.
+systemd[1]: Started Create Static Device Nodes in /dev.[  OK  ] Started Create Static Device Nodes in /dev.
+systemd[1]: Started Journal Service.[  OK  ] Started Journal Service.
+[  OK  ] Started File System Check Daemon to report status.
+         Starting udev Kernel Device Manager...
+         Mounting FUSE Control File System...
+         Mounting Configuration File System...
+         Starting Apply Kernel Variables...
+         Starting Remount Root and Kernel File Systems...
+[  OK  ] Mounted Configuration File System.
+[  OK  ] Mounted FUSE Control File System.
+[  OK  ] Started udev Kernel Device Manager.
+[  OK  ] Started Apply Kernel Variables.
+[  OK  ] Started Remount Root and Kernel File Systems.
+         Starting udev Coldplug all Devices...
+[  OK  ] Reached target Local File Systems (Pre).
+         Starting Load/Save Random Seed...
+         Starting Flush Journal to Persistent Storage...
+[  OK  ] Started Load/Save Random Seed.
+[  OK  ] Started Flush Journal to Persistent Storage.
+[  OK  ] Started udev Coldplug all Devices.
+[  OK  ] Found device /dev/ttyPS0.
+[  OK  ] Found device /dev/mmcblk0p1.
+         Mounting /boot...
+         Starting File System Check on /dev/mmcblk0p1...
+[  OK  ] Mounted /boot.
+[  OK  ] Started File System Check on /dev/mmcblk0p1.
+         Mounting /opt/redpitaya...
+[  OK  ] Mounted /opt/redpitaya.
+[  OK  ] Reached target Local File Systems.
+         Starting Create Volatile Files and Directories...
+[  OK  ] Started Create Volatile Files and Directories.
+         Starting Network Time Synchronization...
+         Starting Update UTMP about System Boot/Shutdown...
+[  OK  ] Started Network Time Synchronization.
+[  OK  ] Reached target System Time Synchronized.
+[  OK  ] Started Update UTMP about System Boot/Shutdown.
+[  OK  ] Reached target System Initialization.
+[  OK  ] Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+[  OK  ] Listening on D-Bus System Message Bus Socket.
+[  OK  ] Reached target Sockets.
+[  OK  ] Reached target Basic System.
+         Starting sockproc enables Lua running shell scripts...
+         Starting Permit User Sessions...
+[  OK  ] Reached target Network (Pre).
+[  OK  ] Started D-Bus System Message Bus.
+         Starting Login Service...
+[  OK  ] Started Daily apt activities.
+[  OK  ] Started Daily Cleanup of Temporary Directories.
+[  OK  ] Reached target Timers.
+         Starting Set hostname to redpitaya-[MAC]...
+         Starting LSB: Set the CPU Frequency Scaling governor to "ondemand"...
+[  OK  ] Started Permit User Sessions.
+[  OK  ] Started sockproc enables Lua running shell scripts.
+[  OK  ] Started LSB: Set the CPU Frequency Scaling governor to "ondemand".
+[  OK  ] Started Login Service.
+         Starting Hostname Service...
+[  OK  ] Started Hostname Service.
+[  OK  ] Started Set hostname to redpitaya-[MAC].
+         Starting Network Service...
+[  OK  ] Started Network Service.
+[  OK  ] Reached target Network.
+[  OK  ] Started Jupyter notebook server.
+         Starting OpenBSD Secure Shell server...
+         Starting Customized Nginx web server for Red Pitaya applications...
+         Starting Network Name Resolution...
+         Starting Wait for Network to be Configured...
+[  OK  ] Started Network Name Resolution.
+         Starting Avahi mDNS/DNS-SD Stack...
+[  OK  ] Started Avahi mDNS/DNS-SD Stack.
+[  OK  ] Started OpenBSD Secure Shell server.
+[  OK  ] Started Customized Nginx web server for Red Pitaya applications.
+[ ***  ] A start job is running for Wait for...o be Configured (32s / no limit)[  *** ] A start job is running for Wait for...o be Configured (32s / no limit)[   ***] A start job is running for Wait for...o be Configured (33s / no limit)[    **] A start job is running for Wait for...o be Configured (33s / no limit)[     *] A start job is running for Wait for...o be Configured (34s / no limit)[    **] A start job is running for Wait for...o be Configured (34s / no limit)[   ***] A start job is running for Wait for...o be Configured (35s / no limit)[  *** ] A start job is running for Wait for...o be Configured (35s / no limit)[ ***  ] A start job is running for Wait for...o be Configured (36s / no limit)[***   ] A start job is running for Wait for...o be Configured (36s / no limit)[**    ] A start job is running for Wait for...o be Configured (37s / no limit)[*     ] A start job is running for Wait for...o be Configured (37s / no limit)[**    ] A start job is running for Wait for...o be Configured (38s / no limit)[***   ] A start job is running for Wait for...o be Configured (38s / no limit)[ ***  ] A start job is running for Wait for...o be Configured (39s / no limit)[  *** ] A start job is running for Wait for...o be Configured (39s / no limit)[   ***] A start job is running for Wait for...o be Configured (40s / no limit)[    **] A start job is running for Wait for...o be Configured (40s / no limit)[     *] A start job is running for Wait for...o be Configured (41s / no limit)[    **] A start job is running for Wait for...o be Configured (41s / no limit)[   ***] A start job is running for Wait for...o be Configured (42s / no limit)[  *** ] A start job is running for Wait for...o be Configured (42s / no limit)[ ***  ] A start job is running for Wait for...o be Configured (43s / no limit)[***   ] A start job is running for Wait for...o be Configured (43s / no limit)[**    ] A start job is running for Wait for...o be Configured (44s / no limit)[*     ] A start job is running for Wait for...o be Configured (44s / no limit)[**    ] A start job is running for Wait for...o be Configured (45s / no limit)[***   ] A start job is running for Wait for...o be Configured (45s / no limit)[ ***  ] A start job is running for Wait for...o be Configured (46s / no limit)[  *** ] A start job is running for Wait for...o be Configured (46s / no limit)[   ***] A start job is running for Wait for...o be Configured (47s / no limit)[    **] A start job is running for Wait for...o be Configured (47s / no limit)[     *] A start job is running for Wait for...o be Configured (48s / no limit)[    **] A start job is running for Wait for...o be Configured (48s / no limit)[   ***] A start job is running for Wait for...o be Configured (49s / no limit)[  *** ] A start job is running for Wait for...o be Configured (49s / no limit)[ ***  ] A start job is running for Wait for...o be Configured (50s / no limit)[***   ] A start job is running for Wait for...o be Configured (50s / no limit)[**    ] A start job is running for Wait for...o be Configured (51s / no limit)[*     ] A start job is running for Wait for...o be Configured (51s / no limit)[**    ] A start job is running for Wait for...o be Configured (52s / no limit)[***   ] A start job is running for Wait for...o be Configured (52s / no limit)[ ***  ] A start job is running for Wait for...o be Configured (53s / no limit)[  *** ] A start job is running for Wait for...o be Configured (53s / no limit)[   ***] A start job is running for Wait for...o be Configured (54s / no limit)[    **] A start job is running for Wait for...o be Configured (54s / no limit)[     *] A start job is running for Wait for...o be Configured (55s / no limit)[    **] A start job is running for Wait for...o be Configured (55s / no limit)[   ***] A start job is running for Wait for...o be Configured (56s / no limit)[  *** ] A start job is running for Wait for...o be Configured (56s / no limit)[ ***  ] A start job is running for Wait for...o be Configured (57s / no limit)[***   ] A start job is running for Wait for...o be Configured (57s / no limit)[**    ] A start job is running for Wait for...o be Configured (58s / no limit)[*     ] A start job is running for Wait for...o be Configured (58s / no limit)[**    ] A start job is running for Wait for...o be Configured (59s / no limit)[***   ] A start job is running for Wait for...o be Configured (59s / no limit)[ ***  ] A start job is running for Wait for... be Configured (1min / no limit)[  *** ] A start job is running for Wait for... be Configured (1min / no limit)[   ***] A start job is running for Wait for... Configured (1min 1s / no limit)[    **] A start job is running for Wait for... Configured (1min 1s / no limit)[     *] A start job is running for Wait for... Configured (1min 2s / no limit)[    **] A start job is running for Wait for... Configured (1min 2s / no limit)[   ***] A start job is running for Wait for... Configured (1min 3s / no limit)[  *** ] A start job is running for Wait for... Configured (1min 3s / no limit)[ ***  ] A start job is running for Wait for... Configured (1min 4s / no limit)[***   ] A start job is running for Wait for... Configured (1min 4s / no limit)[**    ] A start job is running for Wait for... Configured (1min 5s / no limit)[*     ] A start job is running for Wait for... Configured (1min 5s / no limit)[**    ] A start job is running for Wait for... Configured (1min 6s / no limit)[***   ] A start job is running for Wait for... Configured (1min 6s / no limit)[ ***  ] A start job is running for Wait for... Configured (1min 7s / no limit)[  *** ] A start job is running for Wait for... Configured (1min 7s / no limit)[   ***] A start job is running for Wait for... Configured (1min 8s / no limit)[    **] A start job is running for Wait for... Configured (1min 8s / no limit)[     *] A start job is running for Wait for... Configured (1min 9s / no limit)[    **] A start job is running for Wait for... Configured (1min 9s / no limit)[   ***] A start job is running for Wait for...Configured (1min 10s / no limit)[  *** ] A start job is running for Wait for...Configured (1min 10s / no limit)[ ***  ] A start job is running for Wait for...Configured (1min 11s / no limit)[***   ] A start job is running for Wait for...Configured (1min 11s / no limit)[**    ] A start job is running for Wait for...Configured (1min 12s / no limit)[*     ] A start job is running for Wait for...Configured (1min 12s / no limit)[**    ] A start job is running for Wait for...Configured (1min 13s / no limit)[***   ] A start job is running for Wait for...Configured (1min 13s / no limit)[ ***  ] A start job is running for Wait for...Configured (1min 14s / no limit)[  *** ] A start job is running for Wait for...Configured (1min 14s / no limit)[   ***] A start job is running for Wait for...Configured (1min 15s / no limit)[    **] A start job is running for Wait for...Configured (1min 15s / no limit)[     *] A start job is running for Wait for...Configured (1min 16s / no limit)[    **] A start job is running for Wait for...Configured (1min 16s / no limit)[   ***] A start job is running for Wait for...Configured (1min 17s / no limit)[  *** ] A start job is running for Wait for...Configured (1min 17s / no limit)[ ***  ] A start job is running for Wait for...Configured (1min 18s / no limit)[***   ] A start job is running for Wait for...Configured (1min 18s / no limit)[**    ] A start job is running for Wait for...Configured (1min 19s / no limit)[*     ] A start job is running for Wait for...Configured (1min 19s / no limit)[**    ] A start job is running for Wait for...Configured (1min 20s / no limit)[***   ] A start job is running for Wait for...Configured (1min 20s / no limit)[ ***  ] A start job is running for Wait for...Configured (1min 21s / no limit)[  *** ] A start job is running for Wait for...Configured (1min 21s / no limit)[   ***] A start job is running for Wait for...Configured (1min 22s / no limit)[    **] A start job is running for Wait for...Configured (1min 22s / no limit)[     *] A start job is running for Wait for...Configured (1min 23s / no limit)[    **] A start job is running for Wait for...Configured (1min 23s / no limit)[   ***] A start job is running for Wait for...Configured (1min 24s / no limit)[  *** ] A start job is running for Wait for...Configured (1min 24s / no limit)[ ***  ] A start job is running for Wait for...Configured (1min 25s / no limit)[***   ] A start job is running for Wait for...Configured (1min 25s / no limit)[**    ] A start job is running for Wait for...Configured (1min 26s / no limit)[*     ] A start job is running for Wait for...Configured (1min 26s / no limit)[**    ] A start job is running for Wait for...Configured (1min 27s / no limit)[***   ] A start job is running for Wait for...Configured (1min 27s / no limit)[ ***  ] A start job is running for Wait for...Configured (1min 28s / no limit)[  *** ] A start job is running for Wait for...Configured (1min 28s / no limit)[   ***] A start job is running for Wait for...Configured (1min 29s / no limit)[    **] A start job is running for Wait for...Configured (1min 29s / no limit)[     *] A start job is running for Wait for...Configured (1min 30s / no limit)[    **] A start job is running for Wait for...Configured (1min 30s / no limit)[   ***] A start job is running for Wait for...Configured (1min 31s / no limit)[  *** ] A start job is running for Wait for...Configured (1min 31s / no limit)[ ***  ] A start job is running for Wait for...Configured (1min 32s / no limit)[***   ] A start job is running for Wait for...Configured (1min 32s / no limit)[**    ] A start job is running for Wait for...Configured (1min 33s / no limit)[*     ] A start job is running for Wait for...Configured (1min 33s / no limit)[**    ] A start job is running for Wait for...Configured (1min 34s / no limit)[***   ] A start job is running for Wait for...Configured (1min 34s / no limit)[ ***  ] A start job is running for Wait for...Configured (1min 35s / no limit)[  *** ] A start job is running for Wait for...Configured (1min 35s / no limit)[   ***] A start job is running for Wait for...Configured (1min 36s / no limit)[    **] A start job is running for Wait for...Configured (1min 36s / no limit)[     *] A start job is running for Wait for...Configured (1min 37s / no limit)[    **] A start job is running for Wait for...Configured (1min 37s / no limit)[   ***] A start job is running for Wait for...Configured (1min 38s / no limit)[  *** ] A start job is running for Wait for...Configured (1min 38s / no limit)[ ***  ] A start job is running for Wait for...Configured (1min 39s / no limit)[***   ] A start job is running for Wait for...Configured (1min 39s / no limit)[**    ] A start job is running for Wait for...Configured (1min 40s / no limit)[*     ] A start job is running for Wait for...Configured (1min 40s / no limit)[**    ] A start job is running for Wait for...Configured (1min 41s / no limit)[***   ] A start job is running for Wait for...Configured (1min 41s / no limit)[ ***  ] A start job is running for Wait for...Configured (1min 42s / no limit)[  *** ] A start job is running for Wait for...Configured (1min 42s / no limit)[   ***] A start job is running for Wait for...Configured (1min 43s / no limit)[    **] A start job is running for Wait for...Configured (1min 43s / no limit)[     *] A start job is running for Wait for...Configured (1min 44s / no limit)[    **] A start job is running for Wait for...Configured (1min 44s / no limit)[   ***] A start job is running for Wait for...Configured (1min 45s / no limit)[  *** ] A start job is running for Wait for...Configured (1min 45s / no limit)[ ***  ] A start job is running for Wait for...Configured (1min 46s / no limit)[***   ] A start job is running for Wait for...Configured (1min 46s / no limit)[**    ] A start job is running for Wait for...Configured (1min 47s / no limit)[*     ] A start job is running for Wait for...Configured (1min 47s / no limit)[**    ] A start job is running for Wait for...Configured (1min 48s / no limit)[***   ] A start job is running for Wait for...Configured (1min 48s / no limit)[ ***  ] A start job is running for Wait for...Configured (1min 49s / no limit)[  *** ] A start job is running for Wait for...Configured (1min 49s / no limit)[   ***] A start job is running for Wait for...Configured (1min 50s / no limit)[    **] A start job is running for Wait for...Configured (1min 50s / no limit)[     *] A start job is running for Wait for...Configured (1min 51s / no limit)[    **] A start job is running for Wait for...Configured (1min 51s / no limit)[   ***] A start job is running for Wait for...Configured (1min 52s / no limit)[  *** ] A start job is running for Wait for...Configured (1min 52s / no limit)[ ***  ] A start job is running for Wait for...Configured (1min 53s / no limit)[***   ] A start job is running for Wait for...Configured (1min 53s / no limit)[**    ] A start job is running for Wait for...Configured (1min 54s / no limit)[*     ] A start job is running for Wait for...Configured (1min 54s / no limit)[**    ] A start job is running for Wait for...Configured (1min 55s / no limit)[***   ] A start job is running for Wait for...Configured (1min 55s / no limit)[ ***  ] A start job is running for Wait for...Configured (1min 56s / no limit)[  *** ] A start job is running for Wait for...Configured (1min 56s / no limit)[   ***] A start job is running for Wait for...Configured (1min 57s / no limit)[    **] A start job is running for Wait for...Configured (1min 57s / no limit)[     *] A start job is running for Wait for...Configured (1min 58s / no limit)[    **] A start job is running for Wait for...Configured (1min 58s / no limit)[   ***] A start job is running for Wait for...Configured (1min 59s / no limit)[  *** ] A start job is running for Wait for...Configured (1min 59s / no limit)[ ***  ] A start job is running for Wait for... be Configured (2min / no limit)[***   ] A start job is running for Wait for... be Configured (2min / no limit)[**    ] A start job is running for Wait for... Configured (2min 1s / no limit)[*     ] A start job is running for Wait for... Configured (2min 1s / no limit)[**    ] A start job is running for Wait for... Configured (2min 2s / no limit)[***   ] A start job is running for Wait for... Configured (2min 2s / no limit)[ ***  ] A start job is running for Wait for... Configured (2min 3s / no limit)[  *** ] A start job is running for Wait for... Configured (2min 3s / no limit)[   ***] A start job is running for Wait for... Configured (2min 4s / no limit)[FAILED] Failed to start Wait for Network to be Configured.
+See 'systemctl status systemd-networkd-wait-online.service' for details.
+[  OK  ] Reached target Network is Online.
+         Starting Registering Red Pitaya boa...ss and IP address to a server...
+         Starting /etc/rc.local Compatibility...
+[  OK  ] Started /etc/rc.local Compatibility.
+[  OK  ] Started Getty on tty1.
+[  OK  ] Started Serial Getty on ttyPS0.
+[  OK  ] Reached target Login Prompts.
+[  OK  ] Stopped Serial Getty on ttyPS0.
+[  OK  ] Started Serial Getty on ttyPS0.
+
+Ubuntu 16.04.2 LTS rp-f03e71 ttyPS0
+
+rp-f03e71 login: root (automatic login)
+
+Last login: Thu Feb 23 14:43:33 UTC 2017 on ttyPS0
+Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-xilinx armv7l)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+##############################################################################
+# Red Pitaya GNU/Linux Ecosystem
+# Version: 0.97
+# Build: 336
+# Branch: 
+# Commit: 4506f6e20ad2d2c8a45184383302331b6bf4a501
+# U-Boot: "redpitaya-v2016.4"
+# Linux Kernel: "redpitaya-v2016.2"
+# Pro Applications:  40d8c17c18aac3ea6416257603c4c8dcd208d109 Applications (v0.96-RC3-134-g40d8c17)
+##############################################################################
+root@rp-f03e71:~# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:26:32:f0:3e:71 brd ff:ff:ff:ff:ff:ff
+    inet 169.254.130.164/16 brd 169.254.255.255 scope link eth0
+       valid_lft forever preferred_lft forever
+3: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default 
+    link/sit 0.0.0.0 brd 0.0.0.0
+root@rp-f03e71:~# [  OK  ] Started Registering Red Pitaya boar...ress and IP address to a server.
+[  OK  ] Reached target Multi-User System.
+[  OK  ] Reached target Graphical Interface.
+         Starting Update UTMP about System Runlevel Changes...
+[  OK  ] Started Update UTMP about System Runlevel Changes.
+ls
+root@rp-f03e71:~# ls
+root@rp-f03e71:~# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:26:32:f0:3e:71 brd ff:ff:ff:ff:ff:ff
+    inet 169.254.130.164/16 brd 169.254.255.255 scope link eth0
+       valid_lft forever preferred_lft forever
+3: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default 
+    link/sit 0.0.0.0 brd 0.0.0.0
+root@rp-f03e71:~# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:26:32:f0:3e:71 brd ff:ff:ff:ff:ff:ff
+    inet 169.254.130.164/16 brd 169.254.255.255 scope link eth0
+       valid_lft forever preferred_lft forever
+3: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default 
+    link/sit 0.0.0.0 brd 0.0.0.0
+root@rp-f03e71:~# /etc/init.d/net
+avahi-daemon            mountall-bootclean.sh   reboot
+bootmisc.sh             mountall.sh             sendsigs
+checkfs.sh              mountdevsubfs.sh        single
+checkroot-bootclean.sh  mountkernfs.sh          ssh
+checkroot.sh            mountnfs-bootclean.sh   udev
+dbus                    mountnfs.sh             umountfs
+fake-hwclock            ondemand                umountnfs.sh
+halt                    procps                  umountroot
+hostname.sh             rc                      urandom
+hwclock.sh              rc.local                x11-common
+killprocs               rcS                     
+root@rp-f03e71:~# /etc/init.d/hostname.sh cat 
+#! /bin/sh
+### BEGIN INIT INFO
+# Provides:          hostname
+# Required-Start:
+# Required-Stop:
+# Should-Start:      glibc
+# Default-Start:     S
+# Default-Stop:
+# Short-Description: Set hostname based on /etc/hostname
+# Description:       Read the machines hostname from /etc/hostname, and
+#                    update the kernel value with this value.  If
+#                    /etc/hostname is empty, the current kernel value
+#                    for hostname is used.  If the kernel value is
+#                    empty, the value 'localhost' is used.
+### END INIT INFO
+
+PATH=/sbin:/bin
+
+. /lib/init/vars.sh
+. /lib/lsb/init-functions
+
+do_start () {
+	[ -f /etc/hostname ] && HOSTNAME="$(cat /etc/hostname)"
+
+	# Keep current name if /etc/hostname is missing.
+	[ -z "$HOSTNAME" ] && HOSTNAME="$(hostname)"
+
+	# And set it to 'localhost' if no setting was found
+	[ -z "$HOSTNAME" ] && HOSTNAME=localhost
+
+	[ "$VERBOSE" != no ] && log_action_begin_msg "Setting hostname to '$HOSTNAME'"
+	hostname "$HOSTNAME"
+	ES=$?
+	[ "$VERBOSE" != no ] && log_action_end_msg $ES
+	exit $ES
+}
+
+do_status () {
+	HOSTNAME=$(hostname)
+	if [ "$HOSTNAME" ] ; then
+		return 0
+	else
+		return 4
+	fi
+}
+
+case "$1" in
+  start|"")
+	do_start
+	;;
+  restart|reload|force-reload)
+	echo "Error: argument '$1' not supported" >&2
+	exit 3
+	;;
+  stop)
+	# No-op
+	;;
+  status)
+	do_status
+	exit $?
+	;;
+  *)
+	echo "Usage: hostname.sh [start|stop]" >&2
+	exit 3
+	;;
+esac
+
+:
+root@rp-f03e71:~# cat /etc/init.d/hostname.sh 
+avahi-daemon            killprocs               reboot
+bootmisc.sh             mountall-bootclean.sh   sendsigs
+checkfs.sh              mountall.sh             single
+checkroot-bootclean.sh  mountdevsubfs.sh        skeleton
+checkroot.sh            mountkernfs.sh          ssh
+dbus                    mountnfs-bootclean.sh   udev
+.depend.boot            mountnfs.sh             umountfs
+.depend.start           ondemand                umountnfs.sh
+.depend.stop            procps                  umountroot
+fake-hwclock            rc                      urandom
+halt                    rc.local                x11-common
+hostname.sh             rcS                     
+hwclock.sh              README                  
+root@rp-f03e71:~# cat /etc/init.d/vim /etc/network
+network/  networks  
+root@rp-f03e71:~# vim /etc/network/if-f-
+network/  networks  
+root@rp-f03e71:~# vim /etc/network/if-
+if-down.d/      if-post-down.d/ if-pre-up.d/    if-up.d/
+root@rp-f03e71:~# vim /etc/network/if-
+if-down.d/      if-post-down.d/ if-pre-up.d/    if-up.d/
+root@rp-f03e71:~# vim /etc/network/if-down.d/wpasupplicant .
+./             .bash_history  .cache/        .local/        .viminfo
+../            .bashrc        .jupyter/      .profile       
+root@rp-f03e71:~# vim /etc/network/if-down.d/wpasupplicant .
+./             .bash_history  .cache/        .local/        .viminfo
+../            .bashrc        .jupyter/      .profile       
+root@rp-f03e71:~# vim /etc/network/if-down.d/wpasupplicant .
+./             .bash_history  .cache/        .local/        .viminfo
+../            .bashrc        .jupyter/      .profile       
+root@rp-f03e71:~# vim /etc/network/if-down.d/wpasupplicant .
+./             .bash_history  .cache/        .local/        .viminfo
+../            .bashrc        .jupyter/      .profile       
+root@rp-f03e71:~# vim /etc/network/if-down.d/wpasupplicant .t ..d/wpasupplicant 
+if-down.d/      if-post-down.d/ if-pre-up.d/    if-up.d/
+root@rp-f03e71:~# vim /etc/network/if-up.d/
+avahi-daemon    openssh-server  wpasupplicant   
+root@rp-f03e71:~# vim /etc/network/if-up.d/se
+sed               sensible-browser  serve_image       setcap
+see               sensible-editor   service           setsid
+select            sensible-pager    set               setterm
+select-editor     seq               setarch           
+root@rp-f03e71:~# service ...network status
+‚óè network.service
+   Loaded: not-found (Reason: No such file or directory)
+   Active: inactive (dead)
+root@rp-f03e71:~# service network statusi statusn statusg status
+‚óè networking.service
+   Loaded: not-found (Reason: No such file or directory)
+   Active: inactive (dead)
+root@rp-f03e71:~# service .
+Usage: service < option > | --status-all | [ service_name [ command | --full-restart ] ]
+root@rp-f03e71:~# service --status -all
+ [ + ]  avahi-daemon
+ [ - ]  bootmisc.sh
+ [ - ]  checkfs.sh
+ [ - ]  checkroot-bootclean.sh
+ [ - ]  checkroot.sh
+ [ + ]  dbus
+ [ + ]  fake-hwclock
+ [ - ]  hostname.sh
+ [ - ]  hwclock.sh
+ [ - ]  killprocs
+ [ - ]  mountall-bootclean.sh
+ [ - ]  mountall.sh
+ [ - ]  mountdevsubfs.sh
+ [ - ]  mountkernfs.sh
+ [ - ]  mountnfs-bootclean.sh
+ [ - ]  mountnfs.sh
+ [ + ]  ondemand
+ [ + ]  procps
+ [ + ]  rc.local
+ [ - ]  sendsigs
+ [ + ]  ssh
+ [ + ]  udev
+ [ - ]  umountfs
+ [ - ]  umountnfs.sh
+ [ - ]  umountroot
+ [ + ]  urandom
+ [ - ]  x11-common
+root@rp-f03e71:~# service --status-allstatus hostname.sh
+status: unrecognized service
+root@rp-f03e71:~# service status hostname.shhostname.shhostname.shhostname.shhostname.shhostname.shhostname.shhostname.sh status
+‚óè hostname.service
+   Loaded: masked (/dev/null; bad)
+   Active: inactive (dead)
+root@rp-f03e71:~# systemctl .status netwetwork
+‚óè network.service
+   Loaded: not-found (Reason: No such file or directory)
+   Active: inactive (dead)
+root@rp-f03e71:~# systemctl status networksystemctl .
+  UNIT                       LOAD   ACTIVE SUB       DESCRIPTION
+  sys-devices-soc0-amba-e0000000.serial-tty-ttyPS0.device loaded active plugged 
+  sys-devices-soc0-amba-e0001000.serial-tty-ttyPS1.device loaded active plugged 
+  sys-devices-soc0-amba-e000b000.ethernet-net-eth0.device loaded active plugged 
+  sys-devices-soc0-amba-e0100000.sdhci-mmc_host-mmc0-mmc0:0007-block-mmcblk0-mmc
+  sys-devices-soc0-amba-e0100000.sdhci-mmc_host-mmc0-mmc0:0007-block-mmcblk0-mmc
+  sys-devices-soc0-amba-e0100000.sdhci-mmc_host-mmc0-mmc0:0007-block-mmcblk0.dev
+  sys-devices-virtual-block-ram0.device loaded active plugged   /sys/devices/vir
+  sys-devices-virtual-block-ram1.device loaded active plugged   /sys/devices/vir
+  sys-devices-virtual-block-ram10.device loaded active plugged   /sys/devices/vi
+  sys-devices-virtual-block-ram11.device loaded active plugged   /sys/devices/vi
+  sys-devices-virtual-block-ram12.device loaded active plugged   /sys/devices/vi
+  sys-devices-virtual-block-ram13.device loaded active plugged   /sys/devices/vi
+  sys-devices-virtual-block-ram14.device loaded active plugged   /sys/devices/vi
+  sys-devices-virtual-block-ram15.device loaded active plugged   /sys/devices/vi
+  sys-devices-virtual-block-ram2.device loaded active plugged   /sys/devices/vir
+  sys-devices-virtual-block-ram3.device loaded active plugged   /sys/devices/vir
+  sys-devices-virtual-block-ram4.device loaded active plugged   /sys/devices/vir
+  sys-devices-virtual-block-ram5.device loaded active plugged   /sys/devices/vir
+  sys-devices-virtual-block-ram6.device loaded active plugged   /sys/devices/vir
+  sys-devices-virtual-block-ram7.device loaded active plugged   /sys/devices/vir
+  sys-devices-virtual-block-ram8.device loaded active plugged   /sys/devices/vir
+  sys-devices-virtual-block-ram9.device loaded active plugged   /sys/devices/vir
+lines 1-23root@rp-f03e71:~# systemctl 
+  UNIT                       LOAD   ACTIVE SUB       DESCRIPTION
+  sys-devices-soc0-amba-e0000000.serial-tty-ttyPS0.device loaded active plugged 
+  sys-devices-soc0-amba-e0001000.serial-tty-ttyPS1.device loaded active plugged 
+  sys-devices-soc0-amba-e000b000.ethernet-net-eth0.device loaded active plugged 
+  sys-devices-soc0-amba-e0100000.sdhci-mmc_host-mmc0-mmc0:0007-block-mmcblk0-mmc
+  sys-devices-soc0-amba-e0100000.sdhci-mmc_host-mmc0-mmc0:0007-block-mmcblk0-mmc
+  sys-devices-soc0-amba-e0100000.sdhci-mmc_host-mmc0-mmc0:0007-block-mmcblk0.dev
+  sys-devices-virtual-block-ram0.device loaded active plugged   /sys/devices/vir
+  sys-devices-virtual-block-ram1.device loaded active plugged   /sys/devices/vir
+  sys-devices-virtual-block-ram10.device loaded active plugged   /sys/devices/vi
+  sys-devices-virtual-block-ram11.device loaded active plugged   /sys/devices/vi
+  sys-devices-virtual-block-ram12.device loaded active plugged   /sys/devices/vi
+  sys-devices-virtual-block-ram13.device loaded active plugged   /sys/devices/vi
+  sys-devices-virtual-block-ram14.device loaded active plugged   /sys/devices/vi
+  sys-devices-virtual-block-ram15.device loaded active plugged   /sys/devices/vi
+  sys-devices-virtual-block-ram2.device loaded active plugged   /sys/devices/vir
+  sys-devices-virtual-block-ram3.device loaded active plugged   /sys/devices/vir
+  sys-devices-virtual-block-ram4.device loaded active plugged   /sys/devices/vir
+  sys-devices-virtual-block-ram5.device loaded active plugged   /sys/devices/vir
+  sys-devices-virtual-block-ram6.device loaded active plugged   /sys/devices/vir
+  sys-devices-virtual-block-ram7.device loaded active plugged   /sys/devices/vir
+  sys-devices-virtual-block-ram8.device loaded active plugged   /sys/devices/vir
+  sys-devices-virtual-block-ram9.device loaded active plugged   /sys/devices/vir
+lines 1-23 ESCESC[[BB  sys-devices-virtual-net-sit0.device loaded active plugged   /sys/devices/virtu
+lines 2-24 ESCESC[[BB  sys-module-configfs.device loaded active plugged   /sys/module/configfs
+lines 3-25 ESCESC[[BB  sys-module-fuse.device     loaded active plugged   /sys/module/fuse
+lines 4-26 ESCESC[[BB  sys-subsystem-net-devices-eth0.device loaded active plugged   /sys/subsystem/n
+lines 5-27 ESCESC[[BB  sys-subsystem-net-devices-sit0.device loaded active plugged   /sys/subsystem/n
+lines 6-28 ESCESC[[BB  -.mount                    loaded active mounted   /
+lines 7-29 ESCESC[[BB  boot.mount                 loaded active mounted   /boot
+lines 8-30 ESCESC[[BB  opt-redpitaya.mount        loaded active mounted   /opt/redpitaya
+lines 9-31 ESCESC[[BB  sys-fs-fuse-connections.mount loaded active mounted   FUSE Control File System
+lines 10-32 ESCESC[[BB  sys-kernel-config.mount    loaded active mounted   Configuration File System
+lines 11-33 ESCESC[[BB  sys-kernel-debug.mount     loaded active mounted   Debug File System
+lines 12-34 ESCESC[[BB  systemd-ask-password-console.path loaded active waiting   Dispatch Password Re
+lines 13-35 ESCESC[[BB  systemd-ask-password-wall.path loaded active waiting   Forward Password Reques
+lines 14-36 ESCESC[[BB  init.scope                 loaded active running   System and Service Manager
+lines 15-37 ESCESC[[BB  avahi-daemon.service       loaded active running   Avahi mDNS/DNS-SD Stack
+lines 16-38 ESCESC[[BB  dbus.service               loaded active running   D-Bus System Message Bus
+lines 17-39 ESCESC[[BB  fake-hwclock.service       loaded active exited    Restore / save the current 
+lines 18-40 ESCESC[[BB  getty@tty1.service         loaded active running   Getty on tty1
+lines 19-41 ESCESC[[BB  jupyter.service            loaded active running   Jupyter notebook server
+lines 20-42 ESCESC[[BB  ondemand.service           loaded active exited    LSB: Set the CPU Frequency 
+lines 21-43 ESCESC[[BB  rc-local.service           loaded active exited    /etc/rc.local Compatibility
+lines 22-44 ESCESC[[BB  redpitaya_nginx.service    loaded active running   Customized Nginx web server
+lines 23-45 ESCESC[[BB  serial-getty@ttyPS0.service loaded active running   Serial Getty on ttyPS0
+lines 24-46 ESCESC[[BB  sockproc.service           loaded active running   sockproc enables Lua runnin
+lines 25-47 ESCESC[[BB  ssh.service                loaded active running   OpenBSD Secure Shell server
+lines 26-48 ESCESC[[BB  systemd-fsck-root.service  loaded active exited    File System Check on Root D
+lines 27-49 ESCESC[[BB  systemd-fsck@dev-mmcblk0p1.service loaded active exited    File System Check o
+lines 28-50 ESCESC[[BB  systemd-journal-flush.service loaded active exited    Flush Journal to Persist
+lines 29-51 ESCESC[[BB  systemd-journald.service   loaded active running   Journal Service
+lines 30-52 ESCESC[[BB  systemd-logind.service     loaded active running   Login Service
+lines 31-53 ESCESC[[BB  systemd-modules-load.service loaded active exited    Load Kernel Modules
+lines 32-54 ESCESC[[BB‚óè systemd-networkd-wait-online.service loaded failed failed    Wait for Network 
+lines 33-55 ESCESC[[BB  systemd-networkd.service   loaded active running   Network Service
+lines 34-56 ESCESC[[BB  systemd-random-seed.service loaded active exited    Load/Save Random Seed
+lines 35-57 ESCESC[[BB  systemd-remount-fs.service loaded active exited    Remount Root and Kernel Fil
+lines 36-58 ESCESC[[BB  systemd-resolved.service   loaded active running   Network Name Resolution
+lines 37-59 ESCESC[[BB  systemd-sysctl.service     loaded active exited    Apply Kernel Variables
+lines 38-60 ESCESC[[BB  systemd-timesyncd.service  loaded active running   Network Time Synchronizatio
+lines 39-61 ESCESC[[BB  systemd-tmpfiles-setup-dev.service loaded active exited    Create Static Devic
+lines 40-62 ESCESC[[BB  systemd-tmpfiles-setup.service loaded active exited    Create Volatile Files a
+lines 41-63 ESCESC[[BB  systemd-udev-trigger.service loaded active exited    udev Coldplug all Devices
+lines 42-64 ESCESC[[BB  systemd-udevd.service      loaded active running   udev Kernel Device Manager
+lines 43-65 ESCESC[[BB  systemd-update-utmp.service loaded active exited    Update UTMP about System B
+lines 44-66 ESCESC[[BB  systemd-user-sessions.service loaded active exited    Permit User Sessions
+lines 45-67 ESCESC[[BB  -.slice                    loaded active active    Root Slice
+lines 46-68 ESCESC[[BB  system-getty.slice         loaded active active    system-getty.slice
+lines 47-69 ESCESC[[BB  system-serial\x2dgetty.slice loaded active active    system-serial\x2dgetty.sl
+lines 48-70root@rp-f03e71:~# systemctl status networknetwrokordksd
+‚óè networkd.service
+   Loaded: not-found (Reason: No such file or directory)
+   Active: inactive (dead)
+root@rp-f03e71:~# systemctl status networkdsystemd-netwrokdorkd
+‚óè systemd-networkd.service - Network Service
+   Loaded: loaded (/lib/systemd/system/systemd-networkd.service; enabled; vendor
+   Active: active (running) since Wed 2017-03-01 17:13:26 UTC; 10min ago
+     Docs: man:systemd-networkd.service(8)
+ Main PID: 1441 (systemd-network)
+   Status: "Processing requests..."
+   CGroup: /system.slice/systemd-networkd.service
+           ‚îî‚îÄ1441 /lib/systemd/systemd-networkd
+
+Mar 01 17:13:26 rp-f03e71 systemd[1]: Starting Network Service...
+Mar 01 17:13:26 rp-f03e71 systemd-networkd[1441]: Enumeration completed
+Mar 01 17:13:26 rp-f03e71 systemd[1]: Started Network Service.
+Mar 01 17:13:26 rp-f03e71 systemd-networkd[1441]: eth0: IPv6 disabled for interf
+Mar 01 17:13:30 rp-f03e71 systemd-networkd[1441]: eth0: Gained carrier
+lines 1-14/14 (END) ESCESC[[BBlines 1-14/14 (END)root@rp-f03e71:~# 
+root@rp-f03e71:~# systemctl status systemd-networkd systemd-networkd systemd-networkd systemd-networkd systemd-networkdo systemd-networkdp systemd-networkd
+Warning: Stopping systemd-networkd.service, but it can still be activated by:
+  systemd-networkd.socket
+root@rp-f03e71:~# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:26:32:f0:3e:71 brd ff:ff:ff:ff:ff:ff
+    inet 169.254.130.164/16 brd 169.254.255.255 scope link eth0
+       valid_lft forever preferred_lft forever
+3: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default 
+    link/sit 0.0.0.0 brd 0.0.0.0
+root@rp-f03e71:~# ip asystemctl stop systemd-networkdatusnetworkdstatus networkervice hostname.sh statusstatus hostname.sh--status-allnetworking status statuscat /etc/init.d/hostname.sh ip alsip areboot ip alink set eth0 upaddrlink set eth0 address b8:27:eb:84:3d:4fdownaddress b8:27:eb:84:3d:4faapt-get updaterz cat testls -läls**00000000000000rz**00000000000000älsls -lcat test rzapt-get updateip alink set eth0 adress b8:27:eb:84:3d:4fd
+RTNETLINK answers: Device or resource busy
+root@rp-f03e71:~# ip link set eth0 address b8:27:eb:84:3d:4fip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:26:32:f0:3e:71 brd ff:ff:ff:ff:ff:ff
+    inet 169.254.130.164/16 brd 169.254.255.255 scope link eth0
+       valid_lft forever preferred_lft forever
+3: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default 
+    link/sit 0.0.0.0 brd 0.0.0.0
+root@rp-f03e71:~# ip link set teth0 down
+root@rp-f03e71:~# ip link set eth0 downalink set eth0 address b8:27:eb:84:3d:4f
+RTNETLINK answers: Device or resource busy
+root@rp-f03e71:~# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:26:32:f0:3e:71 brd ff:ff:ff:ff:ff:ff
+3: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default 
+    link/sit 0.0.0.0 brd 0.0.0.0
+root@rp-f03e71:~# ip alink set eth0 address b8:27:eb:84:3d:4fdownup
+root@rp-f03e71:~# ip link set eth0 updown
+root@rp-f03e71:~# ip link set eth0 downupa
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST> mtu 1500 qdisc pfifo_fast state DOWN group default qlen 1000
+    link/ether 00:26:32:f0:3e:71 brd ff:ff:ff:ff:ff:ff
+3: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default 
+    link/sit 0.0.0.0 brd 0.0.0.0
+root@rp-f03e71:~# ip alink set eth0 downupalink set eth0 address b8:27:eb:84:3d:4f
+root@rp-f03e71:~# ip link set eth0 address b8:27:eb:84:3d:4falink set eth0 downupalink set eth0 address b8:27:eb:84:3d:4fdownalink set eth0 address b8:27:eb:84:3d:4fasystemctl stop systemd-networkdatusop systemd-networkd systemd-networkd systemd-networkd systemd-networkdr systemd-networkde systemd-networkds systemd-networkdt systemd-networkda systemd-networkdr systemd-networkdt systemd-networkd
+root@rp-f03e71:~# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether b8:27:eb:84:3d:4f brd ff:ff:ff:ff:ff:ff
+    inet 192.168.164.16/24 brd 192.168.164.255 scope global dynamic eth0
+       valid_lft 1799sec preferred_lft 1799sec
+3: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default 
+    link/sit 0.0.0.0 brd 0.0.0.0
+root@rp-f03e71:~# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether b8:27:eb:84:3d:4f brd ff:ff:ff:ff:ff:ff
+    inet 169.254.130.164/16 brd 169.254.255.255 scope link eth0
+       valid_lft forever preferred_lft forever
+    inet 192.168.164.16/24 brd 192.168.164.255 scope global dynamic eth0
+       valid_lft 1789sec preferred_lft 1789sec
+3: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default 
+    link/sit 0.0.0.0 brd 0.0.0.0
+root@rp-f03e71:~# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether b8:27:eb:84:3d:4f brd ff:ff:ff:ff:ff:ff
+    inet 169.254.130.164/16 brd 169.254.255.255 scope link eth0
+       valid_lft forever preferred_lft forever
+    inet 192.168.164.16/24 brd 192.168.164.255 scope global dynamic eth0
+       valid_lft 1781sec preferred_lft 1781sec
+3: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default 
+    link/sit 0.0.0.0 brd 0.0.0.0
+root@rp-f03e71:~# 

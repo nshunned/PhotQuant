@@ -1,0 +1,540 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
+| Date         : Mon Jan  8 10:46:39 2024
+| Host         : alexei-jeip running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'red_pitaya_pll_mod'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of red_pitaya_pll_mod (xilinx.com:ip:clk_wiz:6.0 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
+| Date         : Tue Feb 28 23:17:17 2023
+| Host         : alexei-jeip running 64-bit Ubuntu 20.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_xlconstant_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_xlconstant_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 3) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
+| Date         : Tue Feb 28 23:17:17 2023
+| Host         : alexei-jeip running 64-bit Ubuntu 20.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_xadc_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_xadc_0 (xilinx.com:ip:xadc_wiz:3.3) from (Rev. 3) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
+| Date         : Tue Feb 28 23:17:17 2023
+| Host         : alexei-jeip running 64-bit Ubuntu 20.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_processing_system7_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_processing_system7_0 (xilinx.com:ip:processing_system7:5.5) from (Rev. 5) to (Rev. 6)
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_USE_AXI_NONSECURE with default value 0 : a parameter called PCW_USE_AXI_NONSECURE already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP0_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP0_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP1_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP1_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP0_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP1_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
+| Date         : Tue Feb 28 23:17:16 2023
+| Host         : alexei-jeip running 64-bit Ubuntu 20.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_proc_sys_reset_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_proc_sys_reset_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 11) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
+| Date         : Tue Feb 28 23:17:16 2023
+| Host         : alexei-jeip running 64-bit Ubuntu 20.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_protocol_converter_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_axi_protocol_converter_0_0 (xilinx.com:ip:axi_protocol_converter:2.1) from (Rev. 13) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
+| Date         : Tue Feb 28 23:16:55 2023
+| Host         : alexei-jeip running 64-bit Ubuntu 20.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'red_pitaya_pll_mod'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of red_pitaya_pll_mod from xilinx.com:ip:clk_wiz:5.4 (Rev. 1) to xilinx.com:ip:clk_wiz:6.0 (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
+| Date         : Tue Feb 28 23:16:52 2023
+| Host         : alexei-jeip running 64-bit Ubuntu 20.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'div_gen_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of div_gen_0 (xilinx.com:ip:div_gen:5.1) from (Rev. 11) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
+| Date         : Tue Feb 28 23:16:50 2023
+| Host         : alexei-jeip running 64-bit Ubuntu 20.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'clkgen_ext'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of clkgen_ext from xilinx.com:ip:clk_wiz:5.4 (Rev. 1) to xilinx.com:ip:clk_wiz:6.0 (Rev. 5)
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Customization warnings
+-------------------------
+
+An attempt to modify the value of disabled parameter 'CLK_OUT2_PORT' from 'clk_out2' to 'clk_dac_1x' has been ignored for IP 'clkgen_ext'
+
+An attempt to modify the value of disabled parameter 'CLK_OUT3_PORT' from 'clk_out3' to 'clk_dac_2x' has been ignored for IP 'clkgen_ext'
+
+An attempt to modify the value of disabled parameter 'CLK_OUT4_PORT' from 'clk_out4' to 'clk_dac_2p' has been ignored for IP 'clkgen_ext'
+
+An attempt to modify the value of disabled parameter 'CLK_OUT5_PORT' from 'clk_out5' to 'clk_ext_src' has been ignored for IP 'clkgen_ext'
+
+An attempt to modify the value of disabled parameter 'CLKOUT2_REQUESTED_OUT_FREQ' from '100.000' to '125.000' has been ignored for IP 'clkgen_ext'
+
+An attempt to modify the value of disabled parameter 'CLKOUT3_REQUESTED_OUT_FREQ' from '100.000' to '250.000' has been ignored for IP 'clkgen_ext'
+
+An attempt to modify the value of disabled parameter 'CLKOUT4_REQUESTED_OUT_FREQ' from '100.000' to '250.000' has been ignored for IP 'clkgen_ext'
+
+An attempt to modify the value of disabled parameter 'CLKOUT5_REQUESTED_OUT_FREQ' from '100.000' to '40.000' has been ignored for IP 'clkgen_ext'
+
+An attempt to modify the value of disabled parameter 'CLKOUT2_DRIVES' from 'BUFG' to 'No_buffer' has been ignored for IP 'clkgen_ext'
+
+An attempt to modify the value of disabled parameter 'CLKOUT3_DRIVES' from 'BUFG' to 'No_buffer' has been ignored for IP 'clkgen_ext'
+
+An attempt to modify the value of disabled parameter 'CLKOUT4_DRIVES' from 'BUFG' to 'No_buffer' has been ignored for IP 'clkgen_ext'
+
+An attempt to modify the value of disabled parameter 'CLKOUT5_DRIVES' from 'BUFG' to 'No_buffer' has been ignored for IP 'clkgen_ext'
+
+
+3. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:clk_wiz:6.0 -user_name clkgen_ext
+set_property -dict "\
+  CONFIG.AUTO_PRIMITIVE {MMCM} \
+  CONFIG.AXI_DRP {false} \
+  CONFIG.CALC_DONE {empty} \
+  CONFIG.CDDCDONE_PORT {cddcdone} \
+  CONFIG.CDDCREQ_PORT {cddcreq} \
+  CONFIG.CLKFB_IN_N_PORT {clkfb_in_n} \
+  CONFIG.CLKFB_IN_PORT {clkfb_in} \
+  CONFIG.CLKFB_IN_P_PORT {clkfb_in_p} \
+  CONFIG.CLKFB_IN_SIGNALING {SINGLE} \
+  CONFIG.CLKFB_OUT_N_PORT {clkfb_out_n} \
+  CONFIG.CLKFB_OUT_PORT {clkfb_out} \
+  CONFIG.CLKFB_OUT_P_PORT {clkfb_out_p} \
+  CONFIG.CLKFB_STOPPED_PORT {clkfb_stopped} \
+  CONFIG.CLKIN1_JITTER_PS {400.0} \
+  CONFIG.CLKIN1_UI_JITTER {0.010} \
+  CONFIG.CLKIN2_JITTER_PS {100.0} \
+  CONFIG.CLKIN2_UI_JITTER {0.010} \
+  CONFIG.CLKOUT1_DRIVES {No_buffer} \
+  CONFIG.CLKOUT1_JITTER {220.126} \
+  CONFIG.CLKOUT1_MATCHED_ROUTING {false} \
+  CONFIG.CLKOUT1_PHASE_ERROR {237.727} \
+  CONFIG.CLKOUT1_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {125.000} \
+  CONFIG.CLKOUT1_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT1_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT1_USED {true} \
+  CONFIG.CLKOUT2_DRIVES {No_buffer} \
+  CONFIG.CLKOUT2_JITTER {171.779} \
+  CONFIG.CLKOUT2_MATCHED_ROUTING {false} \
+  CONFIG.CLKOUT2_PHASE_ERROR {191.950} \
+  CONFIG.CLKOUT2_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {125.000} \
+  CONFIG.CLKOUT2_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT2_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT2_USED {false} \
+  CONFIG.CLKOUT3_DRIVES {No_buffer} \
+  CONFIG.CLKOUT3_JITTER {152.906} \
+  CONFIG.CLKOUT3_MATCHED_ROUTING {false} \
+  CONFIG.CLKOUT3_PHASE_ERROR {191.950} \
+  CONFIG.CLKOUT3_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT3_REQUESTED_OUT_FREQ {250.000} \
+  CONFIG.CLKOUT3_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT3_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT3_USED {false} \
+  CONFIG.CLKOUT4_DRIVES {No_buffer} \
+  CONFIG.CLKOUT4_JITTER {152.906} \
+  CONFIG.CLKOUT4_MATCHED_ROUTING {false} \
+  CONFIG.CLKOUT4_PHASE_ERROR {191.950} \
+  CONFIG.CLKOUT4_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT4_REQUESTED_OUT_FREQ {250.000} \
+  CONFIG.CLKOUT4_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT4_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT4_USED {false} \
+  CONFIG.CLKOUT5_DRIVES {No_buffer} \
+  CONFIG.CLKOUT5_JITTER {232.099} \
+  CONFIG.CLKOUT5_MATCHED_ROUTING {false} \
+  CONFIG.CLKOUT5_PHASE_ERROR {191.950} \
+  CONFIG.CLKOUT5_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT5_REQUESTED_OUT_FREQ {40.000} \
+  CONFIG.CLKOUT5_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT5_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT5_USED {false} \
+  CONFIG.CLKOUT6_DRIVES {BUFG} \
+  CONFIG.CLKOUT6_JITTER {0.0} \
+  CONFIG.CLKOUT6_MATCHED_ROUTING {false} \
+  CONFIG.CLKOUT6_PHASE_ERROR {0.0} \
+  CONFIG.CLKOUT6_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT6_REQUESTED_OUT_FREQ {100.000} \
+  CONFIG.CLKOUT6_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT6_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT6_USED {false} \
+  CONFIG.CLKOUT7_DRIVES {BUFG} \
+  CONFIG.CLKOUT7_JITTER {0.0} \
+  CONFIG.CLKOUT7_MATCHED_ROUTING {false} \
+  CONFIG.CLKOUT7_PHASE_ERROR {0.0} \
+  CONFIG.CLKOUT7_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT7_REQUESTED_OUT_FREQ {100.000} \
+  CONFIG.CLKOUT7_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT7_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT7_USED {false} \
+  CONFIG.CLKOUTPHY_REQUESTED_FREQ {600.000} \
+  CONFIG.CLK_IN1_BOARD_INTERFACE {Custom} \
+  CONFIG.CLK_IN2_BOARD_INTERFACE {Custom} \
+  CONFIG.CLK_IN_SEL_PORT {clk_in_sel} \
+  CONFIG.CLK_OUT1_PORT {clk_adc} \
+  CONFIG.CLK_OUT1_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_OUT2_PORT {clk_dac_1x} \
+  CONFIG.CLK_OUT2_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_OUT3_PORT {clk_dac_2x} \
+  CONFIG.CLK_OUT3_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_OUT4_PORT {clk_dac_2p} \
+  CONFIG.CLK_OUT4_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_OUT5_PORT {clk_ext_src} \
+  CONFIG.CLK_OUT5_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_OUT6_PORT {clk_out6} \
+  CONFIG.CLK_OUT6_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_OUT7_PORT {clk_out7} \
+  CONFIG.CLK_OUT7_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_VALID_PORT {CLK_VALID} \
+  CONFIG.CLOCK_MGR_TYPE {auto} \
+  CONFIG.Component_Name {clkgen_ext} \
+  CONFIG.DADDR_PORT {daddr} \
+  CONFIG.DCLK_PORT {dclk} \
+  CONFIG.DEN_PORT {den} \
+  CONFIG.DIFF_CLK_IN1_BOARD_INTERFACE {Custom} \
+  CONFIG.DIFF_CLK_IN2_BOARD_INTERFACE {Custom} \
+  CONFIG.DIN_PORT {din} \
+  CONFIG.DOUT_PORT {dout} \
+  CONFIG.DRDY_PORT {drdy} \
+  CONFIG.DWE_PORT {dwe} \
+  CONFIG.ENABLE_CDDC {false} \
+  CONFIG.ENABLE_CLKOUTPHY {false} \
+  CONFIG.ENABLE_CLOCK_MONITOR {false} \
+  CONFIG.ENABLE_USER_CLOCK0 {false} \
+  CONFIG.ENABLE_USER_CLOCK1 {false} \
+  CONFIG.ENABLE_USER_CLOCK2 {false} \
+  CONFIG.ENABLE_USER_CLOCK3 {false} \
+  CONFIG.Enable_PLL0 {false} \
+  CONFIG.Enable_PLL1 {false} \
+  CONFIG.FEEDBACK_SOURCE {FDBK_ONCHIP} \
+  CONFIG.INPUT_CLK_STOPPED_PORT {input_clk_stopped} \
+  CONFIG.INPUT_MODE {frequency} \
+  CONFIG.INTERFACE_SELECTION {Enable_AXI} \
+  CONFIG.IN_FREQ_UNITS {Units_MHz} \
+  CONFIG.IN_JITTER_UNITS {Units_UI} \
+  CONFIG.JITTER_OPTIONS {UI} \
+  CONFIG.JITTER_SEL {No_Jitter} \
+  CONFIG.LOCKED_PORT {locked} \
+  CONFIG.MMCM_BANDWIDTH {OPTIMIZED} \
+  CONFIG.MMCM_CLKFBOUT_MULT_F {40.000} \
+  CONFIG.MMCM_CLKFBOUT_PHASE {0.000} \
+  CONFIG.MMCM_CLKFBOUT_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKIN1_PERIOD {40.000} \
+  CONFIG.MMCM_CLKIN2_PERIOD {10.0} \
+  CONFIG.MMCM_CLKOUT0_DIVIDE_F {8.000} \
+  CONFIG.MMCM_CLKOUT0_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT0_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT0_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKOUT1_DIVIDE {1} \
+  CONFIG.MMCM_CLKOUT1_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT1_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT1_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKOUT2_DIVIDE {1} \
+  CONFIG.MMCM_CLKOUT2_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT2_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT2_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKOUT3_DIVIDE {1} \
+  CONFIG.MMCM_CLKOUT3_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT3_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT3_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKOUT4_CASCADE {false} \
+  CONFIG.MMCM_CLKOUT4_DIVIDE {1} \
+  CONFIG.MMCM_CLKOUT4_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT4_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT4_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKOUT5_DIVIDE {1} \
+  CONFIG.MMCM_CLKOUT5_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT5_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT5_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKOUT6_DIVIDE {1} \
+  CONFIG.MMCM_CLKOUT6_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT6_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT6_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLOCK_HOLD {false} \
+  CONFIG.MMCM_COMPENSATION {ZHOLD} \
+  CONFIG.MMCM_DIVCLK_DIVIDE {1} \
+  CONFIG.MMCM_NOTES {None} \
+  CONFIG.MMCM_REF_JITTER1 {0.010} \
+  CONFIG.MMCM_REF_JITTER2 {0.010} \
+  CONFIG.MMCM_STARTUP_WAIT {false} \
+  CONFIG.NUM_OUT_CLKS {1} \
+  CONFIG.OVERRIDE_MMCM {false} \
+  CONFIG.OVERRIDE_PLL {false} \
+  CONFIG.PHASESHIFT_MODE {WAVEFORM} \
+  CONFIG.PHASE_DUTY_CONFIG {false} \
+  CONFIG.PLATFORM {UNKNOWN} \
+  CONFIG.PLL_BANDWIDTH {OPTIMIZED} \
+  CONFIG.PLL_CLKFBOUT_MULT {4} \
+  CONFIG.PLL_CLKFBOUT_PHASE {0.000} \
+  CONFIG.PLL_CLKIN_PERIOD {10.000} \
+  CONFIG.PLL_CLKOUT0_DIVIDE {1} \
+  CONFIG.PLL_CLKOUT0_DUTY_CYCLE {0.500} \
+  CONFIG.PLL_CLKOUT0_PHASE {0.000} \
+  CONFIG.PLL_CLKOUT1_DIVIDE {1} \
+  CONFIG.PLL_CLKOUT1_DUTY_CYCLE {0.500} \
+  CONFIG.PLL_CLKOUT1_PHASE {0.000} \
+  CONFIG.PLL_CLKOUT2_DIVIDE {1} \
+  CONFIG.PLL_CLKOUT2_DUTY_CYCLE {0.500} \
+  CONFIG.PLL_CLKOUT2_PHASE {0.000} \
+  CONFIG.PLL_CLKOUT3_DIVIDE {1} \
+  CONFIG.PLL_CLKOUT3_DUTY_CYCLE {0.500} \
+  CONFIG.PLL_CLKOUT3_PHASE {0.000} \
+  CONFIG.PLL_CLKOUT4_DIVIDE {1} \
+  CONFIG.PLL_CLKOUT4_DUTY_CYCLE {0.500} \
+  CONFIG.PLL_CLKOUT4_PHASE {0.000} \
+  CONFIG.PLL_CLKOUT5_DIVIDE {1} \
+  CONFIG.PLL_CLKOUT5_DUTY_CYCLE {0.500} \
+  CONFIG.PLL_CLKOUT5_PHASE {0.000} \
+  CONFIG.PLL_CLK_FEEDBACK {CLKFBOUT} \
+  CONFIG.PLL_COMPENSATION {SYSTEM_SYNCHRONOUS} \
+  CONFIG.PLL_DIVCLK_DIVIDE {1} \
+  CONFIG.PLL_NOTES {None} \
+  CONFIG.PLL_REF_JITTER {0.010} \
+  CONFIG.POWER_DOWN_PORT {power_down} \
+  CONFIG.PRECISION {1} \
+  CONFIG.PRIMARY_PORT {clk_in1} \
+  CONFIG.PRIMITIVE {MMCM} \
+  CONFIG.PRIMTYPE_SEL {mmcm_adv} \
+  CONFIG.PRIM_IN_FREQ {25.000} \
+  CONFIG.PRIM_IN_JITTER {0.010} \
+  CONFIG.PRIM_IN_TIMEPERIOD {10.000} \
+  CONFIG.PRIM_SOURCE {Global_buffer} \
+  CONFIG.PSCLK_PORT {psclk} \
+  CONFIG.PSDONE_PORT {psdone} \
+  CONFIG.PSEN_PORT {psen} \
+  CONFIG.PSINCDEC_PORT {psincdec} \
+  CONFIG.REF_CLK_FREQ {100.0} \
+  CONFIG.RELATIVE_INCLK {REL_PRIMARY} \
+  CONFIG.RESET_BOARD_INTERFACE {Custom} \
+  CONFIG.RESET_PORT {reset} \
+  CONFIG.RESET_TYPE {ACTIVE_HIGH} \
+  CONFIG.SECONDARY_IN_FREQ {100.000} \
+  CONFIG.SECONDARY_IN_JITTER {0.010} \
+  CONFIG.SECONDARY_IN_TIMEPERIOD {10.000} \
+  CONFIG.SECONDARY_PORT {clk_in2} \
+  CONFIG.SECONDARY_SOURCE {Single_ended_clock_capable_pin} \
+  CONFIG.SS_MODE {CENTER_HIGH} \
+  CONFIG.SS_MOD_FREQ {250} \
+  CONFIG.SS_MOD_TIME {0.004} \
+  CONFIG.STATUS_PORT {STATUS} \
+  CONFIG.SUMMARY_STRINGS {empty} \
+  CONFIG.USER_CLK_FREQ0 {100.0} \
+  CONFIG.USER_CLK_FREQ1 {100.0} \
+  CONFIG.USER_CLK_FREQ2 {100.0} \
+  CONFIG.USER_CLK_FREQ3 {100.0} \
+  CONFIG.USE_BOARD_FLOW {false} \
+  CONFIG.USE_CLKFB_STOPPED {false} \
+  CONFIG.USE_CLK_VALID {false} \
+  CONFIG.USE_CLOCK_SEQUENCING {false} \
+  CONFIG.USE_DYN_PHASE_SHIFT {false} \
+  CONFIG.USE_DYN_RECONFIG {false} \
+  CONFIG.USE_FREEZE {false} \
+  CONFIG.USE_FREQ_SYNTH {true} \
+  CONFIG.USE_INCLK_STOPPED {true} \
+  CONFIG.USE_INCLK_SWITCHOVER {false} \
+  CONFIG.USE_LOCKED {true} \
+  CONFIG.USE_MAX_I_JITTER {false} \
+  CONFIG.USE_MIN_O_JITTER {false} \
+  CONFIG.USE_MIN_POWER {false} \
+  CONFIG.USE_PHASE_ALIGNMENT {false} \
+  CONFIG.USE_POWER_DOWN {false} \
+  CONFIG.USE_RESET {true} \
+  CONFIG.USE_SAFE_CLOCK_STARTUP {false} \
+  CONFIG.USE_SPREAD_SPECTRUM {false} \
+  CONFIG.USE_STATUS {false} \
+  CONFIG.reset.BOARD.ASSOCIATED_PARAM {RESET_BOARD_INTERFACE} \
+  CONFIG.reset.POLARITY {ACTIVE_HIGH} " [get_ips clkgen_ext]
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
+| Date         : Tue Feb 28 23:16:42 2023
+| Host         : alexei-jeip running 64-bit Ubuntu 20.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'bram_20x49k_80x12k'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of bram_20x49k_80x12k from xilinx.com:ip:blk_mem_gen:8.3 (Rev. 6) to xilinx.com:ip:blk_mem_gen:8.4 (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
+| Date         : Tue Feb 28 23:16:41 2023
+| Host         : alexei-jeip running 64-bit Ubuntu 20.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'bram_18x4k_36x2k'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of bram_18x4k_36x2k from xilinx.com:ip:blk_mem_gen:8.3 (Rev. 6) to xilinx.com:ip:blk_mem_gen:8.4 (Rev. 4)
+

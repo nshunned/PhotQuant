@@ -1,0 +1,509 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
+| Date         : Thu Feb 15 22:12:19 2024
+| Host         : alexei-jeip running 64-bit Ubuntu 20.04.6 LTS
+| Command      : report_methodology -file red_pitaya_top_methodology_drc_routed.rpt -pb red_pitaya_top_methodology_drc_routed.pb -rpx red_pitaya_top_methodology_drc_routed.rpx
+| Design       : red_pitaya_top
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 73
++-----------+----------+------------------------------------------+------------+
+| Rule      | Severity | Description                              | Violations |
++-----------+----------+------------------------------------------+------------+
+| SYNTH-11  | Warning  | DSP output not registered                | 2          |
+| TIMING-10 | Warning  | Missing property on synchronizer         | 1          |
+| TIMING-18 | Warning  | Missing input or output delay            | 17         |
+| XDCH-2    | Warning  | Same min and max delay values on IO port | 53         |
++-----------+----------+------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+SYNTH-11#1 Warning
+DSP output not registered  
+DSP instance i_seqpid_ch[0]/i_scaler/prod_mem0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#2 Warning
+DSP output not registered  
+DSP instance i_seqpid_ch[1]/i_scaler/prod_mem0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+TIMING-10#1 Warning
+Missing property on synchronizer  
+One or more logic synchronizer has been detected between 2 clock domains but the synchronizer does not have the property ASYNC_REG defined on one or both registers. It is recommended to run report_cdc for a complete and detailed CDC coverage
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An output delay is missing on adc_clk_o[1] relative to clock(s) adc_clk_out, clk_src_out
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An output delay is missing on dac_dat_o[0] relative to clock(s) adc_clk_i[1]
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An output delay is missing on dac_dat_o[10] relative to clock(s) adc_clk_i[1]
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An output delay is missing on dac_dat_o[11] relative to clock(s) adc_clk_i[1]
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An output delay is missing on dac_dat_o[12] relative to clock(s) adc_clk_i[1]
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An output delay is missing on dac_dat_o[13] relative to clock(s) adc_clk_i[1]
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An output delay is missing on dac_dat_o[1] relative to clock(s) adc_clk_i[1]
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An output delay is missing on dac_dat_o[2] relative to clock(s) adc_clk_i[1]
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An output delay is missing on dac_dat_o[3] relative to clock(s) adc_clk_i[1]
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An output delay is missing on dac_dat_o[4] relative to clock(s) adc_clk_i[1]
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An output delay is missing on dac_dat_o[5] relative to clock(s) adc_clk_i[1]
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An output delay is missing on dac_dat_o[6] relative to clock(s) adc_clk_i[1]
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An output delay is missing on dac_dat_o[7] relative to clock(s) adc_clk_i[1]
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on dac_dat_o[8] relative to clock(s) adc_clk_i[1]
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on dac_dat_o[9] relative to clock(s) adc_clk_i[1]
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on dac_rst_o relative to clock(s) adc_clk_i[1]
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on dac_sel_o relative to clock(s) adc_clk_i[1]
+Related violations: <none>
+
+XDCH-2#1 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[0][0]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#2 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[0][10]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#3 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[0][11]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#4 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[0][12]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#5 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[0][13]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#6 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[0][14]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#7 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[0][15]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#8 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[0][1]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#9 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[0][2]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#10 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[0][3]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#11 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[0][4]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#12 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[0][5]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#13 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[0][6]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#14 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[0][7]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#15 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[0][8]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#16 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[0][9]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#17 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[1][0]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#18 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[1][10]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#19 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[1][11]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#20 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[1][12]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#21 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[1][13]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#22 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[1][14]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#23 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[1][15]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#24 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[1][1]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#25 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[1][2]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#26 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[1][3]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#27 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[1][4]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#28 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[1][5]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#29 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[1][6]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#30 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[1][7]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#31 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[1][8]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#32 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'adc_dat_i[1][9]' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports {adc_dat_i[*][*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#33 Warning
+Same min and max delay values on IO port  
+The same input delay of 3.400 ns has been defined on port 'exp_p_io0' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 3.400 [get_ports exp_p_io0]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 264)
+Related violations: <none>
+
+XDCH-2#34 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'adc_clk_o[1]' relative to clock adc_clk_out for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock adc_clk_out 0.000 [get_ports {adc_clk_o[1]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 237)
+Related violations: <none>
+
+XDCH-2#35 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'dac_dat_o[0]' relative to clock dac_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock dac_clk 0.500 [get_ports {dac_dat_o[*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 270)
+Related violations: <none>
+
+XDCH-2#36 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'dac_dat_o[10]' relative to clock dac_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock dac_clk 0.500 [get_ports {dac_dat_o[*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 270)
+Related violations: <none>
+
+XDCH-2#37 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'dac_dat_o[11]' relative to clock dac_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock dac_clk 0.500 [get_ports {dac_dat_o[*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 270)
+Related violations: <none>
+
+XDCH-2#38 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'dac_dat_o[12]' relative to clock dac_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock dac_clk 0.500 [get_ports {dac_dat_o[*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 270)
+Related violations: <none>
+
+XDCH-2#39 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'dac_dat_o[13]' relative to clock dac_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock dac_clk 0.500 [get_ports {dac_dat_o[*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 270)
+Related violations: <none>
+
+XDCH-2#40 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'dac_dat_o[1]' relative to clock dac_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock dac_clk 0.500 [get_ports {dac_dat_o[*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 270)
+Related violations: <none>
+
+XDCH-2#41 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'dac_dat_o[2]' relative to clock dac_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock dac_clk 0.500 [get_ports {dac_dat_o[*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 270)
+Related violations: <none>
+
+XDCH-2#42 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'dac_dat_o[3]' relative to clock dac_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock dac_clk 0.500 [get_ports {dac_dat_o[*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 270)
+Related violations: <none>
+
+XDCH-2#43 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'dac_dat_o[4]' relative to clock dac_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock dac_clk 0.500 [get_ports {dac_dat_o[*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 270)
+Related violations: <none>
+
+XDCH-2#44 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'dac_dat_o[5]' relative to clock dac_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock dac_clk 0.500 [get_ports {dac_dat_o[*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 270)
+Related violations: <none>
+
+XDCH-2#45 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'dac_dat_o[6]' relative to clock dac_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock dac_clk 0.500 [get_ports {dac_dat_o[*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 270)
+Related violations: <none>
+
+XDCH-2#46 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'dac_dat_o[7]' relative to clock dac_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock dac_clk 0.500 [get_ports {dac_dat_o[*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 270)
+Related violations: <none>
+
+XDCH-2#47 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'dac_dat_o[8]' relative to clock dac_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock dac_clk 0.500 [get_ports {dac_dat_o[*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 270)
+Related violations: <none>
+
+XDCH-2#48 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'dac_dat_o[9]' relative to clock dac_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock dac_clk 0.500 [get_ports {dac_dat_o[*]}]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 270)
+Related violations: <none>
+
+XDCH-2#49 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'dac_rst_o' relative to clock dac_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock dac_clk 0.500 [get_ports dac_rst_o]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 271)
+Related violations: <none>
+
+XDCH-2#50 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'dac_sel_o' relative to clock dac_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock dac_clk 0.500 [get_ports dac_sel_o]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 272)
+Related violations: <none>
+
+XDCH-2#51 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'dac_wrt_o' relative to clock dac_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock dac_clk 0.500 [get_ports dac_wrt_o]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 273)
+Related violations: <none>
+
+XDCH-2#52 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'exp_p_io2' relative to clock clk_adc_red_pitaya_pll_mod for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins pll/inst/plle2_adv_inst/CLKOUT0]] 0.500 [get_ports exp_p_io2]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 277)
+Related violations: <none>
+
+XDCH-2#53 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'led_o0' relative to clock clk_fpga_0 for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock clk_fpga_0 0.500 [get_ports led_o0]
+/media/sf_XilinxUbuntuVMShare/RP_SeqPID/rp_seqpid_src/seqpid/fpga_project/redpitaya.srcs/constrs_1/imports/sdc/red_pitaya.xdc (Line: 276)
+Related violations: <none>
+
+

@@ -1,0 +1,8 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/photquant/VivadoProjects/uart/uart.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/photquant/VivadoProjects/uart/uart.srcs/sim_1/new/uart_bt.v,1710521412,verilog,,,,uart_bt,,,,,,,,
+C:/Users/photquant/VivadoProjects/uart/uart.srcs/sources_1/new/uart_rx.v,1710521210,verilog,,C:/Users/photquant/VivadoProjects/uart/uart.srcs/sources_1/new/uart_tx.v,,uart_rx,,,,,,,,
+C:/Users/photquant/VivadoProjects/uart/uart.srcs/sources_1/new/uart_tx.v,1710521219,verilog,,C:/Users/photquant/VivadoProjects/uart/uart.srcs/sim_1/new/uart_bt.v,,uart_tx,,,,,,,,

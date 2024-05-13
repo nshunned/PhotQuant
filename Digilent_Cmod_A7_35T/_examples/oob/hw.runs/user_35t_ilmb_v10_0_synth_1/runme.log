@@ -1,0 +1,226 @@
+
+*** Running vivado
+    with args -log user_35t_ilmb_v10_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source user_35t_ilmb_v10_0.tcl
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source user_35t_ilmb_v10_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ciprian/Documents/Github/Cmod-A7/hw/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2020.1/data/ip'.
+Command: synth_design -top user_35t_ilmb_v10_0 -part xc7a35tcpg236-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 423644
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2118.738 ; gain = 0.000 ; free physical = 443 ; free virtual = 3693
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'user_35t_ilmb_v10_0' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ip/user_35t_ilmb_v10_0/synth/user_35t_ilmb_v10_0.vhd:89]
+	Parameter C_LMB_NUM_SLAVES bound to: 1 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'lmb_v10' declared at '/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/c2ed/hdl/lmb_v10_v3_0_vh_rfs.vhd:92' bound to instance 'U0' of component 'lmb_v10' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ip/user_35t_ilmb_v10_0/synth/user_35t_ilmb_v10_0.vhd:165]
+INFO: [Synth 8-638] synthesizing module 'lmb_v10' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/c2ed/hdl/lmb_v10_v3_0_vh_rfs.vhd:141]
+	Parameter C_LMB_NUM_SLAVES bound to: 1 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'FDS' declared at '/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13847' bound to instance 'POR_FF_I' of component 'FDS' [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/c2ed/hdl/lmb_v10_v3_0_vh_rfs.vhd:171]
+INFO: [Synth 8-6157] synthesizing module 'FDS' [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13847]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'FDS' (1#1) [/opt/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13847]
+INFO: [Synth 8-256] done synthesizing module 'lmb_v10' (2#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ipshared/c2ed/hdl/lmb_v10_v3_0_vh_rfs.vhd:141]
+INFO: [Synth 8-256] done synthesizing module 'user_35t_ilmb_v10_0' (3#1) [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ip/user_35t_ilmb_v10_0/synth/user_35t_ilmb_v10_0.vhd:89]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 2144.605 ; gain = 25.867 ; free physical = 931 ; free virtual = 4150
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2159.449 ; gain = 40.711 ; free physical = 913 ; free virtual = 4208
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2159.449 ; gain = 40.711 ; free physical = 914 ; free virtual = 4209
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2168.355 ; gain = 0.000 ; free physical = 874 ; free virtual = 4183
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ip/user_35t_ilmb_v10_0/user_35t_ilmb_v10_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.srcs/sources_1/bd/user_35t/ip/user_35t_ilmb_v10_0/user_35t_ilmb_v10_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.runs/user_35t_ilmb_v10_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.runs/user_35t_ilmb_v10_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2241.293 ; gain = 0.000 ; free physical = 987 ; free virtual = 4357
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  FDS => FDSE: 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2241.293 ; gain = 0.000 ; free physical = 984 ; free virtual = 4354
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 2241.293 ; gain = 122.555 ; free physical = 1144 ; free virtual = 4547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 2241.293 ; gain = 122.555 ; free physical = 1144 ; free virtual = 4547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.runs/user_35t_ilmb_v10_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 2241.293 ; gain = 122.555 ; free physical = 1142 ; free virtual = 4545
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 2241.293 ; gain = 122.555 ; free physical = 1118 ; free virtual = 4525
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 2241.293 ; gain = 122.555 ; free physical = 995 ; free virtual = 4405
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 2241.293 ; gain = 122.555 ; free physical = 791 ; free virtual = 4232
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 2241.293 ; gain = 122.555 ; free physical = 791 ; free virtual = 4232
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 2242.309 ; gain = 123.570 ; free physical = 788 ; free virtual = 4229
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 2248.246 ; gain = 129.508 ; free physical = 552 ; free virtual = 3997
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 2248.246 ; gain = 129.508 ; free physical = 551 ; free virtual = 3997
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 2248.246 ; gain = 129.508 ; free physical = 551 ; free virtual = 3996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 2248.246 ; gain = 129.508 ; free physical = 551 ; free virtual = 3996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 2248.246 ; gain = 129.508 ; free physical = 544 ; free virtual = 3989
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 2248.246 ; gain = 129.508 ; free physical = 551 ; free virtual = 3996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |FDS  |     1|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 2248.246 ; gain = 129.508 ; free physical = 551 ; free virtual = 3996
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 2248.246 ; gain = 47.664 ; free physical = 595 ; free virtual = 4040
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 2248.254 ; gain = 129.508 ; free physical = 602 ; free virtual = 4047
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2248.254 ; gain = 0.000 ; free physical = 587 ; free virtual = 4033
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2255.184 ; gain = 0.000 ; free physical = 578 ; free virtual = 4029
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  FDS => FDSE: 1 instance 
+
+INFO: [Common 17-83] Releasing license: Synthesis
+27 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 2255.184 ; gain = 136.578 ; free physical = 705 ; free virtual = 4157
+INFO: [Common 17-1381] The checkpoint '/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.runs/user_35t_ilmb_v10_0_synth_1/user_35t_ilmb_v10_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP user_35t_ilmb_v10_0, cache-ID = b16c4b8932207be1
+INFO: [Common 17-1381] The checkpoint '/home/ciprian/Documents/Github/Cmod-A7/hw/proj/hw.runs/user_35t_ilmb_v10_0_synth_1/user_35t_ilmb_v10_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file user_35t_ilmb_v10_0_utilization_synth.rpt -pb user_35t_ilmb_v10_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  5 15:16:22 2020...

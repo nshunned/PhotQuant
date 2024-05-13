@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Mar 22 11:47:47 2024
+# Process ID: 4788
+# Current directory: C:/Users/photquant/VivadoProjects/Red_Pitaya_17/red_pitaya_fpga_blink_example_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1240 C:\Users\photquant\VivadoProjects\Red_Pitaya_17\red_pitaya_fpga_blink_example_2\red_pitaya.xpr
+# Log file: C:/Users/photquant/VivadoProjects/Red_Pitaya_17/red_pitaya_fpga_blink_example_2/vivado.log
+# Journal file: C:/Users/photquant/VivadoProjects/Red_Pitaya_17/red_pitaya_fpga_blink_example_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only C:/Users/photquant/VivadoProjects/Red_Pitaya_17/red_pitaya_fpga_blink_example_2/red_pitaya.xpr
+update_compile_order -fileset sources_1

@@ -1,0 +1,26 @@
+======================================================================
+====   Data transfer report  2024-02-08 11:31:37 =====================
+======================================================================
+
+
+Current decimation factor:	25
+
+
+Missed data samples when reading from ADC:	0
+Lost data during transfer by network:	0
+Lost data due to file write buffer overflow:	0
+
+Total amount of data transferred:
+	-32768b 
+	-32kb 
+	-0Mb 
+
+The total amount of data transmitted on the first channel:
+	-32768b 
+	-32kb 
+	-0Mb 
+
+The total amount of data transmitted on the second channel:
+	-0b 
+	-0kb 
+	-0Mb 

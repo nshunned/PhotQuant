@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1710261809">
+  <File Type="BITSTR-BMM" Name="clickOnOff_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="clickOnOff_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="clickOnOff_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="clickOnOff_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="clickOnOff.tcl"/>
+  <File Type="OPT-TIMING" Name="clickOnOff_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="clickOnOff_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="clickOnOff_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="clickOnOff_reports.tcl"/>
+  <File Type="OPT-DRC" Name="clickOnOff_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="clickOnOff.hwdef"/>
+  <File Type="PWROPT-DCP" Name="clickOnOff_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="clickOnOff_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="clickOnOff_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="clickOnOff_placed.dcp"/>
+  <File Type="PLACE-IO" Name="clickOnOff_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="clickOnOff_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="clickOnOff_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="clickOnOff_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="clickOnOff_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="clickOnOff_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="clickOnOff_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="clickOnOff_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="clickOnOff_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="clickOnOff.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="clickOnOff_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="clickOnOff_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="clickOnOff_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="clickOnOff.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="clickOnOff_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="clickOnOff_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="clickOnOff_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="clickOnOff_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="clickOnOff_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="clickOnOff_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="clickOnOff_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="clickOnOff.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="clickOnOff_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="clickOnOff_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="clickOnOff_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="clickOnOff_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="clickOnOff_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="clickOnOff_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="clickOnOff_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="clickOnOff_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="clickOnOff_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="clickOnOff_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="clickOnOff_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="clickOnOff_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="clickOnOff_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="clickOnOff_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="clickOnOff_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="clickOnOff_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="clickOnOff_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="clickOnOff_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="clickOnOff_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="clickOnOff_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="clickOnOff_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="clickOnOff.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="clickOnOff_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="clickOnOff.rbt"/>
+  <File Type="BITSTR-NKY" Name="clickOnOff.nky"/>
+  <File Type="PDI-FILE" Name="clickOnOff.pdi"/>
+  <File Type="RCFI_FILE" Name="clickOnOff.rcfi"/>
+  <File Type="CFI_FILE" Name="clickOnOff.cfi"/>
+  <File Type="RNPI_FILE" Name="clickOnOff.rnpi"/>
+  <File Type="NPI_FILE" Name="clickOnOff.npi"/>
+  <File Type="RBD_FILE" Name="clickOnOff.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="clickOnOff.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="clickOnOff.sysdef"/>
+  <File Type="BG-BGN" Name="clickOnOff.bgn"/>
+  <File Type="BG-DRC" Name="clickOnOff.drc"/>
+  <File Type="RDI-RDI" Name="clickOnOff.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/clickOnOff.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="clickOnOff"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/digilent-xdc-master/Cmod-A7-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="T:/Software/Digilent/digilent-xdc-master/Cmod-A7-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1702038210"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>

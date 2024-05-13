@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Apr 13 23:24:59 2020
+# Process ID: 2645
+# Current directory: /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project
+# Command line: vivado redpitaya.xpr
+# Log file: /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/vivado.log
+# Journal file: /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project redpitaya.xpr
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_project
+open_project /media/sf_XilinxUbuntuVMShare/RedPitaya-master/fpga/prj/v0.94/project/redpitaya.xpr
+update_compile_order -fileset sources_1
+reset_run system_axi_protocol_converter_0_0_synth_1
+reset_run system_proc_sys_reset_0_synth_1
+reset_run system_processing_system7_0_synth_1
+reset_run system_xadc_0_synth_1
+reset_run system_xlconstant_0_synth_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_project
+open_project /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/redpitaya.xpr
+update_compile_order -fileset sources_1

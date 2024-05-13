@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Tue Apr 14 11:04:12 2020
+# Process ID: 9257
+# Current directory: /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project
+# Command line: vivado redpitaya.xpr
+# Log file: /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/vivado.log
+# Journal file: /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project redpitaya.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'brd'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 6034.535 ; gain = 117.496 ; free physical = 12971 ; free virtual = 15808
+update_compile_order -fileset sources_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Tue Apr 14 11:18:19 2020] Launched impl_1...
+Run output will be captured here: /media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/redpitaya.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 622 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.2
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/.Xil/Vivado-9257-alexei-jeip/dcp5/red_pitaya_top_board.xdc]
+Finished Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/.Xil/Vivado-9257-alexei-jeip/dcp5/red_pitaya_top_board.xdc]
+Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/.Xil/Vivado-9257-alexei-jeip/dcp5/red_pitaya_top_early.xdc]
+Finished Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/.Xil/Vivado-9257-alexei-jeip/dcp5/red_pitaya_top_early.xdc]
+Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/.Xil/Vivado-9257-alexei-jeip/dcp5/red_pitaya_top.xdc]
+Finished Parsing XDC File [/media/sf_XilinxUbuntuVMShare/RP_LockInPILD/rp_lock-in_pid_src/lock_in+pid/fpga_project/.Xil/Vivado-9257-alexei-jeip/dcp5/red_pitaya_top.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.53 ; elapsed = 00:00:00.68 . Memory (MB): peak = 6345.703 ; gain = 11.000 ; free physical = 12668 ; free virtual = 15506
+Restored from archive | CPU: 0.620000 secs | Memory: 10.296417 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.54 ; elapsed = 00:00:00.68 . Memory (MB): peak = 6345.703 ; gain = 11.000 ; free physical = 12668 ; free virtual = 15506
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 56 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 16 instances
+  RAM32M => RAM32M (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 40 instances
+
+open_run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 6546.246 ; gain = 426.191 ; free physical = 12564 ; free virtual = 15405
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 14 11:30:40 2020...

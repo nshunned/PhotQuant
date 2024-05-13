@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Mar 20 16:07:40 2024
+# Process ID: 16764
+# Current directory: C:/Users/photquant/VivadoProjects/Tutorials/redpitaya_guide-master/tmp/2_knight_rider/2_knight_rider.runs/system_knight_rider_1_0_synth_1
+# Command line: vivado.exe -log system_knight_rider_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_knight_rider_1_0.tcl
+# Log file: C:/Users/photquant/VivadoProjects/Tutorials/redpitaya_guide-master/tmp/2_knight_rider/2_knight_rider.runs/system_knight_rider_1_0_synth_1/system_knight_rider_1_0.vds
+# Journal file: C:/Users/photquant/VivadoProjects/Tutorials/redpitaya_guide-master/tmp/2_knight_rider/2_knight_rider.runs/system_knight_rider_1_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_knight_rider_1_0.tcl -notrace
