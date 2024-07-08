@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="system_util_ds_buf_0_0_synth_1" LaunchDir="C:/Users/photquant/VivadoProjects/Tutorials/redpitaya_guide-master/tmp/3_stopwatch/3_stopwatch.runs/system_util_ds_buf_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_processing_system7_0_0_synth_1" LaunchDir="C:/Users/photquant/VivadoProjects/Tutorials/redpitaya_guide-master/tmp/3_stopwatch/3_stopwatch.runs/system_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_gpio_0_0_synth_1" LaunchDir="C:/Users/photquant/VivadoProjects/Tutorials/redpitaya_guide-master/tmp/3_stopwatch/3_stopwatch.runs/system_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_util_ds_buf_1_0_synth_1" LaunchDir="C:/Users/photquant/VivadoProjects/Tutorials/redpitaya_guide-master/tmp/3_stopwatch/3_stopwatch.runs/system_util_ds_buf_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="system_util_ds_buf_0_0_synth_1"/>
+	</Run>
+	<Run Id="system_util_ds_buf_2_0_synth_1" LaunchDir="C:/Users/photquant/VivadoProjects/Tutorials/redpitaya_guide-master/tmp/3_stopwatch/3_stopwatch.runs/system_util_ds_buf_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_c_counter_binary_0_0_synth_1" LaunchDir="C:/Users/photquant/VivadoProjects/Tutorials/redpitaya_guide-master/tmp/3_stopwatch/3_stopwatch.runs/system_c_counter_binary_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_rst_ps7_0_125M_0_synth_1" LaunchDir="C:/Users/photquant/VivadoProjects/Tutorials/redpitaya_guide-master/tmp/3_stopwatch/3_stopwatch.runs/system_rst_ps7_0_125M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_auto_pc_0_synth_1" LaunchDir="C:/Users/photquant/VivadoProjects/Tutorials/redpitaya_guide-master/tmp/3_stopwatch/3_stopwatch.runs/system_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/photquant/VivadoProjects/Tutorials/redpitaya_guide-master/tmp/3_stopwatch/3_stopwatch.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="system_util_ds_buf_0_0_synth_1"/>
+		<Parent Id="system_processing_system7_0_0_synth_1"/>
+		<Parent Id="system_axi_gpio_0_0_synth_1"/>
+		<Parent Id="system_util_ds_buf_1_0_synth_1"/>
+		<Parent Id="system_util_ds_buf_2_0_synth_1"/>
+		<Parent Id="system_c_counter_binary_0_0_synth_1"/>
+		<Parent Id="system_rst_ps7_0_125M_0_synth_1"/>
+		<Parent Id="system_auto_pc_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
